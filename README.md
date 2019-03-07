@@ -8,15 +8,39 @@ Az egyes részekhez példakódot is közzé teszünk. A példák nem komplett me
 
 ## INFX2 felépítése
 
+A rendszer offline letölthető adatokból és online API-n keresztül meghívott parancsokból áll össze.
+> Némi átfedés is van, mert egyes adatok offline letöltés mellett API híváson keresztül is elérhetőek.
+> Erre azért van szükség, mertt az offline adatok ütemezett időnként frissülnek, de az API-n keresztül a valós pillanatnyi állapotot kapjuk.
+
+### Offline letöltendő adatok
+
+Az adatok nagy része offline elérhető. Ezek egy része XML formátumú, egy másik része TXT formátumú adatok, valamint a kínálathoz tartozó képek.
+
+#### XML formátumban letölthető adatok
+
+- [Szálloda adatok](HotelsInfo.md) - frissítés alkalmanként, ha változtatás történt
+- [Alapárak](BasePrices.md) - frissítése minden éjjel egy alaklommal
+- Alapárak frissítés - frissítése 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
+- [Felárak](AdditionalPrices.md) - frissítése minden éjjel egy alaklommal
+
+#### TXT formátumban letölthető adatok
+
+- [INFX2](INFX2.md) - frissítése minden éjjel egy alaklommal
+- INFX2 frissítés - frissítése 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
+
+#### [Képek](Pictures.md)
+
+- Minden kép egy sorszámmla van azonosítva, ez a kép neve. A szállodainfóban hivatkozás erre a névre történik. 
+> Közel 2600 szálloda 40.000 fotója van a rendszerben. Ez nagy mennyiség, ezért ezek frissítésére (szálloda infó + képek) konkrét megoldásunk van a leírásban. 
+
+### API hívások
+
+Egy [RuleBox](RuleBox.md) rendszer működik az API hívások mögött. Ennek segítségével, nem csak információt lehet lekérni, hanem komplett árkalkulációt lehet végezni, amelyek segítségével árajánlat készíthető vagy a foglalás is elvégezhető.
+
 ![Infx2](/images/INFX2Structure.png)
 
 
-- [INFX](INFX.md)
-- [Képek](Pictures.md)
-- [Szálloda adatok](HotelsInfo.md)
-- [Alapárak](BasePrices.md)
-- [Felárak](AdditionalPrices.md)
-- [Rule Box](Rulebox.md)
+
 
 
 
