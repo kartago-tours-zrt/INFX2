@@ -4,7 +4,7 @@
 
 http://swiss.kartagotours.hu:88/hotel_xml/xml-nf
 
-#### Alternatív elérhetőségek
+#### Alternatív elérhetőségek: #beágyazott kép formátum
 
 A szálloda információk elérhetőek a 
 - http://swiss.kartagotours.hu:88/hotel_xml
@@ -22,6 +22,8 @@ Időközönként csak egy frissítő letöltést indítunk, ahol csak az utolsó
 Ugyan ezt az eljárást alkalmazzuk a [képek](Pictures.md) letöltésénél is.
 
 ### Adat leírása
+
+#### Példa adat
 
 ```XML
 <offer>
@@ -76,3 +78,99 @@ Ugyan ezt az eljárást alkalmazzuk a [képek](Pictures.md) letöltésénél is.
     </images>
 </offer>
 ```
+
+#### Mező leírások
+
+Mező | Érték leírása
+-----|-----
+code | Kartago csoport hotel kód
+name | hotel megnevezése
+dest_code | Kartago csoport desztináció kódja
+dest_name | Desztináció neve
+dest_region | Desztináció régiója
+dest_subregion | Desztináció alrégiója
+dest_airport | Desztináció szálloda kódja
+category | Szállás kategória besorolása
+offertype | Foglalás típusa (pl síelés, tengerparti üdülés, stb..) 
+exclusivity | Csak Kartago kínálat
+perex | Szállás információ, bevezető szöveg.
+distances | Szállás elhelyezkedése
+roomfacil | Vendégszobák leírása
+hotelfacil | Szállodai szolgáltatások
+beachdescr | Strand és a környék leírása
+entericnl | Ingyenes sportolási lehetőségek
+enterchrg | Sportolási lehetőségek illetékért
+boardincl | Ellátás, amit az ár tartalmaz
+boardchrg | Ellátások, amiket illetékért lehet igénybe venni
+youtubelnk | YouTube videó link
+pictograms | Szolgáltatás kínálat piktogramok (bináris kódolással)
+icons | Ikonok
+gps | GPS koordináta
+image | image_id="egyedi azonosító"  coding="image/jpeg base64" *coding rész, csak ha a #beágyazott formátumot használjuk*
+
+
+#### `<offertype>` Foglalás típusa. 
+
+Két betű jelöli. Fő és al típus.
+
+Fő típusok: 
+Jel | Leírás
+--- | ---
+P | Üdülés 
+Z | kirándulás 
+L | síút 
+ 
+Altípus, ami a pontos típust jelöli
+ 
+Jel | Leírás
+--- | --- 
+PP | Tengerparti üdülés 
+PX | Egzotikus üdülés 
+PJ | Tóparti üdülés 
+PH | Hegyvidéki üdülés
+PL | SPA / Wellness 
+PB | Buszos üdülés
+ZO | Városnézés 
+ZS | Szafari túra 
+ZK | kombinációs út 
+ZE | Városnézés / európai hétvége 
+LL | Síelés 
+
+#### `<picotgrams>`	
+
+24 karakter hosszan. Minden karakter két értéket vehet fel, ami jelöli a szolgáltatás meglétét
+
+0 = nincs, 1 = van 
+ 
+Piktogramok sorrendben
+ 
+- Légkondicionáló a szobában
+- Wi-Fi 
+- internet 
+- Parkolás
+- Kerekesszékkel is járható
+- wellness / Spa 
+- Gyereksarok
+- Úszás
+- tobogán / aquapark 
+- Búvár
+- golf 
+- tenisz 
+- Vizi sportok
+- Tornaterem, fitnesz
+- röplabda
+- kerékpár
+- Mango club 
+- Új
+- Tengerpari szállás
+- Csak felnőtteknek
+- Magyar nyelvű idegenvezető
+- Háziállat bevihető
+- Exim tipp
+- Exim minőség 
+
+> Megjegyzés:
+> Ha a fejlécben másként nincs jelölve, akkor a kódolás „windows-1252”
+
+
+
