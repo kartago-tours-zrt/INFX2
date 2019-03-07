@@ -1,3 +1,25 @@
+# Kartago Tours Zrt - INFX2 dokumentáció
+
+## Dokumentáció tartalma
+
+Az oldal írásos dokumentációban összesíti a Kartago Tours Zrt P2P online foglalási rendszerét.
+
+Az egyes részekhez példakódot is közzé teszünk. A példák nem komplett megoldások, és csak egy lehetséges implementálása a feladatnak. 
+
+## INFX2 felépítése
+
+![Image](/images/Infx2Structure.png)
+
+
+- [INFX](INFX.md)
+- [Képek](Pictures.md)
+- [Szálloda adatok](HotelsInfo.md)
+- [Alapárak](BasePrices.md)
+- [Felárak](AdditionalPrices.md)
+- [Rule Box](Rulebox.md)
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kartago-tours-zrt/INFX2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
