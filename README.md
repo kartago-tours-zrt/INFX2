@@ -8,7 +8,7 @@ Az egyes részekhez példakódot is közzé teszünk. A példák nem komplett me
 
 ## INFX2 felépítése
 
-![Image](/images/Infx2Structure.png)
+![Infx2](/images/INFX2Structure.png)
 
 
 - [INFX](INFX.md)
