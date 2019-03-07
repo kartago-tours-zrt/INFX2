@@ -2,13 +2,13 @@
 
 ### Elérhető
 
-http://swiss.kartagotours.hu:88/hotel_xml/xml-nf
+[http://swiss.kartagotours.hu:88/hotel_xml/xml-nf](http://swiss.kartagotours.hu:88/hotel_xml/xml-nf)
 
 #### Alternatív elérhetőségek: #beágyazott kép formátum
 
 A szálloda információk elérhetőek a 
-- http://swiss.kartagotours.hu:88/hotel_xml
-- http://swiss.kartagotours.hu:88/hotel_xml/xmllint-format
+- [http://swiss.kartagotours.hu:88/hotel_xml](http://swiss.kartagotours.hu:88/hotel_xml)
+- [http://swiss.kartagotours.hu:88/hotel_xml/xmllint-format](http://swiss.kartagotours.hu:88/hotel_xml/xmllint-format)
 
 helyeken is. Mindkét alternatív helyen az első helyen lévő XML adatot kapjuk, de itt a képekre nem csupán hivatkozás van, hanem az XML file tartalmazza a képeket is Base64 kódolással. 
 > Lehet ezt is használni, de a frissítés nehézkesebb. A képek frissítésére ebben az esetben nem kell külön eljárást készíteni, viszont a képek dekódolása és mentése plusz kódolási folyamat, így végeredményben nem tudunk kódolási időt spórolni.
@@ -113,7 +113,8 @@ image | image_id="egyedi azonosító"  coding="image/jpeg base64" *coding rész,
 
 Két betű jelöli. Fő és al típus.
 
-Fő típusok: 
+Fő típusok:
+
 Jel | Leírás
 --- | ---
 P | Üdülés 
