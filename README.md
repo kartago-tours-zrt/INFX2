@@ -14,6 +14,14 @@ A rendszer offline letölthető adatokból és online API-n keresztül meghívot
 > Némi átfedés is van, mert egyes adatok offline letöltés mellett API híváson keresztül is elérhetőek.
 > Erre azért van szükség, mertt az offline adatok ütemezett időnként frissülnek, de az API-n keresztül a valós pillanatnyi állapotot kapjuk.
 
+### Hozzáférés <a name="access"></a>
+
+A Kartago Tours INFX szerveréhez a hozzáférést regisztrálni kell, nincs publikus elérés. Bármely szerződött partnerünk kérhet hozzáférést, ehhez el kell küldenie azt a fix IPv4 címet, ahonnan a szolgáltatást igénybe kívánják venni.
+
+Tesztelés, fejlesztés nem feltétlen a production szerver IP címről történik, ezért van lehetőség több IP cím megadására is, de meg kell jelölni, melyik címet milyen céllal regisztráltak.
+
+> **Újdonság!** Amennyiben az IP címhez tartozik DNS név, akkor IP cím helyett azzal is lehet regisztrálni.
+
 ### Offline letöltendő adatok
 
 Az adatok nagy része offline elérhető. Ezek egy része XML formátumú, egy másik része TXT formátumú adatok, valamint a kínálathoz tartozó képek.

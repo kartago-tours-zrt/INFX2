@@ -1,3 +1,5 @@
+[Kezdőoldal](README.md)
+
 ## Szálloda információk
 
 ### Elérhető

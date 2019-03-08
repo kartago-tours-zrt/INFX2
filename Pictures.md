@@ -1,3 +1,5 @@
+[Kezdőoldal](README.md)
+
 ## Képek
 
 A képek egyedi sorszámmal vannak ellátva. Minden képnek a teljes rendszerben egydi számozása van és ez a szám egyben a kép neve is '.jpg' kiterjesztéssel.

@@ -1,9 +1,11 @@
+[Kezdőoldal](README.md)
+
 ## INFX2
 
 Az INFX2 egy egyszerű szöveges file, kötött adatszerkezettel. Csak a zölddel jelölt sorokat használja az EXIM csoport. Az INFX file konkrét ajánlatokat tartalmaz kalkulált árakkal. Az adott szobatípuson belül a fő utasra kikalkulált / fő árat tartalmazza.
 Használata nagyon hasznos, amennyiben az utas böngészik az ajánlatok között, mert ehhez konkrét árat tudunk rendelni egy egy ajánlathoz.
 
-Az INFX2 struktúra, egy nemzetközi szabványon alapul, viszont nem minden mezöjét használjuk. A struktúra végén a használaton kívüli nagy részt az EXIM csoport kiegészítő információk tárolására használja. [EmbeddedXml]:Beágyazott XML adat.
+Az INFX2 struktúra, egy nemzetközi szabványon alapul, viszont nem minden mezöjét használjuk. A struktúra végén a használaton kívüli nagy részt az EXIM csoport kiegészítő információk tárolására használja. [Beágyazott XML adat](#embedded-data).
 
 ### Elérhető
 
@@ -130,7 +132,7 @@ Felszerelés | 516 | 595 | 80 |
 ***Infó cím*** | 808 | 825 | 18 |  
 ***Hivatkozás*** | 826 | 985 | 160 |       
 
-### [EmbeddedXml]Beágyazott XML struktúra
+### Beágyazott XML struktúra <a name="embedded-data"></a>
 
 Egy példa struktúra itt látható. Sortörések és szünetek nélkül tartalmazza. Nem feltétlen van minden mező a struktúrában.
 
@@ -157,10 +159,10 @@ Egy példa struktúra itt látható. Sortörések és szünetek nélkül tartalm
 
 Mező | Érték leírása
 ---- | ----
-F2LD | Haza érkezés	
-F1SD | Indulás
-SDOV | Szállás kijelentkezés
-SODV | Szállás bejelentkezés
+F2LD | Haza érkezés	időpont
+F1SD | Indulás időpont
+SDOV | Szállás kijelentkezés napja
+SODV | Szállás bejelentkezés napja
 SID | Szezon azonosító
 TID | Csomag azonosító (régen TERM ID)
 RT | Szállás típusa
