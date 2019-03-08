@@ -12,7 +12,7 @@ Jelenleg meglévő foglalás módosítása vagy törlése nem lehetséges. Ilyen
 
 #### A webszolgáltatás elérése
 
-> Kérjük olvassa el a bevezető [Hozzáférés](Readme.md#access) szakaszát!
+> Kérjük olvassa el a bevezető [Hozzáférés](README.md) szakaszát!
 
 A webszolgáltatás az alábbi címen érhető el
 [http://swiss.kartagotours.hu:88/ws2.asmx/WS1RQ](http://swiss.kartagotours.hu:88/ws2.asmx/WS1RQ)
@@ -22,8 +22,69 @@ A biztosított webszolgáltatáshoz letölthető a SOAP (1.1 és 1.2) [WSDL](htt
 
 Szintén megtekinthető az eljárások hívásához a szintaktika SOAP (1.1 és 1.2) GET és POST hívásokra. [link]()
 
-A szolgáltatást 
+#### Azonosítás <a name="authentication"></a>
 
-A funkciók használatához felhasználói hitelesítő adatokat kell megadni. A swiss online programba belépve (https://swiss.kartagotours.hu) A Session Info részen hasonló képet kapunk. Itt találhatóak a hitelesítő adatok, amelyeket egyes kéréseknél át kell adni.
+Azok a funkciók, amelyek konkrét foglalással kapcsolatosak bekérnek felhasználó specifikus adatokat. Nyilván ez ahhoz kell, hogy a foglalásaink a saját azonosítónk alatt legyen elérhető és a [Swiss online](https://swiss.kartagotours.hu) rendszerben is láthassuk.
+
+A [swiss online](https://swiss.kartagotours.hu) programba belépve  a felhasználó adatai menüpontnál az alábbihoz hasonló képet kapunk. Itt találhatóak a hitelesítő adatok, amelyeket egyes kéréseknél át kell adni.
+
+![image](/images/SwissInfo.png)
+
+Erről a SWISS_ID és a SWISS_RBPwd azonosítók kellenek. (Az azonosítás nem felhasználó, hanem, partner specifikus!)
+
+#### Fejlesztői környezet
+
+Csak egyetlen **éles** környezet van, nincs külön tesztelésre kialakított adatbázis. 
+A tesztet az éles környezeten végezzük, ezért valódi foglalás esetén kérjük tartson szoros kapcsolatot a referatúra osztályunkkal, hogy visszavonhassuk a foglalását. Soha ne foglaljon egy hónapon belül induló járatra teszt célból, amennyire lehetséges, minél távolabbi időpontokon teszteljen. Teszteket hétköznap, munkaidőben végezzenek, hogy a próba foglalásoakt visszavonhassuk.
+> Célszerű az adatok megadásánál olyan neveket használni ami egyértelműen teszt célt szolgálnak, ezzel is segítve a munkánkat. : Pl. Próba János, Nagyváros, Nemlétező utca 1
+
+> A teszt foglalásokról mielőbb küldjenek emailt a foglalási szám feltüntetésével, hogy töröljük. Az email annak a desztinációnak az email címére küldjék, amelyiknek foglaltak. TODO kinek kell küldeni? uticél felelős? call center? online?
+
+### Funkciók
+
+#### SeasonListRequest
+
+Szezonok listája
+
+XML kérdés
+```XML
+<SeasonListRequest></SeasonListRequest>
+```
+
+XML válasz
+
+```XML
+
+```
+
+#### BoardsRequest
+
+#### RoomTypesRequest
+
+#### AirportsRequest
+
+#### OtherPricesRequest
+
+#### AccomodationPriceTypesRequest
+
+#### ExtrasRequest
+
+#### PriceAvailiablityCheckRequest
+
+#### BookingInfoRequest
+
+#### AvailabilityCheckRequest
+
+#### GetAddPriceRulesRequest
+
+#### PaymentsByXMLDataInfoRequest
+
+#### BookingDataRequest
+
+#### BookingInfoRequest1
+
+#### BookingRemoveRequest
+
+
 
 
