@@ -1,0 +1,3 @@
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at System.Data.SqlClient.SqlBuffer.get_String()
+   at EXIMWS.WS1.WS1RQ(String rXML)

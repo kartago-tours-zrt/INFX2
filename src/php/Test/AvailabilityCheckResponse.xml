@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AvailabilityCheckResponse>
+  <Control>
+    <ResponseStatus>success             </ResponseStatus>
+    <ResponseMessage />
+    <ReqID>062E50F2-A03B-4CF8-8B38-C101A4BE0D0C</ReqID>
+  </Control>
+  <Availibility>
+    <Book>Y</Book>
+    <LastCap>N</LastCap>
+  </Availibility>
+</AvailabilityCheckResponse>

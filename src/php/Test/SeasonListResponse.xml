@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeasonListResponse>
+  <seasons>
+    <season>
+      <SID>1</SID>
+      <dsc>HUNKAS17  </dsc>
+      <isActive>N</isActive>
+    </season>
+    <season>
+      <SID>2</SID>
+      <dsc>HUNKAW17  </dsc>
+      <isActive>N</isActive>
+    </season>
+    <season>
+      <SID>3</SID>
+      <dsc>HUNKAS18  </dsc>
+      <isActive>N</isActive>
+    </season>
+    <season>
+      <SID>4</SID>
+      <dsc>HUNKAW18  </dsc>
+      <isActive>Y</isActive>
+    </season>
+    <season>
+      <SID>5</SID>
+      <dsc>HUNKAS19  </dsc>
+      <isActive>Y</isActive>
+    </season>
+  </seasons>
+</SeasonListResponse>

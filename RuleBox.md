@@ -54,37 +54,728 @@ XML kérdés
 XML válasz
 
 ```XML
-
+<?xml version="1.0" encoding="utf-8"?>
+<SeasonListResponse>
+  <seasons>
+    <season>
+      <SID>1</SID>
+      <dsc>HUNKAS17  </dsc>
+      <isActive>N</isActive>
+    </season>
+    <season>
+      <SID>2</SID>
+      <dsc>HUNKAW17  </dsc>
+      <isActive>N</isActive>
+    </season>
 ```
+
+Mező | Érték leírása
+---- | ----
+SID | Szezon azonosítója
+dsc | Szezon kódja	
+isActive | Y/N	Aktív vagy nem
+
 
 #### BoardsRequest
 
+XML kérdés
+```XML
+<BoardsRequest></BoardsRequest>
+```
+
+XML válasz
+
+```XML
+<BoardsResponse>
+  <boards>
+    <board>
+      <season>HUNKAW18</season>
+      <code>AI</code>
+      <giata_code>A</giata_code>
+      <descr>all inclusive</descr>
+      <descr_global>all inclusive</descr_global>
+    </board>
+    <board>
+      <season>HUNKAW18</season>
+      <code>SOAI</code>
+      <giata_code>A1</giata_code>
+      <descr>soft all inclusive</descr>
+      <descr_global>soft all inclusive</descr_global>
+    </board>
+    .
+    .
+
+```
+
+Mező | Érték leírása
+---- | ----
+season | Szezon kódja
+code | Ellátás kódja
+giata_code | Rövid kód
+descr | Leírás
+desc_global | Ellátás típus leírás
+
+
+
 #### RoomTypesRequest
+
+XML kérdés
+```XML
+<RoomTypesRequest></RoomTypesRequest>
+```
+
+XML válasz
+
+```XML
+<RoomTypesResponse>
+  <rooms>
+    <room>
+      <Season>HUNKAW18</Season>
+      <room_swiss_id>1+0</room_swiss_id>
+      <room_giata_id>E1</room_giata_id>
+      <room_configuration>;A;C;</room_configuration>
+      <room_descr_1pax>1 ágyas szoba</room_descr_1pax>
+      <room_descr_2pax />
+      <room_descr_3pax />
+      <room_descr_4pax />
+      <room_descr_5pax />
+      <room_descr_6pax />
+      <room_descr_7pax />
+      <room_descr_8pax />
+      <room_descr_9pax />
+      <room_descr_10pax />
+    </room>
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+season | Szezon kódja
+room_swiss_id | szoba swiss azonosító
+room_giata_id | Rövid kód
+room_configuration | Szoba konfigurációi, A – felnőtt, C - gyermek
+room_descr_#pax | Szoba leírás létszámtól függően
+
 
 #### AirportsRequest
 
+XML kérdés
+```XML
+<AirportsRequest></AirportsRequest>
+```
+
+XML válasz
+
+```XML
+<AirportsResponse>
+  <airports>
+    <airport>
+      <season>HUNKAS19  </season>
+      <a_type>-</a_type>
+      <a_id>A14</a_id>
+      <a_descr>no transport</a_descr>
+    </airport>
+    <airport>
+      <season>HUNKAS19  </season>
+      <a_type>-</a_type>
+      <a_id>AYT</a_id>
+      <a_descr>Antalya</a_descr>
+    </airport>
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+season | Szezon kódja
+a_type | + = Otthoni, - = Külföldi	
+a_id | Reptér kódja
+a_descr | Leírás
+
+
 #### OtherPricesRequest
+
+XML kérdés
+```XML
+<OtherPriceTypesRequest></OtherPriceTypesRequest>
+```
+
+XML válasz
+
+```XML
+<OtherPriceTypesResponse>
+  <price_types>
+    <price_type>
+      <season>HUNKAS19</season>
+      <price_abb>OSRB_PMI</price_abb>
+      <price_descr>Reptéri illeték - PMI</price_descr>
+      <price_descr_long>Reptéri illeték - PMI</price_descr_long>
+      <category>02 illetékek</category>
+      <sub_type>kötelezo felár</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+season | Szezon kódja
+price_abb | Ár típus kódja
+price_descr | Ár leírása
+price_descr_long | Ár hosszú leírása
+category | Kategória
+sub_type | altípus	
+AgeF | Ettől az életkortól alkalmazható	
+AgeT | Eddig az életkorig alkalmazható
+PaxF | Személyek száma minimum
+PaxT | Személyek száma maximum
+type1 | 1 = személyenként alkalmazandó,  S = szerződésenként alkalmazandó
+type2 | R = kérésre, N = kötelező
+
 
 #### AccomodationPriceTypesRequest
 
+XML kérdés
+```XML
+<AccomodationPriceTypesRequest></AccomodationPriceTypesRequest>
+```
+
+XML válasz
+
+```XML
+<AccomodationPriceTypesResponse>
+  <price_types>
+    <price_type>
+      <season>HUNKAW18</season>
+      <price_abb>SUP PLA1CHD-1</price_abb>
+      <price_descr>Platinum suite 1. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW18</season>
+      <price_abb>SUP PLA2CHD-1</price_abb>
+      <price_descr>Platinum suite 2. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+season | Szezon kódja	
+price_abb | Ár kódja	
+price_descr | Leírás
+
+
 #### ExtrasRequest
+
+XML kérdés
+```XML
+<ExtrasRequest><PackageID>60193</PackageID></ExtrasRequest>
+```
+
+Bementi paraméterek:
+
+Mező | Érték leírása
+---- | ----
+PackageID | Csomag azonosító
+
+
+XML válasz
+
+```XML
+<ExtrasResponse>
+  <term_info>
+    <h_info>
+    </h_info>
+  </term_info>
+  <extras>
+    <extra>
+      <category>05 Vizum</category>
+      <sub_type>online*vizum</sub_type>
+      <type>viza Egyiptom</type>
+      <descr>Vízumdíj - Egyiptom</descr>
+      <price>9000.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <type>z.poj.online.gold.8</type>
+      <descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</descr>
+      <price>7520.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </extra>
+    .
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+h_info | Extra információ a szállásról és időpontról
+category | Kategória
+sub_type | Al típus
+type | Típus
+price | Ár
+AgeF | Ettől az életkortól alkalmazható	
+AgeT | Eddig az életkorig alkalmazható
+PaxF | Személyek száma minimum
+PaxT | Személyek száma maximum
+type1 | 1 = személyenként alkalmazandó,  S = szerződésenként alkalmazandó
+type2 | R = kérésre, N = kötelező
+
 
 #### PriceAvailiablityCheckRequest
 
+XML kérdés
+```XML
+<PriceAvailabilityCheckRequest>
+  <MakeBooking/>
+  <PartnerID></PartnerID>
+  <UserID></UserID>
+  <RBPwd></RBPwd>
+  <Rcpt></Rcpt>
+  <Package>
+    <PackageID>2418765</PackageID>
+    <BoardType>A</BoardType>
+    <RoomType>2+2_CH</RoomType>
+  </Package>
+  <PaxDetails>
+    <PaxDescription>
+      <DateOfBirth>19990219</DateOfBirth>
+    </PaxDescription>
+    <PaxDescription>
+      <DateOfBirth>19990219</DateOfBirth>
+    </PaxDescription>
+    <PaxDescription>
+      <DateOfBirth>19990219</DateOfBirth>
+    </PaxDescription>
+  </PaxDetails>
+</PriceAvailabilityCheckRequest>
+```
+Bemenő paraméterek
+
+Mező | Érték leírása
+---- | ----
+PackageID | Csomag azonosító
+BoardType | Ellátás típusa
+RoomType | Szoba típusa
+DateOfBirth | Születési dátum
+MakeBooking* | Annak jelölése, hogy foglalás is történik, nem csak információ kérés
+PartnerID* | SWISS partner azonosító
+UserID* | SWISS felhasználó azonosító
+RBPwd* | SWISS felhasználó jelszó
+Rcpt* | email cím
+UserName* | Név
+	
+\* Csak akkor kell, ha foglalás is történik
+
+
+XML válasz
+
+```XML
+<PriceAvailabilityCheckResponse>
+  <Control>
+    <ResponseStatus>success             </ResponseStatus>
+    <ResponseMessage>
+    </ResponseMessage>
+    <ReqID>96797998-620F-4BC8-BADF-06D2D705C979</ReqID>
+  </Control>
+  <Package>
+    <ReqDetails>
+      <PackageID>2418765</PackageID>
+      <RoomType>2+2_CH         </RoomType>
+      <BoardType>A         </BoardType>
+      <hotel_a1>AYTSEL                        </hotel_a1>
+      <season_id>5</season_id>
+      <season_dsc>HUNKAS19  </season_dsc>
+      <hotel_type>L</hotel_type>
+      <Paxs>
+        <Pax>
+          <pax_id>1</pax_id>
+          <pax_bd>19.02.1999</pax_bd>
+        </Pax>
+        <Pax>
+          <pax_id>2</pax_id>
+          <pax_bd>19.02.1999</pax_bd>
+        </Pax>
+        <Pax>
+          <pax_id>3</pax_id>
+          <pax_bd>19.02.1999</pax_bd>
+        </Pax>
+      </Paxs>
+    </ReqDetails>
+    <PriceDetails>
+      <PackagePrice>1658800.0000</PackagePrice>
+      <PriceInfos>
+        <PriceInfo>
+          <pax_id>1</pax_id>
+          <quantity>1</quantity>
+          <item>DBL</item>
+          <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+          <price>676900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>1</pax_id>
+          <quantity>1</quantity>
+          <item>SLV*EB3*DBL</item>
+          <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+          <price>-109800.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>1</pax_id>
+          <quantity>1</quantity>
+          <item>OSRB_AYT</item>
+          <item_d>Reptéri illeték AYT</item_d>
+          <price>34900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>2</pax_id>
+          <quantity>1</quantity>
+          <item>DBL</item>
+          <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+          <price>676900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>2</pax_id>
+          <quantity>1</quantity>
+          <item>SLV*EB3*DBL</item>
+          <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+          <price>-109800.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>2</pax_id>
+          <quantity>1</quantity>
+          <item>OSRB_AYT</item>
+          <item_d>Reptéri illeték AYT</item_d>
+          <price>34900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>3</pax_id>
+          <quantity>1</quantity>
+          <item>1EXBED</item>
+          <item_d>1. felnott pótágyon ár/ fo</item_d>
+          <price>499900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>3</pax_id>
+          <quantity>1</quantity>
+          <item>SLV*EB3*1EXBED</item>
+          <item_d>FM márc.20-ig-1. felnott pótágyon ár/ fo</item_d>
+          <price>-80000.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>3</pax_id>
+          <quantity>1</quantity>
+          <item>OSRB_AYT</item>
+          <item_d>Reptéri illeték AYT</item_d>
+          <price>34900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+      </PriceInfos>
+    </PriceDetails>
+  </Package>
+  <Booking>
+    <bnr />
+    <bnr_result />
+    <bnr_exp />
+  </Booking>
+</PriceAvailabilityCheckResponse>
+```
+
+Mező | Érték leírása
+---- | ----
+ResponseStatus | A kalkuláció eredménye (sikeres vagy sikertelen)
+ResponseMessage | Hiba leírása
+ReqID | Kalkuláció egyedi azonosítója
+PackagePrice | Csomag ára
+PriceInfos | Számítás részletei
+hotel_a1 | Szállás kódja
+season_id | Szezon azonosító
+season_dsc | Szezon kódja
+hotel_type | Szállás típusa L = túra, A = Autó
+pax_id | Utas sorszám
+quantity | Mennyiség
+Item | Ár típusa
+bnr* | Opció foglalási szám (a foglalást ezzel lehet kezdeményezni)
+bnr_result | Sikeres opciós foglalás, vagy a hiba leírása
+bnr_exp* | Opciós foglalás lejárata
+
+> A <Paxs> tartalmazza az utasok adatait ami a számításhoz szükséges, és a pax_id az azonosító.
+
+\* Csak abban az esetben ha foglalni is szeretnénk
+
+
 #### BookingInfoRequest
+
+XML kérdés
+```XML
+<BookingInfoRequvest>
+	<bnr></bnr>
+    <PartnerID></PartenrID>
+    <RBPwd></RBPwd>
+</BookingInfoRequvest>
+```
+Bemenő paraméterek
+
+Mező | Érték leírása
+---- | ----
+BNR | Foglalási szám
+PartnerID | SWISS partner azonostó
+RBPwd | SWISS jelszó
+
+
+XML válasz
+
+```XML
+<BookingInfoResponse>
+  <Result>
+    <bnr>385004915</bnr>
+    <bnr_expiration>2019-03-11T20:00:00</bnr_expiration>
+    <bnr_status>R</bnr_status>
+    <bnr_rlock>0</bnr_rlock>
+    <package_id>2431452</package_id>
+    <bnr_room>2+1_SV                        </bnr_room>
+    <bnr_seats>3</bnr_seats>
+  </Result>
+</BookingInfoResponse>
+```
+
+Mező | Érték leírása
+---- | ----
+BNR | Foglalási szám
+Bnr_expiration | Foglalás lejárati dátuma (Csak akkor,  ha a bnr_status=R)
+Req_xml | Utazási szerződés (jelenleg kikapcsolt funkció)
+Bnr_status | O = Szerződés (visszaigazolt foglalás); R = Opciós foglalás; X= törölt foglalás
+Package_id | Csomag azonostó (Term ID)
+Bnr_room | Szoba típus
+Bnr_seat | Személyek száma (utaztatáshoz)
+
 
 #### AvailabilityCheckRequest
 
+XML kérdés
+```XML
+<AvailabilityCheckRequest>
+  <PackageID>2418765</PackageID>
+  <RoomType>2+2_CH</RoomType>
+  <PaxCount>3</PaxCount>
+  <RoomCount>1</RoomCount>
+</AvailabilityCheckRequest>
+```
+
+Bemenő paraméterek
+
+Mező | Érték leírása
+---- | ----
+PackageID | Csomag azonosító
+RoomType | Szobatípus
+PaxCount | Utasok száma
+RoomCount | Szobák száma. Max 3. Ha nem adjuk meg, akkor a rendszer 1-nek veszi.	
+
+
+XML válasz
+
+```XML
+<AvailabilityCheckResponse>
+  <Control>
+    <ResponseStatus>success             </ResponseStatus>
+    <ResponseMessage />
+    <ReqID>9F455C9D-17B0-4BEA-9BD7-814B06A4ED3E</ReqID>
+  </Control>
+  <Availibility>
+    <Book>N</Book>
+    <LastCap>N</LastCap>
+  </Availibility>
+</AvailabilityCheckResponse>
+```
+
+Mező | Érték leírása
+---- | ----
+ResponseStatus | A kalkuláció eredménye. (Siker vagy Hiba)
+ResponseMessage | Hiba esetén a hiba leírása.
+ReqID | A kalkuláció egyedi azonosítója
+Book | Y/N/R  Foglalható / Nem foglalható / Lekérésre
+LastCap | Y/N Utolsó szoba (igen / nem)
+
+
 #### GetAddPriceRulesRequest
+
+XML kérdés
+```XML
+<GetAddPriceRulesRequest></GetAddPriceRulesRequest>
+```
+
+XML válasz
+
+```XML
+<GetAddPriceRulesResponse>
+  <rules>
+    <rule>
+      <season_dsc>HUNKAW18</season_dsc>
+      <hotel_code>LPABPH</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1</room_type>
+      <board>AI</board>
+      <add_price_types>
+        <add_price_type>SUP AI</add_price_type>
+      </add_price_types>
+    </rule>
+    .
+    .
+```
+
+Mező | Érték leírása
+---- | ----
+season_dsc | Szezon kódja
+hotel_code | Hotel kódja
+price_typ | Ár típus kódja
+room_type | Szobatípus kódja
+board | Ellátás. (* esetén minden, egyébként az étkezés rövid kódja pl: FP, AI)
+add_price_types | Kötelező ár típusok
+
 
 #### PaymentsByXMLDataInfoRequest
 
+XML kérdés
+```XML
+
+```
+
+XML válasz
+
+```XML
+
+```
+
+Mező | Érték leírása
+---- | ----
+PaymentDate | Fizetési határidő
+PaymentAmount | Fizetendő összeg
+
+
 #### BookingDataRequest
+
+XML kérdés
+```XML
+
+```
+
+XML válasz
+
+```XML
+
+```
+
+Mező | Érték leírása
+---- | ----
+BNR | Foglalási szám
+Bnr_expiration | Foglalás lejárati dátuma (Csak akkor,  ha a bnr_status=R)
+Req_xml | Utazási szerződés (jelenleg kikapcsolt funkció)
+Bnr_status | O = Szerződés (visszaigazolt foglalás); R = Opciós foglalás; X= törölt foglalás
+Package_id | Csomag azonostó (Term ID)
+Bnr_room | Szoba típus
+Bnr_seat | Személyek száma (utaztatáshoz)
+
 
 #### BookingInfoRequest1
 
+XML kérdés
+```XML
+<BookingInfoRequvest1>
+	<bnr></bnr>
+    <PartnerID></PartenrID>
+    <RBPwd></RBPwd>
+</BookingInfoRequvest1>
+```
+Bemenő paraméterek
+
+Mező | Érték leírása
+---- | ----
+BNR | Foglalási szám
+PartnerID | SWISS partner azonostó
+RBPwd | SWISS jelszó
+
+
+XML válasz
+
+```XML
+
+```
+
+Mező | Érték leírása
+---- | ----
+
+
+
 #### BookingRemoveRequest
 
+XML kérdés
+```XML
+<BookingRemoveRequest>
+	<bnr></bnr>
+    <PartnerID></PartenrID>
+    <RBPwd></RBPwd>
+</BookingRemoveRequest>
+```
 
+XML válasz
 
+```XML
 
+```
+
+Mező | Érték leírása
+-----|-----

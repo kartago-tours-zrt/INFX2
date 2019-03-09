@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<BookingDataRequest>
+  <bnr></bnr>
+  <xmls3>
+    <contractdata>
+    	<bnr></bnr>
+      <partner_addr_id>943</partner_addr_id>
+      <partner_addr_type>0</partner_addr_type>
+      <remark_order/>
+      <remark_order0/>
+      <remark_order1/>
+      <remark_order2/>
+      <join_bnr/>
+      <vouchers/>
+      <address_customer>
+        <pax_id>1</pax_id>
+        <fname>Geza</fname>
+        <sname>Proba</sname>
+        <title></title>
+        <street>Locsei ut 57</street>
+        <city>Budapest</city>
+        <post_code>1147</post_code>
+        <country>Hungary</country>
+        <phone>209472212</phone>
+        <email>admin@kartagotours.hu</email>
+      </address_customer>
+      <paxs>
+      <pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>1</pax_id><fname>Geza</fname><sname>Proba</sname><title/><idcrm/><sex>M</sex><bd>03.09.1973</bd><passport/><nationality>HUN</nationality></pax><pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>2</pax_id><fname>Piroska</fname><sname>Proba</sname><title/><idcrm/><sex>F</sex><bd>21.09.1989</bd><passport/><nationality>HUN</nationality></pax><pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>3</pax_id><fname>Bella</fname><sname>Proba</sname><title/><idcrm/><sex>F</sex><bd>01.01.2010</bd><passport/><nationality>HUN</nationality></pax></paxs>
+      <calculation>
+        <ReqID>4A14608D-213B-423B-B63E-F97D109A45C4</ReqID>
+        <base_prices>
+
+        <price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>1</pax_id><quantity>1</quantity><item>DBL</item><item_d>.2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d><base_price>230900</base_price><discount>0%</discount><final_price>230900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>1</pax_id><quantity>1</quantity><item>SLV*EB3*DBL</item><item_d>FM m&#xE1;rc.20-ig-2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d><base_price>-46300</base_price><discount>0%</discount><final_price>-46300</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>1</pax_id><quantity>1</quantity><item>OSRB_SSH</item><item_d>Rept&#xE9;ri illet&#xE9;k - SSH</item_d><base_price>54900</base_price><discount>0%</discount><final_price>54900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>1</pax_id><quantity>1</quantity><item>SUP SV</item><item_d>Tengerre n&#xE9;zo szoba felnott fel&#xE1;r/ fo</item_d><base_price>27900</base_price><discount>0%</discount><final_price>27900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>2</pax_id><quantity>1</quantity><item>DBL</item><item_d>.2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d><base_price>230900</base_price><discount>0%</discount><final_price>230900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>2</pax_id><quantity>1</quantity><item>SLV*EB3*DBL</item><item_d>FM m&#xE1;rc.20-ig-2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d><base_price>-46300</base_price><discount>0%</discount><final_price>-46300</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>2</pax_id><quantity>1</quantity><item>OSRB_SSH</item><item_d>Rept&#xE9;ri illet&#xE9;k - SSH</item_d><base_price>54900</base_price><discount>0%</discount><final_price>54900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>2</pax_id><quantity>1</quantity><item>SUP SV</item><item_d>Tengerre n&#xE9;zo szoba felnott fel&#xE1;r/ fo</item_d><base_price>27900</base_price><discount>0%</discount><final_price>27900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>3</pax_id><quantity>1</quantity><item>1CHEXB-1 F</item><item_d>1. gyermek p&#xF3;t&#xE1;gyon &#xE1;r  15 &#xE9;ves korig</item_d><base_price>69900</base_price><discount>0%</discount><final_price>69900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>3</pax_id><quantity>1</quantity><item>OSRB_SSH</item><item_d>Rept&#xE9;ri illet&#xE9;k - SSH</item_d><base_price>54900</base_price><discount>0%</discount><final_price>54900</final_price><price_type>C</price_type><price_type_d/></price_record><price_record>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<pax_id>3</pax_id><quantity>1</quantity><item>SUP SV1CHD-1</item><item_d>Tengerre n&#xE9;zo szoba 1. gyermek fel&#xE1;r 15 &#xE9;ves korig</item_d><base_price>0</base_price><discount>0%</discount><final_price>0</final_price><price_type>C</price_type><price_type_d/></price_record></base_prices>
+        <extras>
+
+        </extras>
+      </calculation>
+			<payments>
+      	<payment_voucher/>
+				
+      <payment>
+	
+	
+<amount>659600</amount><due_date>08.03.2019</due_date></payment></payments>
+    </contractdata>
+  </xmls3>
+<PartnerID>943</PartnerID><RBPwd>0kM180F9</RBPwd></BookingDataRequest>
