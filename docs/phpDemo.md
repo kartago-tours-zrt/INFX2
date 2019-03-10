@@ -2,7 +2,7 @@
 
 ## letöltés
 
-[Githubon](https://kartago-tours-zrt.github.io/INFX2/) elérhető.
+[Githubon](https://github.com/kartago-tours-zrt/INFX2) elérhető.
 
 ## RuleBox API
 
@@ -39,7 +39,7 @@ Az előző függvényeket használva, könnyen tudják a rendszerükkel illeszen
 
 Az infxDataSeed.php programmal a statikus fileokat tudjuk letölteni. Ez egy komplett megoldás, pár módosítással integrálható a rendszerünk mellé.
 
-Futtatásával a következő adatok töltődnek le a ```params.psp``` beállításai szerinti mappákba
+Futtatásával a következő adatok töltődnek le a ```params.php``` beállításai szerinti mappákba
 - Hotel információk (kb 2600 xml file)
 - Hotel képei (kb 48000 jpg file)
 - infx2 file
@@ -67,7 +67,7 @@ $dt->sub(new DateInterval('P1D'));
 > Persze lehet paraméterezni is, és programból állítani, de ez csak mintaprogram, nem éles megvalósítás.
 
 A DataSeed.php program a dinamikusan (API) letölthető adatokat menti le.
-Futtatásával a következő adatok töltődnek le a ```params.psp``` beállításai szerinti mappákba
+Futtatásával a következő adatok töltődnek le a ```params.php``` beállításai szerinti mappákba
 - Szezonok
 - Ellátás típusok
 - Szobatípusok
