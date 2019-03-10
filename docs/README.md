@@ -54,4 +54,6 @@ Egy [RuleBox](RuleBox.md) rendszer működik az API hívások mögött. Ennek se
 
 Példakódok jelenleg [PHP](phpdemo.md) nyelven áll rendelkezésre.
 
+[Használati esettanulmány](UseCase.md) pedig segít az INFX rendszer működését megérteni, így az integrációt elősegíteni.
+
 Kérem, amennyiben igény van **JavaScript** ill. **C#** kódra, jelezzék felénk. Amennyiben elegendő kérés érkezik, ezeken a nyelveken is biztosítjuk a példakódokat.
