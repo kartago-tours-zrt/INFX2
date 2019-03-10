@@ -1,7 +1,5 @@
 # Kartago Tours Zrt - INFX2 dokumentáció
 
-Dokumentáció elérhető [itt](https://kartago-tours-zrt.github.io/INFX2/).
-
 ![Infx2](/images/INFX2Structure.png)
 
 ## Dokumentáció tartalma
@@ -31,14 +29,12 @@ Az adatok nagy része offline elérhető. Ezek egy része XML formátumú, egy m
 #### XML formátumban letölthető adatok
 
 - [Szálloda adatok](HotelsInfo.md) - frissítés alkalmanként, ha változtatás történt
-- [Alapárak](BasePrices.md) - frissítése minden éjjel egy alaklommal
-- [Alapárak](BasePrices.md) frissítés - frissítése 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
+- [Alapárak](BasePrices.md) - minden éjjel egy alaklommal, kiegészítő frissítése (külön fileban) 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
 - [Felárak](AdditionalPrices.md) - frissítése minden éjjel egy alaklommal
 
 #### TXT formátumban letölthető adatok
 
-- [INFX2](INFX2.md) - frissítése minden éjjel egy alaklommal
-- [INFX2](INFX2.md) frissítés - frissítése 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
+- [INFX2](INFX2.md) - minden éjjel egy alaklommal, kiegészítő frissítése (külön fileban) 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
 
 #### [Képek](Pictures.md)
 
@@ -52,8 +48,10 @@ Egy [RuleBox](RuleBox.md) rendszer működik az API hívások mögött. Ennek se
 
 ## Demó progam
 
-Példakódok jelenleg [PHP](phpdemo.md) nyelven áll rendelkezésre.
+Példakódok jelenleg [PHP](phpDemo.md) nyelven áll rendelkezésre.
 
 [Használati esettanulmány](UseCase.md) pedig segít az INFX rendszer működését megérteni, így az integrációt elősegíteni.
 
 Kérem, amennyiben igény van **JavaScript** ill. **C#** kódra, jelezzék felénk. Amennyiben elegendő kérés érkezik, ezeken a nyelveken is biztosítjuk a példakódokat.
+
+Készítő: Szabados László
