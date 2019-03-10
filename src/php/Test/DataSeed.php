@@ -10,7 +10,7 @@ echo "Hotel adatok letöltése\r\n";
 // dátum. Ennél régebbit ne töltsön le. Ha minden nap futtatjuk, akkor pl mindíg az előző napot állítsuk be. "P1D"
 // első futtatáskor állítsunk be egy nagyon régi dátumot az összes adat letöltéséhez (pl: "P10Y" )
 $dt = new DateTime();
-$dt->sub(new DateInterval('P10Y'));
+$dt->sub(new DateInterval('P1D'));
 
 // params fileban rögzített helyről töltünk le a hotelinfokat
 $files = getFilteredFilesList($GLOBALS['infxhotels'], $dt);

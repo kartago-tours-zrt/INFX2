@@ -134,6 +134,8 @@ Felszerelés | 516 | 595 | 80 |
 
 ### Beágyazott XML struktúra <a name="embedded-data"></a>
 
+Az INFX2 szabványos struktúra 596-os pozíciójától 390 karakter hosszan az EXIM XML struktúrában tárol adatot. Ez a kiegészítő információ fontos a megfelelő működéshez.
+
 Egy példa struktúra itt látható. Sortörések és szünetek nélkül tartalmazza. Nem feltétlen van minden mező a struktúrában.
 
 ````XML

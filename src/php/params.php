@@ -7,8 +7,8 @@ $localHotelPath = '/Hotels/';
 $localImagesPath = '/Hotels/Images/';
 $localInfxFiles = '/infxFiles/';
 $swiss_user_id = 127;
-$swiss_id = '943';
-$swiss_RBPwd = '0kM180F9';
+$swiss_id = 'xxx';
+$swiss_RBPwd = 'xxx';
 $swiss_user_name = 'Lacika';
 $swiss_rcpt = 'home.voxo.hu';
 
