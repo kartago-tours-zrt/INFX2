@@ -1,26 +1,7 @@
 <?php 
 require_once('../params.php');
 
-
 include '../api_infx2/infxservice.php';
-include '../api_infx2/FileLoadService.php';
-
-// Hotel adatok letöltése
-echo "Hotel adatok letöltése\r\n";
-// dátum. Ennél régebbit ne töltsön le. Ha minden nap futtatjuk, akkor pl mindíg az előző napot állítsuk be. "P1D"
-// első futtatáskor állítsunk be egy nagyon régi dátumot az összes adat letöltéséhez (pl: "P10Y" )
-$dt = new DateTime();
-$dt->sub(new DateInterval('P1D'));
-
-// params fileban rögzített helyről töltünk le a hotelinfokat
-$files = getFilteredFilesList($GLOBALS['infxhotels'], $dt);
-echo "Összes letöltendő file: " . count($files) . "\r\n";
-downloadList($files, $GLOBALS['infxhotels'], dirname(__FILE__) . $GLOBALS['localHotelPath']);
-
-// képek letöltése (ugyan azt a dátumot használhatjuk)
-$files = getFilteredFilesList($GLOBALS['infxphotos'], $date);
-echo "Összes letöltendő file: " . count($files) . "\r\n";
-downloadList($files, $GLOBALS['infxphotos'], dirname(__FILE__) . $GLOBALS['localImagesPath']);
 
 // szezonok letöltése
 $file = './Responses/SeasonListResponse.xml';

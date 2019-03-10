@@ -1,6 +1,8 @@
 # Kartago Tours Zrt - INFX2 dokumentáció
 
-![Infx2](/images/INFX2Structure.png)
+Dokumentáció elérhető [itt](https://kartago-tours-zrt.github.io/INFX2/).
+
+![Infx2](../images/INFX2Structure.png)
 
 ## Dokumentáció tartalma
 

@@ -356,7 +356,7 @@ type2 | R = kérésre, N = kötelező
 
 #### PriceAvailiablityCheckRequest
 
-A Csomag azonosító, szállás típus, ellátás és utas adatok alapján ár és foglalhatóság ellenőrzése
+A Csomag azonosító, szállás típus, ellátás és utas adatok alapján árkalkuláció készítése
 
 XML kérdés
 ```XML
@@ -870,6 +870,7 @@ Lásd: [Demó adat](/Test/Responses/BookingInfoResponse1.xml)
 
 
 #### BookingRemoveRequest
+
 Opciós foglalást tudunk törölni
 
 Ha a foglalás már nem opciós, akkor a törlés nem lehetséges, akkor a szokaás módon fel kell venni a kapcsolatot a kollégákkal.

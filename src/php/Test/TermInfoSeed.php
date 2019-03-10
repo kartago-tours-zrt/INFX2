@@ -7,7 +7,7 @@ global $tesztAjanlat, $tesztAjanlatSzobaTipus, $tesztAjanlatGiata;
 
 // kiegészítő szolgáltatások letöltése adott ajánlathoz
 $file = './Responses/ExtrasResponse.xml';
-file_put_contents($file, ExtrasRequest('2431452'));
+file_put_contents($file, ExtrasRequest($tesztAjanlat));
 
 // ajánlat elérhetőségének ellenőrzése
 $file = './Responses/AvailabilityCheckResponse.xml';
