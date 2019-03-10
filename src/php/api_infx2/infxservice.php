@@ -1,5 +1,7 @@
 <?php 
 
+require_once('xml_adopt.php');
+
 function infx2post($request) {
 
 $fields = [
@@ -142,8 +144,6 @@ XML;
 		xml_adopt($xml->PaxDetails, $xmlpaxdetail);
 	}
 
-  var_dump($xml->asXML());
-
 	return infx2post($xml->asXML()); 
 }
 
@@ -166,18 +166,18 @@ function BookingInfoRequest1($bnr)
 {
 	$xmlstr = <<<XML
 <BookingInfoRequest1>
-		<bnr></bnr>
+		<BNR></BNR>
 </BookingInfoRequest1>
 XML;
 
 	$xml = simplexml_load_string($xmlstr);
-	$xml->bnr = $bnr;
+	$xml->BNR = $bnr;
 	AddAuthentication($xml,0);
 	
 	return infx2post($xml->asXML()); 
 }
 
-function BookingRemoveRequest1($bnr)
+function BookingRemoveRequest($bnr)
 {
 	$xmlstr = <<<XML
 <BookingRemoveRequest>
@@ -221,89 +221,19 @@ XML;
 	return infx2post($xmlstr); 
 }
 
-function PaymentsByXMLDataInfoRequest($base, $paxs)
+function PaymentsByXMLDataInfoRequest($base)
 {
 	$bdr = <<<XML
 <PaymentsByXMLDataInfoRequest>
   <bnr></bnr>
   <xmls3>
     <contractdata>
-    	<bnr></bnr>
-      <partner_addr_id></partner_addr_id>
-      <partner_addr_type></partner_addr_type>
-      <remark_order />
-      <remark_order0 />
-      <remark_order1 />
-      <remark_order2 />
-      <join_bnr />
-      <vouchers />
-      <address_customer>
-        <pax_id></pax_id>
-        <fname></fname>
-        <sname></sname>
-        <title />
-        <street></street>
-        <city></city>
-        <post_code></post_code>
-        <country></country>
-        <phone></phone>
-        <email></email>
-      </address_customer>
-      <paxs>
-      </paxs>
       <calculation>
         <ReqID></ReqID>
-        <base_prices>
-
-        </base_prices>
-        <extras>
-
-        </extras>
       </calculation>
-			
     </contractdata>
   </xmls3>
 </PaymentsByXMLDataInfoRequest>
-XML;
-
-$paxrecord = <<<XML
-<pax>
-	<pax_id></pax_id>
-	<fname></fname>
-	<sname></sname>
-	<title />
-	<idcrm />
-	<sex></sex>
-	<bd></bd>
-	<passport />
-	<nationality></nationality>
-</pax>
-XML;
-
-$pricerecord = <<<XML
-<price_record>
-    <pax_id></pax_id>
-    <quantity></quantity>
-    <item></item>
-    <item_d></item_d>
-    <base_price></base_price>
-    <discount></discount>
-    <final_price></final_price>
-    <price_type></price_type>
-    <price_type_d />
-</price_record>
-XML;
-
-$pricerecordextra = <<<XML
-<price_record>
-    <pax_id></pax_id>
-    <quantity></quantity>
-    <item></item>
-    <item_d></item_d>
-    <base_price></base_price>
-    <discount></discount>
-    <final_price></final_price>
-</price_record>
 XML;
 
 	$xml = simplexml_load_string($bdr);
@@ -314,60 +244,13 @@ XML;
 	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
 	$xml->xmls3->contractdata->partner_addr_type = 0;
 
-	// customer data
-	$xml->xmls3->contractdata->address_customer->pax_id = 1;
-	$xml->xmls3->contractdata->address_customer->fname = $paxs[0]['name'];
-	$xml->xmls3->contractdata->address_customer->sname = $paxs[0]['sname'];
-	$xml->xmls3->contractdata->address_customer->title = $paxs[0]['title'];
-	$xml->xmls3->contractdata->address_customer->street = $paxs[0]['street'];
-	$xml->xmls3->contractdata->address_customer->city = $paxs[0]['city'];
-	$xml->xmls3->contractdata->address_customer->post_code = $paxs[0]['post_code'];
-	$xml->xmls3->contractdata->address_customer->country = $paxs[0]['country'];
-	$xml->xmls3->contractdata->address_customer->phone = $paxs[0]['phone'];
-	$xml->xmls3->contractdata->address_customer->email = $paxs[0]['email'];
-
-	// paxs
-	$paxcount = count($paxs);
-	$paxxml = simplexml_load_string($paxrecord);
-	for($x = 1; $x < $paxcount; $x++) {
-		$paxxml->pax_id = $paxs[$x]['id'];
-		$paxxml->fname = $paxs[$x]['fname'];
-		$paxxml->sname = $paxs[$x]['sname'];
-		$paxxml->title = $paxs[$x]['title'];
-		$paxxml->idcrm = $paxs[$x]['idcrm'];
-		$paxxml->sex = $paxs[$x]['sex'];
-		$paxxml->bd = $paxs[$x]['bd'];
-		$paxxml->passport = $paxs[$x]['passport'];
-		$paxxml->nationality = $paxs[$x]['nationality'];
-		xml_adopt($xml->xmls3->contractdata->paxs ,$paxxml);
-	}
-
+  // ReqID beállítása 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
 
-  // return $base->Package->PriceDetails->PriceInfos->->asXML();
-
-	// prices
-	$pricecount = count($base->Package->PriceDetails->PriceInfos->PriceInfo);
-	$xmlitem = simplexml_load_string($pricerecord);
-	for($x = 0; $x < $pricecount; $x++) {
-		$xmlitem->pax_id = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->pax_id;
-		$xmlitem->quantity = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->quantity;
-		$xmlitem->item = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->item;
-		$xmlitem->item_d = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->item_d;
-		$xmlitem->base_price = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price;
-		$xmlitem->discount = '0%';
-		$xmlitem->final_price = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price;
-		$xmlitem->price_type = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price_type;
-		$xmlitem->price_type_d = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price_type_d;
-
-		xml_adopt($xml->xmls3->contractdata->calculation->base_prices ,$xmlitem);
-	}
-
-//	return $xml->asXML();
 	 return infx2post($xml->asXML()); 
 }
 
-function BookingDataRequest($base, $paxs, $paymentsdata)
+function BookingDataRequest($base, $paxs)
 {
 	$bdr = <<<XML
 <BookingDataRequest>
@@ -377,12 +260,6 @@ function BookingDataRequest($base, $paxs, $paymentsdata)
     	<bnr></bnr>
       <partner_addr_id></partner_addr_id>
       <partner_addr_type></partner_addr_type>
-      <remark_order />
-      <remark_order0 />
-      <remark_order1 />
-      <remark_order2 />
-      <join_bnr />
-      <vouchers />
       <address_customer>
         <pax_id></pax_id>
         <fname></fname>
@@ -397,19 +274,9 @@ function BookingDataRequest($base, $paxs, $paymentsdata)
       </address_customer>
       <paxs>
       </paxs>
-      <calculation>
+			<calculation>
         <ReqID></ReqID>
-        <base_prices>
-
-        </base_prices>
-        <extras>
-
-        </extras>
       </calculation>
-			<payments>
-      	<payment_voucher></payment_voucher>
-				
-      </payments>
     </contractdata>
   </xmls3>
 </BookingDataRequest>
@@ -429,44 +296,12 @@ $paxrecord = <<<XML
 </pax>
 XML;
 
-$pricerecord = <<<XML
-<price_record>
-    <pax_id></pax_id>
-    <quantity></quantity>
-    <item></item>
-    <item_d></item_d>
-    <base_price></base_price>
-    <discount></discount>
-    <final_price></final_price>
-    <price_type></price_type>
-    <price_type_d />
-</price_record>
-XML;
-
-$pricerecordextra = <<<XML
-<price_record>
-    <pax_id></pax_id>
-    <quantity></quantity>
-    <item></item>
-    <item_d></item_d>
-    <base_price></base_price>
-    <discount></discount>
-    <final_price></final_price>
-</price_record>
-XML;
-
-$payment = <<<XML
-<payment>
-	<amount></amount>
-	<due_date></due_date>
-</payment>
-XML;
-
 	$xml = simplexml_load_string($bdr);
-	$xml->bnr = $basedata->Booking->bnr;
+	
+	$xml->bnr = $base->Booking->bnr;
 	AddAuthentication($xml,0);
 
-	$xml->xmls3->contractdata->bnr = $basedata->Booking->bnr;
+	$xml->xmls3->contractdata->bnr = $base->Booking->bnr;
 	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
 	$xml->xmls3->contractdata->partner_addr_type = 0;
 
@@ -500,42 +335,9 @@ XML;
 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
 
-  // return $base->Package->PriceDetails->PriceInfos->->asXML();
+  
 
-	// prices
-	$pricecount = count($base->Package->PriceDetails->PriceInfos->PriceInfo);
-	$xmlitem = simplexml_load_string($pricerecord);
-	for($x = 0; $x < $pricecount; $x++) {
-		$xmlitem->pax_id = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->pax_id;
-		$xmlitem->quantity = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->quantity;
-		$xmlitem->item = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->item;
-		$xmlitem->item_d = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->item_d;
-		$xmlitem->base_price = intval($base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price);
-		$xmlitem->discount = '0%';
-		$xmlitem->final_price = intval($base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price);
-		$xmlitem->price_type = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price_type;
-		$xmlitem->price_type_d = $base->Package->PriceDetails->PriceInfos->PriceInfo[$x]->price_type_d;
-
-		xml_adopt($xml->xmls3->contractdata->calculation->base_prices ,$xmlitem);
-	}
-
-	// payments
-	$paymentcount = count($paymentsdata->Payments);
-	$xmlitem = simplexml_load_string($payment);
-	for($x = 0; $x < $paymentcount; $x++) {
-		if (!$paymentsdata->Payments[$x]->PaymentAmount) {
-			$xmlitem->amount = intval($base->Package->PriceDetails->PackagePrice);
-		} else {
-			$xmlitem->amount = intval($paymentsdata->Payments[$x]->PaymentAmount);
-		}
-		
-		$xmlitem->due_date = $paymentsdata->Payments[$x]->PaymentDate;
-		xml_adopt($xml->xmls3->contractdata->payments ,$xmlitem);
-	}
-	
-  return $xml->asXML();
-
-	//return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML()); 
 }
 
 ?>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookingInfo1Response>
+  <result>
+    <booking_info>
+      <bnr>385004947</bnr>
+      <general_info>
+        <status>R</status>
+        <expiration>2019-03-13 21:00:00</expiration>
+        <dest_name>Egyiptom - Sharm El Sheikh</dest_name>
+      </general_info>
+      <flight_info>
+        <routing>T</routing>
+        <route_from>BUD</route_from>
+        <route_to>SSH</route_to>
+        <flight_no>UJ5002</flight_no>
+        <dep_date>2019-10-18</dep_date>
+        <dep_time>21:00</dep_time>
+        <arr_date>2019-10-18</arr_date>
+        <arr_time>01:00</arr_time>
+      </flight_info>
+      <flight_info>
+        <routing>Z</routing>
+        <route_from>SSH</route_from>
+        <route_to>BUD</route_to>
+        <flight_no>UJ5001</flight_no>
+        <dep_date>2019-10-25</dep_date>
+        <dep_time>16:00</dep_time>
+        <arr_date>2019-10-25</arr_date>
+        <arr_time>20:00</arr_time>
+      </flight_info>
+      <accomodation_info>
+        <room_type>2+1_PRE</room_type>
+        <hotel_name>Reef Oasis Beach Resort</hotel_name>
+        <hotel_cat>4</hotel_cat>
+        <hotel_remark>
+        </hotel_remark>
+        <hotel_abb>SSHREF</hotel_abb>
+        <check_in>2019-10-18</check_in>
+        <check_out>2019-10-25</check_out>
+      </accomodation_info>
+      <swiss_booking>
+        <null />
+        <null />
+        <assets>
+          <null />
+          <null />
+          <null />
+        </assets>
+        <null />
+        <null />
+      </swiss_booking>
+      <rb_xmlca>
+        <PriceAvailabilityCheckResponse>
+          <Control>
+            <ResponseStatus>success             </ResponseStatus>
+            <ResponseMessage>
+            </ResponseMessage>
+            <ReqID>3020B45D-D446-4BC1-AF4D-2E1171C4409B</ReqID>
+          </Control>
+          <Package>
+            <ReqDetails>
+              <PackageID>2431452</PackageID>
+              <RoomType>2+1_PRE        </RoomType>
+              <BoardType>A         </BoardType>
+              <hotel_a1>SSHREF                        </hotel_a1>
+              <season_id>5</season_id>
+              <season_dsc>HUNKAS19  </season_dsc>
+              <hotel_type>L</hotel_type>
+              <Paxs>
+                <Pax>
+                  <pax_id>1</pax_id>
+                  <pax_bd>19.02.1999</pax_bd>
+                </Pax>
+                <Pax>
+                  <pax_id>2</pax_id>
+                  <pax_bd>19.02.1999</pax_bd>
+                </Pax>
+                <Pax>
+                  <pax_id>3</pax_id>
+                  <pax_bd>19.02.1999</pax_bd>
+                </Pax>
+              </Paxs>
+            </ReqDetails>
+            <PriceDetails>
+              <PackagePrice>700400.0000</PackagePrice>
+              <PriceInfos>
+                <PriceInfo>
+                  <pax_id>1</pax_id>
+                  <quantity>1</quantity>
+                  <item>DBL</item>
+                  <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>230900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>1</pax_id>
+                  <quantity>1</quantity>
+                  <item>SLV*EB3*DBL</item>
+                  <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>-46300.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>1</pax_id>
+                  <quantity>1</quantity>
+                  <item>OSRB_SSH</item>
+                  <item_d>Reptéri illeték - SSH</item_d>
+                  <price>54900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>2</pax_id>
+                  <quantity>1</quantity>
+                  <item>DBL</item>
+                  <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>230900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>2</pax_id>
+                  <quantity>1</quantity>
+                  <item>SLV*EB3*DBL</item>
+                  <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>-46300.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>2</pax_id>
+                  <quantity>1</quantity>
+                  <item>OSRB_SSH</item>
+                  <item_d>Reptéri illeték - SSH</item_d>
+                  <price>54900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>3</pax_id>
+                  <quantity>1</quantity>
+                  <item>1EXBED</item>
+                  <item_d>1. felnott pótágyon ár/ fo</item_d>
+                  <price>205900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>3</pax_id>
+                  <quantity>1</quantity>
+                  <item>SLV*EB3*1EXBED</item>
+                  <item_d>FM márc.20-ig-1. felnott pótágyon ár/ fo</item_d>
+                  <price>-39400.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+                <PriceInfo>
+                  <pax_id>3</pax_id>
+                  <quantity>1</quantity>
+                  <item>OSRB_SSH</item>
+                  <item_d>Reptéri illeték - SSH</item_d>
+                  <price>54900.0000</price>
+                  <price_type>C</price_type>
+                  <price_type_d />
+                  <rb_d>N</rb_d>
+                  <rb_id>0</rb_id>
+                </PriceInfo>
+              </PriceInfos>
+            </PriceDetails>
+          </Package>
+          <Booking>
+            <bnr>385004947</bnr>
+            <bnr_result>success</bnr_result>
+            <bnr_exp>2019-03-13 21:00:00</bnr_exp>
+          </Booking>
+        </PriceAvailabilityCheckResponse>
+      </rb_xmlca>
+      <rb_xmlsx>
+        <contractdata>
+          <bnr>385004947</bnr>
+          <partner_addr_id>943</partner_addr_id>
+          <partner_addr_type>0</partner_addr_type>
+          <address_customer>
+            <pax_id>1</pax_id>
+            <fname>GEZA</fname>
+            <sname>PROBA</sname>
+            <title />
+            <street>LOCSEI UT 57</street>
+            <city>BUDAPEST</city>
+            <post_code>1147</post_code>
+            <country>HUNGARY</country>
+            <phone>209472212</phone>
+            <email>ADMIN@KARTAGOTOURS.HU</email>
+          </address_customer>
+          <paxs>
+            <pax>
+              <pax_id>1</pax_id>
+              <fname>GEZA</fname>
+              <sname>PROBA</sname>
+              <title />
+              <idcrm />
+              <sex>M</sex>
+              <bd>03.09.1973</bd>
+              <passport />
+              <nationality>HUN</nationality>
+            </pax>
+            <pax>
+              <pax_id>2</pax_id>
+              <fname>PIROSKA</fname>
+              <sname>PROBA</sname>
+              <title />
+              <idcrm />
+              <sex>F</sex>
+              <bd>21.09.1989</bd>
+              <passport />
+              <nationality>HUN</nationality>
+            </pax>
+            <pax>
+              <pax_id>3</pax_id>
+              <fname>BELLA</fname>
+              <sname>PROBA</sname>
+              <title />
+              <idcrm />
+              <sex>F</sex>
+              <bd>01.01.2010</bd>
+              <passport />
+              <nationality>HUN</nationality>
+            </pax>
+          </paxs>
+          <calculation>
+            <ReqID>3020B45D-D446-4BC1-AF4D-2E1171C4409B</ReqID>
+          </calculation>
+        </contractdata>
+      </rb_xmlsx>
+    </booking_info>
+  </result>
+</BookingInfo1Response>

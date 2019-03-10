@@ -7690,6 +7690,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPRUL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_AD_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>LPAAXL</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_AD_PV</room_type>
@@ -7716,6 +7726,16 @@
       <board>BB</board>
       <add_price_types>
         <add_price_type>SUP BB</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPRUL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_AD_SSV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SSV</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -7980,6 +8000,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_DLX</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP DEL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_DLX</room_type>
@@ -8050,12 +8080,32 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_DLX_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>AYTTQSL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_DLX_SV</room_type>
       <board>*</board>
       <add_price_types>
         <add_price_type>SUP DELSV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_DLX_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -8561,7 +8611,27 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGLRM</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_PV</room_type>
       <board>*</board>
@@ -9216,8 +9286,8 @@
       <room_type>2+1_SUSV</room_type>
       <board>*</board>
       <add_price_types>
-        <add_price_type>SUP SV</add_price_type>
         <add_price_type>SUP SUP</add_price_type>
+        <add_price_type>SUP SV</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -9603,6 +9673,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGRIVI</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_SV</room_type>
@@ -9624,6 +9704,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFE</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSPHL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+1_SV</room_type>
       <board>*</board>
@@ -10763,6 +10853,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+2_FR_CH</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMEA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+2_FR_CH</room_type>
@@ -11175,6 +11275,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSEA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+2_FR_CHA</room_type>
@@ -11186,6 +11296,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -11246,6 +11366,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTRA</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -12806,6 +12936,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGDER</hotel_code>
+      <price_type>1EXBED</price_type>
+      <room_type>2+2_CHA_BF</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP BFR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>1EXBED</price_type>
       <room_type>2+2_CHA_BF</room_type>
       <board>*</board>
@@ -17239,6 +17379,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_DLX</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP DEL1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+1_DLX</room_type>
@@ -17309,12 +17459,32 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_DLX_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>AYTTQSL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+1_DLX_SV</room_type>
       <board>*</board>
       <add_price_types>
         <add_price_type>SUP DELSV1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_DLX_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV1CHD-1</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -17750,7 +17920,27 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGLRM</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+1_PV</room_type>
       <board>*</board>
@@ -18185,8 +18375,8 @@
       <room_type>2+1_SUSV</room_type>
       <board>*</board>
       <add_price_types>
-        <add_price_type>SUP SV1CHD-1</add_price_type>
         <add_price_type>SUP SUP1CHD-1</add_price_type>
+        <add_price_type>SUP SV1CHD-1</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -18451,6 +18641,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGRIVI</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+1_SV</room_type>
@@ -18472,6 +18672,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFE</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV1CHD-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSPHL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+1_SV</room_type>
       <board>*</board>
@@ -19131,6 +19341,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CH</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMEA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+2_FR_CH</room_type>
@@ -19482,6 +19702,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSEA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
@@ -19493,6 +19723,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -19553,6 +19793,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTRA</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -20703,6 +20953,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGDER</hotel_code>
+      <price_type>1CHEXB-1 F</price_type>
+      <room_type>2+2_CHA_BF</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP BFR1CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>1CHEXB-1 F</price_type>
       <room_type>2+2_CHA_BF</room_type>
       <board>*</board>
@@ -22687,8 +22947,8 @@
       <room_type>2+1_SUSV</room_type>
       <board>*</board>
       <add_price_types>
-        <add_price_type>SUP SV1CHD-2</add_price_type>
         <add_price_type>SUP SUP1CHD-2</add_price_type>
+        <add_price_type>SUP SV1CHD-2</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -26664,6 +26924,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>2CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CH</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMEA</hotel_code>
       <price_type>2CHEXB-1 F</price_type>
       <room_type>2+2_FR_CH</room_type>
@@ -26945,6 +27215,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>2CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSEA</hotel_code>
       <price_type>2CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
@@ -26956,6 +27236,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
+      <price_type>2CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>2CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -27016,6 +27306,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTRA</hotel_code>
+      <price_type>2CHEXB-1 F</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>2CHEXB-1 F</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -27995,6 +28295,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
+      <price_type>2CHEXB-1 F</price_type>
+      <room_type>2+2_CHA_BF</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP BFR2CH-1</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGHWD</hotel_code>
       <price_type>2CHEXB-1 F</price_type>
       <room_type>2+2_CHA_BV</room_type>
@@ -28525,6 +28835,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>2CHEXB-2</price_type>
+      <room_type>2+2_FR_CH</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-2</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMEA</hotel_code>
       <price_type>2CHEXB-2</price_type>
       <room_type>2+2_FR_CH</room_type>
@@ -28786,6 +29106,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>2CHEXB-2</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-2</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSEA</hotel_code>
       <price_type>2CHEXB-2</price_type>
       <room_type>2+2_FR_CHA</room_type>
@@ -28797,6 +29127,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
+      <price_type>2CHEXB-2</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-2</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>2CHEXB-2</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -28847,6 +29187,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTRA</hotel_code>
+      <price_type>2CHEXB-2</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR2CH-2</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>2CHEXB-2</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -29937,6 +30287,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGDER</hotel_code>
+      <price_type>2CHEXB-2</price_type>
+      <room_type>2+2_CHA_BF</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP BFR2CH-2</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>2CHEXB-2</price_type>
       <room_type>2+2_CHA_BF</room_type>
       <board>*</board>
@@ -31476,6 +31836,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGLEP</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
@@ -31566,6 +31936,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMRB</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
@@ -31607,6 +31987,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGPLF</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
       <board>*</board>
@@ -31686,6 +32076,26 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSIAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSIN</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
@@ -31697,6 +32107,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSMB</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSPHL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
       <board>*</board>
@@ -31797,6 +32217,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTSH</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0</room_type>
       <board>*</board>
@@ -34297,6 +34727,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPRUL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+0_AD</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>PMIH10</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+0_AD</room_type>
@@ -34517,6 +34957,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+1</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGLEP</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+1</room_type>
@@ -34557,6 +35007,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+1</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGPAV</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+1</room_type>
@@ -34578,6 +35038,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGPLF</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+1</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+1</room_type>
       <board>*</board>
@@ -34637,6 +35107,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSIAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+1</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSIN</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+1</room_type>
@@ -34648,6 +35128,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSMB</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>1+1</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SGL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSPHL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>1+1</room_type>
       <board>*</board>
@@ -36337,6 +36827,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPRUL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_AD_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>LPAAXL</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_AD_PV</room_type>
@@ -36363,6 +36863,16 @@
       <board>BB</board>
       <add_price_types>
         <add_price_type>SUP BB</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPRUL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_AD_SSV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SSV</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -36627,6 +37137,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_DLX</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP DEL</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_DLX</room_type>
@@ -36697,12 +37217,32 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_DLX_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>AYTTQSL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_DLX_SV</room_type>
       <board>*</board>
       <add_price_types>
         <add_price_type>SUP DELSV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGMRAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_DLX_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
       </add_price_types>
     </rule>
     <rule>
@@ -37528,7 +38068,27 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGLRM</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_PV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP PV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_PV</room_type>
       <board>*</board>
@@ -38570,6 +39130,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGRIVI</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_SV</room_type>
@@ -38591,6 +39161,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFE</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+1_SV</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP SV</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSPHL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+1_SV</room_type>
       <board>*</board>
@@ -39750,6 +40330,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGLCAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+2_FR_CH</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGMEA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+2_FR_CH</room_type>
@@ -40172,6 +40762,16 @@
     </rule>
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGPSAL19_HUNKA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSEA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+2_FR_CHA</room_type>
@@ -40183,6 +40783,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGSFC</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -40243,6 +40853,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGTRA</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+2_FR_CHA</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP FR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGTTAL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+2_FR_CHA</room_type>
       <board>*</board>
@@ -41833,6 +42453,16 @@
     <rule>
       <season_dsc>HUNKAS19</season_dsc>
       <hotel_code>HRGDER</hotel_code>
+      <price_type>DBL</price_type>
+      <room_type>2+2_CHA_BF</room_type>
+      <board>*</board>
+      <add_price_types>
+        <add_price_type>SUP BFR</add_price_type>
+      </add_price_types>
+    </rule>
+    <rule>
+      <season_dsc>HUNKAS19</season_dsc>
+      <hotel_code>HRGSHEL19_HUNKA</hotel_code>
       <price_type>DBL</price_type>
       <room_type>2+2_CHA_BF</room_type>
       <board>*</board>

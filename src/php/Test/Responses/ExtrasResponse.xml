@@ -6,32 +6,6 @@
   </term_info>
   <extras>
     <extra>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
-      <type>PARKING_EB_7</type>
-      <descr>Budapesti Reptéri Parkolás (2000 Ft)</descr>
-      <price>2000.0000</price>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </extra>
-    <extra>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
-      <type>TRANSFER_EB</type>
-      <descr>Budapesti Reptéri Transzfer (2000 Ft)</descr>
-      <price>2000.0000</price>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </extra>
-    <extra>
       <category>05 Vizum</category>
       <sub_type>online*vizum</sub_type>
       <type>viza Egyiptom</type>
@@ -55,6 +29,32 @@
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>
       <type1>1</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <type>PARKING_EB_7</type>
+      <descr>Budapesti Reptéri Parkolás (2000 Ft)</descr>
+      <price>2000.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <type>STOREXTA-SSH</type>
+      <descr>Storno biztosítás: a részvételi díj 1,4%-a</descr>
+      <price>140.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
       <type2>N</type2>
     </extra>
     <extra>
@@ -84,11 +84,11 @@
       <type2>N</type2>
     </extra>
     <extra>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <type>STOREXTA-SSH</type>
-      <descr>Storno biztosítás: a részvételi díj 1,4%-a</descr>
-      <price>140.0000</price>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <type>TRANSFER_EB</type>
+      <descr>Budapesti Reptéri Transzfer (2000 Ft)</descr>
+      <price>2000.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>

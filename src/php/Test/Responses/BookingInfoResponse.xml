@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookingInfoResponse>
+  <Result>
+    <bnr>385004947</bnr>
+    <bnr_expiration>2019-03-13T21:00:00</bnr_expiration>
+    <bnr_status>R</bnr_status>
+    <bnr_rlock>0</bnr_rlock>
+    <package_id>2431452</package_id>
+    <bnr_room>2+1_PRE                       </bnr_room>
+    <bnr_seats>3</bnr_seats>
+  </Result>
+</BookingInfoResponse>

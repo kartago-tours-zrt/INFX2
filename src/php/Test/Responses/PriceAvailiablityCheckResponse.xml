@@ -4,12 +4,12 @@
     <ResponseStatus>success             </ResponseStatus>
     <ResponseMessage>
     </ResponseMessage>
-    <ReqID>4A14608D-213B-423B-B63E-F97D109A45C4</ReqID>
+    <ReqID>D4394931-3138-4586-A436-24FC021FB20C</ReqID>
   </Control>
   <Package>
     <ReqDetails>
       <PackageID>2431452</PackageID>
-      <RoomType>2+1_SV         </RoomType>
+      <RoomType>2+1_PRE        </RoomType>
       <BoardType>A         </BoardType>
       <hotel_a1>SSHREF                        </hotel_a1>
       <season_id>5</season_id>
@@ -26,12 +26,12 @@
         </Pax>
         <Pax>
           <pax_id>3</pax_id>
-          <pax_bd>19.02.2010</pax_bd>
+          <pax_bd>19.02.1999</pax_bd>
         </Pax>
       </Paxs>
     </ReqDetails>
     <PriceDetails>
-      <PackagePrice>659600</PackagePrice>
+      <PackagePrice>700400.0000</PackagePrice>
       <PriceInfos>
         <PriceInfo>
           <pax_id>1</pax_id>
@@ -67,17 +67,6 @@
           <rb_id>0</rb_id>
         </PriceInfo>
         <PriceInfo>
-          <pax_id>1</pax_id>
-          <quantity>1</quantity>
-          <item>SUP SV</item>
-          <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
-          <price>27900.0000</price>
-          <price_type>C</price_type>
-          <price_type_d />
-          <rb_d>N</rb_d>
-          <rb_id>0</rb_id>
-        </PriceInfo>
-        <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
           <item>DBL</item>
@@ -111,11 +100,11 @@
           <rb_id>0</rb_id>
         </PriceInfo>
         <PriceInfo>
-          <pax_id>2</pax_id>
+          <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>SUP SV</item>
-          <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
-          <price>27900.0000</price>
+          <item>1EXBED</item>
+          <item_d>1. felnott pótágyon ár/ fo</item_d>
+          <price>205900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -124,9 +113,9 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>1CHEXB-1 F</item>
-          <item_d>1. gyermek pótágyon ár  15 éves korig</item_d>
-          <price>69900.0000</price>
+          <item>SLV*EB3*1EXBED</item>
+          <item_d>FM márc.20-ig-1. felnott pótágyon ár/ fo</item_d>
+          <price>-39400.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -143,23 +132,12 @@
           <rb_d>N</rb_d>
           <rb_id>0</rb_id>
         </PriceInfo>
-        <PriceInfo>
-          <pax_id>3</pax_id>
-          <quantity>1</quantity>
-          <item>SUP SV1CHD-1</item>
-          <item_d>Tengerre nézo szoba 1. gyermek felár 15 éves korig</item_d>
-          <price>0.0000</price>
-          <price_type>C</price_type>
-          <price_type_d />
-          <rb_d>N</rb_d>
-          <rb_id>0</rb_id>
-        </PriceInfo>
       </PriceInfos>
     </PriceDetails>
   </Package>
   <Booking>
-    <bnr>385004915</bnr>
-    <bnr_result>success</bnr_result>
-    <bnr_exp>2019-03-11 20:00:00</bnr_exp>
+    <bnr />
+    <bnr_result />
+    <bnr_exp />
   </Booking>
 </PriceAvailabilityCheckResponse>

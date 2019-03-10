@@ -78,6 +78,8 @@ isActive | Y/N	Aktív vagy nem
 
 #### BoardsRequest
 
+Ellátás típusok lekérése
+
 XML kérdés
 ```XML
 <BoardsRequest></BoardsRequest>
@@ -118,6 +120,8 @@ desc_global | Ellátás típus leírás
 
 
 #### RoomTypesRequest
+
+Szobatípusok lekérése
 
 XML kérdés
 ```XML
@@ -160,6 +164,8 @@ room_descr_#pax | Szoba leírás létszámtól függően
 
 #### AirportsRequest
 
+Repterek lekérése
+
 XML kérdés
 ```XML
 <AirportsRequest></AirportsRequest>
@@ -195,6 +201,8 @@ a_descr | Leírás
 
 
 #### OtherPricesRequest
+
+Felárak listája
 
 XML kérdés
 ```XML
@@ -242,6 +250,8 @@ type2 | R = kérésre, N = kötelező
 
 #### AccomodationPriceTypesRequest
 
+Szálláshelyek ár típusai
+
 XML kérdés
 ```XML
 <AccomodationPriceTypesRequest></AccomodationPriceTypesRequest>
@@ -274,6 +284,8 @@ price_descr | Leírás
 
 
 #### ExtrasRequest
+
+Csomaghoz tartozó egyéb opciós felárak
 
 XML kérdés
 ```XML
@@ -343,6 +355,8 @@ type2 | R = kérésre, N = kötelező
 
 
 #### PriceAvailiablityCheckRequest
+
+A Csomag azonosító, szállás típus, ellátás és utas adatok alapján ár és foglalhatóság ellenőrzése
 
 XML kérdés
 ```XML
@@ -560,6 +574,8 @@ bnr_exp* | Opciós foglalás lejárata
 
 #### BookingInfoRequest
 
+A foglalásról adja vissza az alap információkat
+
 XML kérdés
 ```XML
 <BookingInfoRequvest>
@@ -605,6 +621,8 @@ Bnr_seat | Személyek száma (utaztatáshoz)
 
 
 #### AvailabilityCheckRequest
+
+Ezzel a függvénnyel ellenőrizhetjük le, hogy egy adott csomag foglalható-e.	
 
 XML kérdés
 ```XML
@@ -653,6 +671,8 @@ LastCap | Y/N Utolsó szoba (igen / nem)
 
 #### GetAddPriceRulesRequest
 
+Egy listát kapunk a kötelező felárakról egy adott Szezon, adott szálloda, adott szobatípusának adott ár típusához.
+
 XML kérdés
 ```XML
 <GetAddPriceRulesRequest></GetAddPriceRulesRequest>
@@ -689,15 +709,37 @@ add_price_types | Kötelező ár típusok
 
 #### PaymentsByXMLDataInfoRequest
 
+Egy adott foglalás esetére visszaadja, hogy legkésőbb mikor mennyit kell minimálisan fizetni.	
+
 XML kérdés
 ```XML
-
+<PaymentsByXMLDataInfoRequest>
+  <bnr></bnr>
+  <xmls3>
+    <contractdata>
+      <calculation>
+        <ReqID></ReqID>
+      </calculation>
+    </contractdata>
+  </xmls3>
+</PaymentsByXMLDataInfoRequest>
 ```
+
+Mező | Érték leírása
+---- | ----
+bnr | Foglalási szám
+ReqID | ReqID
+
 
 XML válasz
 
 ```XML
-
+<PaymentsByXMLDataInfoResponse>
+  <Payments>
+    <PaymentDate>10.03.2019</PaymentDate>
+    <PaymentAmount>548999</PaymentAmount>
+  </Payments>
+</PaymentsByXMLDataInfoResponse>
 ```
 
 Mező | Érték leírása
@@ -708,15 +750,84 @@ PaymentAmount | Fizetendő összeg
 
 #### BookingDataRequest
 
+Az utazási szerződés adatait lehet beküldeni. (Utasok és szerződő adatai)
+
 XML kérdés
 ```XML
-
+<BookingDataRequest>
+  <bnr></bnr>
+  <xmls3>
+    <contractdata>
+    	<bnr></bnr>
+      <partner_addr_id></partner_addr_id>
+      <partner_addr_type></partner_addr_type>
+      <address_customer>
+        <pax_id></pax_id>
+        <fname></fname>
+        <sname></sname>
+        <title />
+        <street></street>
+        <city></city>
+        <post_code></post_code>
+        <country></country>
+        <phone></phone>
+        <email></email>
+      </address_customer>
+      <paxs>
+        .
+        <pax>
+          <pax_id></pax_id>
+          <fname></fname>
+          <sname></sname>
+          <title />
+          <idcrm />
+          <sex></sex>
+          <bd></bd>
+          <passport />
+          <nationality></nationality>
+        </pax>
+        .
+      </paxs>
+			<calculation>
+        <ReqID></ReqID>
+      </calculation>
+    </contractdata>
+  </xmls3>
+</BookingDataRequest>
 ```
+Mező | Érték leírása
+---- | ----
+bnr | Foglalási szám
+pax_id | A szerződő utas sorszáma. Értéke 1 legyen!
+fname | Keresztnév
+sname | Vezetéknév
+title | Megszólítás
+street | cím
+city | Város
+post_code | Irányítószám
+country | Ország
+phone | Teefonszám
+email | Email cím
+pax_id | utas sorszáma. (Az első utas legyen a szerződő)
+sex | Férfi vagy Nő
+bd | Születési dátum
+passport | Útlevélszám
+nationality | Nemzetiség
 
 XML válasz
 
 ```XML
-
+<BookingDataResponse>
+  <Result>
+    <bnr>385004940</bnr>
+    <bnr_expiration>2019-03-13T15:00:00</bnr_expiration>
+    <bnr_status>R</bnr_status>
+    <bnr_rlock>0</bnr_rlock>
+    <package_id>2431452</package_id>
+    <bnr_room>2+1_PRE                       </bnr_room>
+    <bnr_seats>3</bnr_seats>
+  </Result>
+</BookingDataResponse>
 ```
 
 Mező | Érték leírása
@@ -732,10 +843,12 @@ Bnr_seat | Személyek száma (utaztatáshoz)
 
 #### BookingInfoRequest1
 
+Részletes információ a foglalásról
+
 XML kérdés
 ```XML
 <BookingInfoRequvest1>
-	<bnr></bnr>
+    <BNR></BNR>
     <PartnerID></PartenrID>
     <RBPwd></RBPwd>
 </BookingInfoRequvest1>
@@ -751,16 +864,15 @@ RBPwd | SWISS jelszó
 
 XML válasz
 
-```XML
+Lásd: [Demó adat](/Test/Responses/BookingInfoResponse1.xml)
 
-```
-
-Mező | Érték leírása
----- | ----
 
 
 
 #### BookingRemoveRequest
+Opciós foglalást tudunk törölni
+
+Ha a foglalás már nem opciós, akkor a törlés nem lehetséges, akkor a szokaás módon fel kell venni a kapcsolatot a kollégákkal.
 
 XML kérdés
 ```XML
@@ -774,8 +886,25 @@ XML kérdés
 XML válasz
 
 ```XML
-
+<BookingRemoveResponse>
+  <Result>
+    <bnr>385004915</bnr>
+    <bnr_expiration>2019-03-09T20:29:47.620</bnr_expiration>
+    <bnr_status>R</bnr_status>
+    <bnr_rlock>0</bnr_rlock>
+    <package_id>2431452</package_id>
+    <bnr_room>2+1_SV                        </bnr_room>
+    <bnr_seats>3</bnr_seats>
+  </Result>
+</BookingRemoveResponse>
 ```
 
 Mező | Érték leírása
 -----|-----
+bnr | Foglalási szám
+bnr_expiration | Lejárati dátum
+bnr_status | O = Szerződés (visszaigazolt foglalás); R = Opciós foglalás; X= törölt foglalás
+bnr_rlock | TODO
+package_id | Csomag azonosító
+bnr_room | Szoba típús
+bnr_seats | Létszám

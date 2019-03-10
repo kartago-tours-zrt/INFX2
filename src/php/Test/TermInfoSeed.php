@@ -1,0 +1,42 @@
+<?php
+require_once('../params.php');
+
+include '../api_infx2/infxservice.php';
+
+global $tesztAjanlat, $tesztAjanlatSzobaTipus, $tesztAjanlatGiata;
+
+// kiegészítő szolgáltatások letöltése adott ajánlathoz
+$file = './Responses/ExtrasResponse.xml';
+file_put_contents($file, ExtrasRequest('2431452'));
+
+// ajánlat elérhetőségének ellenőrzése
+$file = './Responses/AvailabilityCheckResponse.xml';
+file_put_contents($file, AvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatSzobaTipus, '3' ));
+
+// betöltjük a választ 
+// (éles rendszerben nem kell lementeni és betölteni!)
+$xml1 = simplexml_load_file("./Responses/AvailabilityCheckResponse.xml");
+
+// ha a válasz rendben és foglalható
+if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Book == "Y") {
+
+    // utasok életkorai, a helyes árképzéshez 
+    // (nem kell pontosan, de gyerek hazaérkezéskor ne legyen idősebb mint az itt megadott,
+    // felnőttek esetében lényegtelen, csak 18 évnél idősebb legyen beállítva)
+    $paxs = array('19990219','19990219','19990219');
+
+    // ajánlat árképzésének betöltése
+    $file = './Responses/PriceAvailiablityCheckResponse.xml';
+    file_put_contents($file, PriceAvailiablityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs ));
+
+    // betöltjük a választ 
+    // (éles rendszerben nem kell lementeni és betölteni!)
+    $xml2 = simplexml_load_file("./Responses/PriceAvailiablityCheckResponse.xml");
+
+    // ha foglalható, ezt az ajánlatot lehet megjeleníteni
+    if (trim($xml2->Control->ResponseStatus) == "success") {
+        var_dump($xml2->Package->PriceDetails->asXML());
+    }
+}
+
+?>
