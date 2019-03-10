@@ -2,7 +2,7 @@
 
 Dokumentáció elérhető [itt](https://kartago-tours-zrt.github.io/INFX2/).
 
-![Infx2](../images/INFX2Structure.png)
+![Infx2](/images/INFX2Structure.png)
 
 ## Dokumentáció tartalma
 
