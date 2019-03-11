@@ -795,6 +795,7 @@ XML kérdés
   </xmls3>
 </BookingDataRequest>
 ```
+
 Mező | Érték leírása
 ---- | ----
 bnr | Foglalási szám
