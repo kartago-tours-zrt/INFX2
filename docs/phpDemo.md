@@ -1,5 +1,13 @@
 # php kliens megvalósítás
 
+## Fejlesztői megjegyzés
+
+Elnézést ha a php kód nem mindenhol a legprofibb, de most hétvégén tanultam a php nyelvet azért, hogy ezt elkészíthessem.
+
+> Ez csak egy példa megvalósítás a dokumentáció alapján, nem törekedve minden részében az éles környezetben változtatás nélküli futtatásra, de használható és működik, szabadosn felhasználható.
+
+Ha hibát találtok, kérlek jelezzétek a Githubon.
+
 ## letöltés
 
 [Githubon](https://github.com/kartago-tours-zrt/INFX2) elérhető.

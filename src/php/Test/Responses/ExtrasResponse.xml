@@ -19,45 +19,6 @@
       <type2>N</type2>
     </extra>
     <extra>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <type>z.poj.online.gold.8</type>
-      <descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</descr>
-      <price>7520.0000</price>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </extra>
-    <extra>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
-      <type>PARKING_EB_7</type>
-      <descr>Budapesti Reptéri Parkolás (2000 Ft)</descr>
-      <price>2000.0000</price>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </extra>
-    <extra>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <type>STOREXTA-SSH</type>
-      <descr>Storno biztosítás: a részvételi díj 1,4%-a</descr>
-      <price>140.0000</price>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </extra>
-    <extra>
       <category>07 Egyéb</category>
       <sub_type>online*extra</sub_type>
       <type>Modositasi dij</type>
@@ -73,9 +34,9 @@
     <extra>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
-      <type>z.poj.online.silver.8</type>
-      <descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</descr>
-      <price>5600.0000</price>
+      <type>z.poj.online.silver.15</type>
+      <descr>Utazási Biztosítás - Air Silver 660 Ft/fo/nap</descr>
+      <price>9900.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -84,16 +45,29 @@
       <type2>N</type2>
     </extra>
     <extra>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
-      <type>TRANSFER_EB</type>
-      <descr>Budapesti Reptéri Transzfer (2000 Ft)</descr>
-      <price>2000.0000</price>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <type>STOREXTA-HRG</type>
+      <descr>Útlemondási (storno) biztosítás - HRG</descr>
+      <price>130.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>
       <type1>S</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <type>z.poj.online.gold.15</type>
+      <descr>Utazási Biztosítás - Air Gold 890 Ft/fo/nap</descr>
+      <price>13350.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
       <type2>N</type2>
     </extra>
   </extras>

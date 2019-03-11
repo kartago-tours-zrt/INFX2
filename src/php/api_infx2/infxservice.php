@@ -104,7 +104,7 @@ XML;
 	return infx2post($xml->asXML()); 
 }
 
-function PriceAvailiablityCheckRequest($term_id, $board_type, $room_type, $paxdetails, $makebooking = 0)
+function PriceAvailabilityCheckRequest($term_id, $board_type, $room_type, $paxdetails, $makebooking = 0)
 {
 	$xmlstr = <<<XML
 <PriceAvailabilityCheckRequest>
@@ -334,8 +334,6 @@ XML;
 	}
 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
-
-  
 
 	return infx2post($xml->asXML()); 
 }

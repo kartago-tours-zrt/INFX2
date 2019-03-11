@@ -75,6 +75,7 @@ SID | Szezon azonosítója
 dsc | Szezon kódja	
 isActive | Y/N	Aktív vagy nem
 
+Lásd: [Demó adat](../src/php/Test/Responses/SeasonListResponse.xml)
 
 #### BoardsRequest
 
@@ -117,7 +118,7 @@ giata_code | Rövid kód
 descr | Leírás
 desc_global | Ellátás típus leírás
 
-
+Lásd: [Demó adat](../src/php/Test/Responses/BoardsResponse.xml)
 
 #### RoomTypesRequest
 
@@ -161,6 +162,7 @@ room_giata_id | Rövid kód
 room_configuration | Szoba konfigurációi, A – felnőtt, C - gyermek
 room_descr_#pax | Szoba leírás létszámtól függően
 
+Lásd: [Demó adat](../src/php/Test/Responses/RoomTypesResponse.xml)
 
 #### AirportsRequest
 
@@ -199,6 +201,7 @@ a_type | + = Otthoni, - = Külföldi
 a_id | Reptér kódja
 a_descr | Leírás
 
+Lásd: [Demó adat](../src/php/Test/Responses/AirportsResponse.xml)
 
 #### OtherPricesRequest
 
@@ -247,6 +250,7 @@ PaxT | Személyek száma maximum
 type1 | 1 = személyenként alkalmazandó,  S = szerződésenként alkalmazandó
 type2 | R = kérésre, N = kötelező
 
+Lásd: [Demó adat](../src/php/Test/Responses/OtherPricesResponse.xml)
 
 #### AccomodationPriceTypesRequest
 
@@ -282,6 +286,7 @@ season | Szezon kódja
 price_abb | Ár kódja	
 price_descr | Leírás
 
+Lásd: [Demó adat](../src/php/Test/Responses/AccomodationPrceResponse.xml)
 
 #### ExtrasRequest
 
@@ -353,8 +358,9 @@ PaxT | Személyek száma maximum
 type1 | 1 = személyenként alkalmazandó,  S = szerződésenként alkalmazandó
 type2 | R = kérésre, N = kötelező
 
+Lásd: [Demó adat](../src/php/Test/Responses/ExtrasResponse.xml)
 
-#### PriceAvailiablityCheckRequest
+#### PriceAvailabilityCheckRequest
 
 A Csomag azonosító, szállás típus, ellátás és utas adatok alapján árkalkuláció készítése
 
@@ -400,7 +406,6 @@ Rcpt* | email cím
 UserName* | Név
 	
 \* Csak akkor kell, ha foglalás is történik
-
 
 XML válasz
 
@@ -571,6 +576,7 @@ bnr_exp* | Opciós foglalás lejárata
 
 \* Csak abban az esetben ha foglalni is szeretnénk
 
+Lásd: [Demó adat](../src/php/Test/Responses/PriceAvailabilityCheckResponse.xml)
 
 #### BookingInfoRequest
 
@@ -619,6 +625,7 @@ Package_id | Csomag azonostó (Term ID)
 Bnr_room | Szoba típus
 Bnr_seat | Személyek száma (utaztatáshoz)
 
+Lásd: [Demó adat](../src/php/Test/Responses/BookingInfoResponse.xml)
 
 #### AvailabilityCheckRequest
 
@@ -668,6 +675,7 @@ ReqID | A kalkuláció egyedi azonosítója
 Book | Y/N/R  Foglalható / Nem foglalható / Lekérésre
 LastCap | Y/N Utolsó szoba (igen / nem)
 
+Lásd: [Demó adat](../src/php/Test/Responses/AvailabilityCheckResponse.xml)
 
 #### GetAddPriceRulesRequest
 
@@ -706,6 +714,7 @@ room_type | Szobatípus kódja
 board | Ellátás. (* esetén minden, egyébként az étkezés rövid kódja pl: FP, AI)
 add_price_types | Kötelező ár típusok
 
+Lásd: [Demó adat](../src/php/Test/Responses/GetAddPriceRulesResponse.xml)
 
 #### PaymentsByXMLDataInfoRequest
 
@@ -747,6 +756,7 @@ Mező | Érték leírása
 PaymentDate | Fizetési határidő
 PaymentAmount | Fizetendő összeg
 
+Lásd: [Demó adat](../src/php/Test/Responses/PaymentByXMLDataInfoResponse.xml)
 
 #### BookingDataRequest
 
@@ -841,6 +851,7 @@ Package_id | Csomag azonostó (Term ID)
 Bnr_room | Szoba típus
 Bnr_seat | Személyek száma (utaztatáshoz)
 
+Lásd: [Demó adat](../src/php/Test/Responses/BookingDataResponse.xml)
 
 #### BookingInfoRequest1
 
@@ -865,9 +876,7 @@ RBPwd | SWISS jelszó
 
 XML válasz
 
-Lásd: [Demó adat](/Test/Responses/BookingInfoResponse1.xml)
-
-
+Lásd: [Demó adat](../src/php/Test/Responses/BookingInfoResponse1.xml)
 
 
 #### BookingRemoveRequest
@@ -910,3 +919,5 @@ bnr_rlock | TODO
 package_id | Csomag azonosító
 bnr_room | Szoba típús
 bnr_seats | Létszám
+
+Lásd: [Demó adat](../src/php/Test/Responses/BookingRemoveResponse.xml)

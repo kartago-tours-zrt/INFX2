@@ -26,12 +26,12 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     $paxs = array('19990219','19990219','19990219');
 
     // ajánlat árképzésének betöltése
-    $file = './Responses/PriceAvailiablityCheckResponse.xml';
-    file_put_contents($file, PriceAvailiablityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs ));
+    $file = './Responses/PriceAvailabilityCheckResponse.xml';
+    file_put_contents($file, PriceAvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs ));
 
     // betöltjük a választ 
     // (éles rendszerben nem kell lementeni és betölteni!)
-    $xml2 = simplexml_load_file("./Responses/PriceAvailiablityCheckResponse.xml");
+    $xml2 = simplexml_load_file("./Responses/PriceAvailabilityCheckResponse.xml");
 
     // ha foglalható, ezt az ajánlatot lehet megjeleníteni
     if (trim($xml2->Control->ResponseStatus) == "success") {
