@@ -12,25 +12,20 @@ echo "Hotel adatok letöltése\r\n";
 $dt = new DateTime();
 $dt->sub(new DateInterval('P1D'));
 
-// params fileban rögzített helyről töltünk le a hotelinfokat
-$files = getFilteredFilesList($infxhotels, $dt);
-echo "Összes letöltendő file: " . count($files) . "\r\n";
-downloadList($files, $infxhotels, dirname(__FILE__) . $localHotelPath);
+// // params fileban rögzített helyről töltünk le a hotelinfokat
+// $files = getFilteredFilesList($infxhotels, $dt);
+// echo "Összes letöltendő file: " . count($files) . "\r\n";
+// downloadList($files, $infxhotels, dirname(__FILE__) . $localHotelPath);
 
-// képek letöltése (ugyan azt a dátumot használhatjuk)
-$files = getFilteredFilesList($infxphotos, $date);
-echo "Összes letöltendő file: " . count($files) . "\r\n";
-downloadList($files, $infxphotos, dirname(__FILE__) . $localImagesPath);
+// // képek letöltése (ugyan azt a dátumot használhatjuk)
+// $files = getFilteredFilesList($infxphotos, $date);
+// echo "Összes letöltendő file: " . count($files) . "\r\n";
+// downloadList($files, $infxphotos, dirname(__FILE__) . $localImagesPath);
 
 
 // Mai nap, tegnapi adat nem kell
 $dt = new DateTime('12:00am');
 $filelist = getFilteredFilesList($infxdata , $dt);
-
-// foreach ($filelist as $file) {
-//     //var_dump($file);
-//     echo $file->name . " - " . $file->date->format('Y-m-d H:i') . "\r\n";
-// }
 
 // INFX file letöltése (a tömörítettet!)
 // file keresése

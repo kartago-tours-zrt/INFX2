@@ -247,42 +247,12 @@ XML;
   // ReqID beállítása 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
 
-	 return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML()); 
 }
 
-function BookingDataRequest($base, $paxs)
+function GeneratePaxRequest($paxs)
 {
-	$bdr = <<<XML
-<BookingDataRequest>
-  <bnr></bnr>
-  <xmls3>
-    <contractdata>
-    	<bnr></bnr>
-      <partner_addr_id></partner_addr_id>
-      <partner_addr_type></partner_addr_type>
-      <address_customer>
-        <pax_id></pax_id>
-        <fname></fname>
-        <sname></sname>
-        <title />
-        <street></street>
-        <city></city>
-        <post_code></post_code>
-        <country></country>
-        <phone></phone>
-        <email></email>
-      </address_customer>
-      <paxs>
-      </paxs>
-			<calculation>
-        <ReqID></ReqID>
-      </calculation>
-    </contractdata>
-  </xmls3>
-</BookingDataRequest>
-XML;
-
-$paxrecord = <<<XML
+	$paxrecord = <<<XML
 <pax>
 	<pax_id></pax_id>
 	<fname></fname>
@@ -296,30 +266,41 @@ $paxrecord = <<<XML
 </pax>
 XML;
 
-	$xml = simplexml_load_string($bdr);
+$paxsrecord = <<<XML
+<address_customer>
+	<pax_id></pax_id>
+	<fname></fname>
+	<sname></sname>
+	<title />
+	<street></street>
+	<city></city>
+	<post_code></post_code>
+	<country></country>
+	<phone></phone>
+	<email></email>
+</address_customer>
+<paxs></paxs>
+XML;
+
+
+	$res = simplexml_load_string($paxsrecord);
 	
-	$xml->bnr = $base->Booking->bnr;
-	AddAuthentication($xml,0);
-
-	$xml->xmls3->contractdata->bnr = $base->Booking->bnr;
-	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
-	$xml->xmls3->contractdata->partner_addr_type = 0;
-
 	// customer data
-	$xml->xmls3->contractdata->address_customer->pax_id = 1;
-	$xml->xmls3->contractdata->address_customer->fname = $paxs[0]['name'];
-	$xml->xmls3->contractdata->address_customer->sname = $paxs[0]['sname'];
-	$xml->xmls3->contractdata->address_customer->title = $paxs[0]['title'];
-	$xml->xmls3->contractdata->address_customer->street = $paxs[0]['street'];
-	$xml->xmls3->contractdata->address_customer->city = $paxs[0]['city'];
-	$xml->xmls3->contractdata->address_customer->post_code = $paxs[0]['post_code'];
-	$xml->xmls3->contractdata->address_customer->country = $paxs[0]['country'];
-	$xml->xmls3->contractdata->address_customer->phone = $paxs[0]['phone'];
-	$xml->xmls3->contractdata->address_customer->email = $paxs[0]['email'];
+	$paxsrecord->address_customer->pax_id = 1;
+	$paxsrecord->address_customer->fname = $paxs[0]['name'];
+	$paxsrecord->address_customer->sname = $paxs[0]['sname'];
+	$paxsrecord->address_customer->title = $paxs[0]['title'];
+	$paxsrecord->address_customer->street = $paxs[0]['street'];
+	$paxsrecord->address_customer->city = $paxs[0]['city'];
+	$paxsrecord->address_customer->post_code = $paxs[0]['post_code'];
+	$paxsrecord->address_customer->country = $paxs[0]['country'];
+	$paxsrecord->address_customer->phone = $paxs[0]['phone'];
+	$paxsrecord->address_customer->email = $paxs[0]['email'];
 
 	// paxs
-	$paxcount = count($paxs);
 	$paxxml = simplexml_load_string($paxrecord);
+	$paxcount = count($paxs);
+	
 	for($x = 1; $x < $paxcount; $x++) {
 		$paxxml->pax_id = $paxs[$x]['id'];
 		$paxxml->fname = $paxs[$x]['fname'];
@@ -330,12 +311,109 @@ XML;
 		$paxxml->bd = $paxs[$x]['bd'];
 		$paxxml->passport = $paxs[$x]['passport'];
 		$paxxml->nationality = $paxs[$x]['nationality'];
-		xml_adopt($xml->xmls3->contractdata->paxs ,$paxxml);
+		xml_adopt($res->paxs ,$paxxml);
 	}
+
+	return $res;
+}
+
+
+function BookingDataRequest($base, $paxs)
+{
+	$bdr = <<<XML
+<BookingDataRequest>
+  <bnr></bnr>
+  <xmls3>
+    <contractdata>
+    	<bnr></bnr>
+      <partner_addr_id></partner_addr_id>
+      <partner_addr_type></partner_addr_type>
+      
+      
+			<calculation>
+        <ReqID></ReqID>
+      </calculation>
+    </contractdata>
+  </xmls3>
+</BookingDataRequest>
+XML;
+
+	$xml = simplexml_load_string($bdr);
+	
+	$xml->bnr = $base->Booking->bnr;
+	AddAuthentication($xml,0);
+
+	$xml->xmls3->contractdata->bnr = $base->Booking->bnr;
+	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
+	$xml->xmls3->contractdata->partner_addr_type = 0;
+
+	xml_adopt($xml->xmls3->contractdata, GeneratePaxRequest($paxs)); 
+	
 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
 
 	return infx2post($xml->asXML()); 
+}
+
+
+// Paraméterben várja a <PriceAvailabilityCheckResponse> eredményét -> $base
+// $extras array tartalmazza az extra felárakat, amit kérnek (mindent csak 1x, a rendszer automatikusan minden utasra felrakja) 
+function GeneratePrices($base, $extras)
+{
+	$restemplate = <<<XML
+<calculation>
+	<ReqID></ReqID>
+	<base_prices>
+	</base_prices>
+	<extras>
+	</extras>
+</calculation>
+XML;
+
+	// first base prices
+	$basepricestemplate = <<<XML
+<price_record>
+	<pax_id></pax_id>
+	<quantity></quantity>
+	<item></item>
+	<item_d></item_d>
+	<base_price></base_price>
+	<discount></discount>
+	<final_price></final_price>
+	<price_type></price_type>
+	<price_type_d />
+</price_record>
+XML;
+
+	$extrarecordtemplate = <<<XML
+<price_record>
+	<pax_id></pax_id>
+	<quantity></quantity>
+	<item></item>
+	<item_d></item_d>
+	<base_price></base_price>
+	<discount></discount>
+	<final_price></final_price>
+</price_record>
+XML;
+
+	$baseprices = $base->Package->PriceDetails->PriceInfos->Priceinfo;
+	$basepricecount = count($baseprices);
+
+	$res = simplexml_load_string($restemplate);
+
+	$baseprice = simplexml_load_string($basepricestemplate);
+	for($x = 1; $x < $basepricecount; $x++) {
+		$baseprice->pax_id = $baseprices[$x]->pax_id;
+		$baseprice->quantity = $baseprices[$x]->quantity;
+		$baseprice->item = $baseprices[$x]->item;
+		$baseprice->item_d = $baseprices[$x]->item_d;
+		$baseprice->base_price = $baseprices[$x]->price;
+		$baseprice->discount = $baseprices[$x]->pax_id;
+		$baseprice->final_price = $baseprices[$x]->pax_id;
+		$baseprice->price_type = $baseprices[$x]->pax_id;
+		$baseprice->price_type_d = $baseprices[$x]->pax_id;
+	}
 }
 
 ?>

@@ -3,6 +3,6 @@
 
 ## src/php/Test/Hotels/*.*
 ## src/php/Test/Hotels/Images/*.*
-## src/php/Test/infxFiles/*.*
+src/php/Test/infxFiles/*.*
 src/php/Test/Test*.php
 src/php/Test/Responses/*Test.xml
