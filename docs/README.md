@@ -31,6 +31,7 @@ Az adatok nagy része offline elérhető. Ezek egy része XML formátumú, egy m
 - [Szálloda adatok](HotelsInfo.md) - frissítés alkalmanként, ha változtatás történt
 - [Alapárak](BasePrices.md) - minden éjjel egy alaklommal, kiegészítő frissítése (külön fileban) 2 óránként, csak ha volt változás, csak a változott tételeket tartalmazza
 - [Felárak](AdditionalPrices.md) - frissítése minden éjjel egy alaklommal
+> **Javaslat!** A legjobb implementáció esetén az árak letöltése nem szükséges, mivel az alapárakat az INFX2.TXT file tartalmazza, a többi árat meg online le lehet kérni.
 
 #### TXT formátumban letölthető adatok
 
@@ -39,7 +40,7 @@ Az adatok nagy része offline elérhető. Ezek egy része XML formátumú, egy m
 #### [Képek](Pictures.md)
 
 - Minden kép egy sorszámmal van azonosítva, ez a kép neve. A szállodainfóban hivatkozás erre a névre történik. 
-> Közel 2600 szálloda 40.000 fotója van a rendszerben. Ez nagy mennyiség, ezért ezek frissítésére (szálloda infó + képek) konkrét megoldásunk van a leírásban. 
+> Közel 2600 szálloda 40.000 fotója van a rendszerben. Ez nagy mennyiség, ezért ezek frissítésére (szálloda infó + képek) konkrét megoldásunk van a leírásban. Érdemes ezt vagy ehhez hasonlót implementálni, mivel a sávszélesség korlátos.
 
 ### API hívások
 
