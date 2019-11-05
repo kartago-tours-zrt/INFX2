@@ -1,6 +1,6 @@
 <?php
 
-// fileinfo listában léfő fileokat tölti le a megadott url-ről a $path -ban lévő helyre.
+// filelist listában léfő fileokat tölti le a megadott url-ről a $path -ban lévő helyre.
 function downloadList($filelist, $url, $path)
 {
     foreach ($filelist as $fileinfo) {

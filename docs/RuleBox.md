@@ -28,7 +28,7 @@ Azok a funkciók, amelyek konkrét foglalással kapcsolatosak bekérnek felhaszn
 
 A [swiss online](https://swiss.kartagotours.hu) programba belépve  a felhasználó adatai menüpontnál az alábbihoz hasonló képet kapunk. Itt találhatóak a hitelesítő adatok, amelyeket egyes kéréseknél át kell adni.
 
-![image](/images/SwissInfo.png)
+![image](images/SwissInfo.png)
 
 Erről a SWISS_ID és a SWISS_RBPwd azonosítók kellenek. (Az azonosítás nem felhasználó, hanem, partner specifikus!)
 
