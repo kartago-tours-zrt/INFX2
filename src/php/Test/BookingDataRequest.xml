@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<BookingDataRequest>
+  <bnr>386000372</bnr>
+  <xmls3>
+    <contractdata>
+    	<bnr>386000372</bnr>
+      <partner_addr_id>943</partner_addr_id>
+      <partner_addr_type>0</partner_addr_type>
+			<calculation>
+        <ReqID>D6937D81-836F-4252-84FC-069B4F738094</ReqID>
+      </calculation>
+    <address_customer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>1</pax_id><fname>Geza</fname><sname>Proba</sname><title/><street>Locsei ut 57</street><city>Budapest</city><post_code>1147</post_code><country>HUN</country><phone>209472212</phone><email>admin@kartagotours.hu</email></address_customer><paxs><pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>1</pax_id><fname>Geza</fname><sname>Proba</sname><title/><idcrm/><sex>M</sex><bd>03.09.1973</bd><passport/><nationality>HUN</nationality></pax><pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>2</pax_id><fname>Piroska</fname><sname>Proba</sname><title/><idcrm/><sex>W</sex><bd>21.09.1989</bd><passport/><nationality>HUN</nationality></pax><pax>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<pax_id>3</pax_id><fname>Bella</fname><sname>Proba</sname><title/><idcrm/><sex>W</sex><bd>01.01.2010</bd><passport/><nationality>HUN</nationality></pax></paxs></contractdata>
+  </xmls3>
+<PartnerID>943</PartnerID><RBPwd>0kM180F9</RBPwd></BookingDataRequest>

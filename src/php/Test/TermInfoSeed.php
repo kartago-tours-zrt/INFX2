@@ -1,4 +1,10 @@
 <?php
+/* 
+    Online információ lekérése egy kiválasztott ajánlatról
+    Itt most a params.php file tartalmazza, melyik ajánlatot akarjuk foglalni
+
+    Előzetesen tudnunk kell hányan utaznak és az életkorokat.
+*/
 require_once('../params.php');
 
 include '../api_infx2/infxservice.php';
@@ -23,7 +29,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // utasok életkorai, a helyes árképzéshez 
     // (nem kell pontosan, de gyerek hazaérkezéskor ne legyen idősebb mint az itt megadott,
     // felnőttek esetében lényegtelen, csak 18 évnél idősebb legyen beállítva)
-    $paxs = array('19990219','19990219','19990219');
+    $paxs = array('19990219','19990219','20100219');
 
     // ajánlat árképzésének betöltése
     $file = './Responses/PriceAvailabilityCheckResponse.xml';

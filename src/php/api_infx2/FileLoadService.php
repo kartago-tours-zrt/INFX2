@@ -86,12 +86,13 @@ function file_download($url, $filename, $path)
 // web folder adatsor fileinfo-vá alakítása
 function get_fileinfo($row)
 {
-    if (preg_match('/(?<time>.*)(?<D>[PA]M)(?<size>.*)<a href=\".*\">(?<name>.*)<\/a>/i', $row, $matches)) //
+    $ret = new \stdClass();
+    if (preg_match('/(?<time>.*)(?<D>[PA]M)(?<size>.*)<A HREF=\".*\">(?<name>.*)<\/a>/i', $row, $matches)) //
     {
         $ret->name =  trim($matches["name"]);
         $ret->size = intval($matches["size"]);
         $ret->date = date_create_from_format('D, M d, Y H:i', trim($matches["time"]));
-        if ($mathes["D"] == "PM")
+        if ($matches["D"] == "PM")
         {
             $ret->date->add(new DateInterval('PT10H'));
         }

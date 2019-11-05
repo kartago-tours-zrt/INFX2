@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PaymentsByXMLDataInfoRequest>
+  <bnr>386000372</bnr>
+  <xmls3>
+    <contractdata>
+      <calculation>
+        <ReqID/>
+      </calculation>
+    <bnr>386000372</bnr><partner_addr_id>943</partner_addr_id><partner_addr_type>0</partner_addr_type></contractdata>
+  </xmls3>
+<PartnerID>943</PartnerID><RBPwd>0kM180F9</RBPwd></PaymentsByXMLDataInfoRequest>

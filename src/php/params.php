@@ -12,8 +12,8 @@ $swiss_RBPwd = '0kM180F9';
 $swiss_user_name = 'Lacika';
 $swiss_rcpt = 'home.voxo.hu';
 
-$tesztAjanlat = "2431452";
-$tesztAjanlatSzobaTipus = "2+1_PRE";
-$tesztAjanlatGiata = "A";
-
+$tesztAjanlat = "2444528";
+$tesztAjanlatSzobaTipus = "2+1_GV";
+$tesztAjanlatGiata = "H";
+$hazaerkezes = '18.02.2020'
 ?>

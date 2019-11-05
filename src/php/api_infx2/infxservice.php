@@ -2,7 +2,13 @@
 
 require_once('xml_adopt.php');
 
-function infx2post($request) {
+function infx2post($request, $requestFileName = "") {
+
+if ($requestFileName != "")
+{
+	file_put_contents($requestFileName, $request);
+}
+
 
 $fields = [
     'rXML'      => $request
@@ -144,7 +150,7 @@ XML;
 		xml_adopt($xml->PaxDetails, $xmlpaxdetail);
 	}
 
-	return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML(), "PriceAvailabilityCheckRequest.xml"); 
 }
 
 function BookingInfoRequest($bnr)
@@ -209,7 +215,7 @@ XML;
 	$xml->PaxCount = $paxcount;
 	$xml->RoomCount = $roomcount;
 	
-	return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML(), "AvailabilityCheckRequest.xml"); 
 }
 
 function GetAddPriceRulesRequest()
@@ -221,7 +227,7 @@ XML;
 	return infx2post($xmlstr); 
 }
 
-function PaymentsByXMLDataInfoRequest($base)
+function PaymentsByXMLDataInfoRequest($basedata)
 {
 	$bdr = <<<XML
 <PaymentsByXMLDataInfoRequest>
@@ -247,12 +253,49 @@ XML;
   // ReqID beállítása 
 	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
 
-	return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML(), "PaymentsByXMLDataInfoRequest.xml"); 
+}
+
+function GenerateCustomerRequest($paxs)
+{
+
+
+$paxsrecord = <<<XML
+<address_customer>
+	<pax_id></pax_id>
+	<fname></fname>
+	<sname></sname>
+	<title></title>
+	<street></street>
+	<city></city>
+	<post_code></post_code>
+	<country></country>
+	<phone></phone>
+	<email></email>
+</address_customer>
+XML;
+
+	$res = simplexml_load_string($paxsrecord);
+	
+	// customer data
+	$res->pax_id = 1;
+	$res->fname = $paxs[0]['name'];
+	$res->sname = $paxs[0]['sname'];
+	$res->title = $paxs[0]['title'];
+	$res->street = $paxs[0]['street'];
+	$res->city = $paxs[0]['city'];
+	$res->post_code = $paxs[0]['post_code'];
+	$res->country = $paxs[0]['country'];
+	$res->phone = $paxs[0]['phone'];
+	$res->email = $paxs[0]['email'];
+
+	return $res;
 }
 
 function GeneratePaxRequest($paxs)
 {
-	$paxrecord = <<<XML
+
+$paxrecord = <<<XML
 <pax>
 	<pax_id></pax_id>
 	<fname></fname>
@@ -266,36 +309,12 @@ function GeneratePaxRequest($paxs)
 </pax>
 XML;
 
+
 $paxsrecord = <<<XML
-<address_customer>
-	<pax_id></pax_id>
-	<fname></fname>
-	<sname></sname>
-	<title />
-	<street></street>
-	<city></city>
-	<post_code></post_code>
-	<country></country>
-	<phone></phone>
-	<email></email>
-</address_customer>
 <paxs></paxs>
 XML;
 
-
 	$res = simplexml_load_string($paxsrecord);
-	
-	// customer data
-	$paxsrecord->address_customer->pax_id = 1;
-	$paxsrecord->address_customer->fname = $paxs[0]['name'];
-	$paxsrecord->address_customer->sname = $paxs[0]['sname'];
-	$paxsrecord->address_customer->title = $paxs[0]['title'];
-	$paxsrecord->address_customer->street = $paxs[0]['street'];
-	$paxsrecord->address_customer->city = $paxs[0]['city'];
-	$paxsrecord->address_customer->post_code = $paxs[0]['post_code'];
-	$paxsrecord->address_customer->country = $paxs[0]['country'];
-	$paxsrecord->address_customer->phone = $paxs[0]['phone'];
-	$paxsrecord->address_customer->email = $paxs[0]['email'];
 
 	// paxs
 	$paxxml = simplexml_load_string($paxrecord);
@@ -311,14 +330,14 @@ XML;
 		$paxxml->bd = $paxs[$x]['bd'];
 		$paxxml->passport = $paxs[$x]['passport'];
 		$paxxml->nationality = $paxs[$x]['nationality'];
-		xml_adopt($res->paxs ,$paxxml);
+		xml_adopt($res ,$paxxml);
 	}
 
 	return $res;
 }
 
 
-function BookingDataRequest($base, $paxs)
+function BookingDataRequest($base, $paxs, $extras, $endDate)
 {
 	$bdr = <<<XML
 <BookingDataRequest>
@@ -328,11 +347,8 @@ function BookingDataRequest($base, $paxs)
     	<bnr></bnr>
       <partner_addr_id></partner_addr_id>
       <partner_addr_type></partner_addr_type>
-      
-      
 			<calculation>
         <ReqID></ReqID>
-      </calculation>
     </contractdata>
   </xmls3>
 </BookingDataRequest>
@@ -347,28 +363,29 @@ XML;
 	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
 	$xml->xmls3->contractdata->partner_addr_type = 0;
 
+	xml_adopt($xml->xmls3->contractdata, GenerateCustomerRequest($paxs)); 
 	xml_adopt($xml->xmls3->contractdata, GeneratePaxRequest($paxs)); 
 	
+	xml_adopt($xml->xmls3->contractdata, GenerateCalculation($base, $extras, $endDate)); 
+	
 
-	$xml->xmls3->contractdata->calculation->ReqID = $base->Control->ReqID;
-
-	return infx2post($xml->asXML()); 
+	return infx2post($xml->asXML(), "BookingDataRequest.xml"); 
 }
-
 
 // Paraméterben várja a <PriceAvailabilityCheckResponse> eredményét -> $base
 // $extras array tartalmazza az extra felárakat, amit kérnek (mindent csak 1x, a rendszer automatikusan minden utasra felrakja) 
-function GeneratePrices($base, $extras)
+// $endDate a hazaérkezés dátuma 'nap.honap.ev' formátumban szövegesen. (xml adatokból)
+function GenerateCalculation($base, $extras, $endDate)
 {
-	$restemplate = <<<XML
-<calculation>
-	<ReqID></ReqID>
-	<base_prices>
-	</base_prices>
-	<extras>
-	</extras>
-</calculation>
-XML;
+	$calculationTemplate = <<<XML
+	<calculation>
+		<ReqID></ReqID>
+		<base_prices>
+		</base_prices>
+		<extras>
+		</extras>
+	</calculation>
+	XML;
 
 	// first base prices
 	$basepricestemplate = <<<XML
@@ -385,7 +402,7 @@ XML;
 </price_record>
 XML;
 
-	$extrarecordtemplate = <<<XML
+$extrarecordtemplate = <<<XML
 <price_record>
 	<pax_id></pax_id>
 	<quantity></quantity>
@@ -397,13 +414,17 @@ XML;
 </price_record>
 XML;
 
+	$res = simplexml_load_string($calculationTemplate);
+	$res->ReqID = $base->Control->ReqID;
+
+	// base prices
 	$baseprices = $base->Package->PriceDetails->PriceInfos->Priceinfo;
 	$basepricecount = count($baseprices);
+	
+	for($x = 0; $x < $basepricecount; $x++) {
 
-	$res = simplexml_load_string($restemplate);
+		$baseprice = simplexml_load_string($basepricestemplate);
 
-	$baseprice = simplexml_load_string($basepricestemplate);
-	for($x = 1; $x < $basepricecount; $x++) {
 		$baseprice->pax_id = $baseprices[$x]->pax_id;
 		$baseprice->quantity = $baseprices[$x]->quantity;
 		$baseprice->item = $baseprices[$x]->item;
@@ -413,7 +434,51 @@ XML;
 		$baseprice->final_price = $baseprices[$x]->pax_id;
 		$baseprice->price_type = $baseprices[$x]->pax_id;
 		$baseprice->price_type_d = $baseprices[$x]->pax_id;
+
+		xml_adopt($res->base_prices, $baseprice); 
 	}
+
+	$paxsdata = $paxs->pax;
+	$paxscount = count($paxsdata);
+
+	// utasokra extra felárak
+	for ($y = 0; $y < $paxscount; $y++) {
+	
+		$paxyearsold = GetYearsOld($endDate, $paxdata[$y]->bd);
+		// extras
+		$extraprices = $extras->Priceinfo;
+		$extrapricecount = count($extraprices);
+		
+		for($x = 0; $x < $extrapricecount; $x++) {
+
+			$extraprice = simplexml_load_string($extrarecordtemplate);
+
+			// az adott utas életkora megfelel e az ártípusnak?
+			if (!IsYearOk($endDate, $paxsdata[$y]->pax_bd, $extraprice->AgeF, $extraprice->AgeT )) continue;
+
+			$extraprice->pax_id = $paxdata[$y]->pax_id;
+			$extraprice->quantity = 1;
+			$extraprice->item = $extraprices[$x]->type;
+			$extraprice->item_d = $extraprices[$x]->descr;
+			$extraprice->base_price = $extraprices[$x]->price;
+			$extraprice->discount = '0%';
+			$extraprice->final_price = $extraprices[$x]->price;
+
+			xml_adopt($res->extras, $extraprice); 
+		}
+	} 
+
+	return $res;
+}
+
+// két dátum különbsége napokban 'nap.honap.év' formátumú szöveges dátumok között
+function IsYearOk($baseDate, $birth, $minYear, $maxYear)
+{
+	$endDate = DateTime::createFromFormat('d.m.Y', $baseDate);
+	$birthDate = DateTime::createFromFormat('d.m.Y', $birth);
+	if ($birthDate->add(new DateInterval('P'.$minYear.'Y')) >= $endDate) return false;
+	if ($birthDate-add(new DateInterval('P'.$maxYear.'Y')) < $endDate) return false;
+	return true;
 }
 
 ?>

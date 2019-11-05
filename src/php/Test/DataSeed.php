@@ -1,4 +1,8 @@
 <?php 
+/*
+    Online törzsadatok letöltése
+*/
+
 require_once('../params.php');
 
 include '../api_infx2/infxservice.php';

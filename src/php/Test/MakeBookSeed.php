@@ -1,4 +1,8 @@
 <?php
+/* 
+    Foglalás elkészítése
+    Itt most a params.php file tartalmazza, melyik ajánlatot akarjuk foglalni
+*/
 require_once('../params.php');
 
 include '../api_infx2/infxservice.php';
@@ -19,17 +23,38 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // utasok életkorai, a helyes árképzéshez 
     // (nem kell pontosan, de gyerek hazaérkezéskor ne legyen idősebb mint az itt megadott,
     // felnőttek esetében lényegtelen, csak 18 évnél idősebb legyen beállítva)
-    $paxs = array('19990219','19990219','19990219');
+    $paxs = array('19990219','19990219','20100219');
 
     // ajánlat árképzésének betöltése
     $file = './Responses/PriceAvailabilityCheckMakeBookingResponse.xml';
     // utolsó paraméter nem 0, ezért opciós ajánlat készül
-    file_put_contents($file, PriceAvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs, 1 ));
+    //file_put_contents($file, PriceAvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs, 1 ));
 
     // betöltjük a választ 
     // (éles rendszerben nem kell lementeni és betölteni!)
     $xml2 = simplexml_load_file("./Responses/PriceAvailabilityCheckMakeBookingResponse.xml");
 
+    // extra felárak. Teszt miatt ebből kiválasztjuk a silver biztosítást, a storno biztosítást és a parkolást
+    // ez itt most erre a foglalásra igaz, más foglalásnál egyedileg kell megnézni, milyen lehetőségek vannak.
+    // a lehetőségek a ExtrasResponse.xml-ben vannak
+    $extrasFull = simplexml_load_file("./Responses/ExtrasResponse.xml");
+    
+    $extras[] = [];
+    foreach ($extrasFull->extras->extra as $extra) {
+        if ($extra->type == 'z.poj.online.silver.8')
+        {
+            $extras[] = $extra;
+        }
+        if ($extra->type == 'STOREXTA-LPA')
+        {
+            $extras[] = $extra;
+        }
+        if ($extra->type == 'Parking_BUD - 8 nap')
+        {
+            $extras[] = $extra;
+        }
+    }
+    
     // ha foglalható, ezt az ajánlatot lehet megjeleníteni
     if (trim($xml2->Control->ResponseStatus) == "success") {
         
@@ -45,16 +70,16 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
             // utasadatok 
             $customer = array ("name"=>"Geza", "sname"=>"Proba", "title"=>"",
             "street"=>"Locsei ut 57", "city"=>"Budapest", "post_code"=>"1147",
-            "country"=>"Hungary", "phone"=>"209472212", "email"=>"admin@kartagotours.hu");
+            "country"=>"HUN", "phone"=>"209472212", "email"=>"admin@kartagotours.hu");
         
             $pax1 = array ("id"=>"1", "fname"=>"Geza", "sname"=>"Proba",
                         "title"=>"", "idcrm"=>"", "sex"=>"M",
                         "bd"=>"03.09.1973", "passport"=>"", "nationality"=>"HUN");
             $pax2 = array ("id"=>"2", "fname"=>"Piroska", "sname"=>"Proba",
-                        "title"=>"", "idcrm"=>"", "sex"=>"F",
+                        "title"=>"", "idcrm"=>"", "sex"=>"W",
                         "bd"=>"21.09.1989", "passport"=>"", "nationality"=>"HUN");
             $pax3 = array ("id"=>"3", "fname"=>"Bella", "sname"=>"Proba",
-                        "title"=>"", "idcrm"=>"", "sex"=>"F",
+                        "title"=>"", "idcrm"=>"", "sex"=>"W",
                         "bd"=>"01.01.2010", "passport"=>"", "nationality"=>"HUN");
 
             // utasadatok tömb: szerződő és az utasok
@@ -62,7 +87,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
 
             // Szerződő és utas adatok átadása
             $file = './Responses/BookingDataResponse.xml';
-            file_put_contents($file, BookingDataRequest($xml2, $paxs));
+            file_put_contents($file, BookingDataRequest($xml2, $paxs, $extras, $endDate));
 
             // fizetési ütemezés lekérése
             $file = './Responses/PaymentsByXMLDataInfoResponse.xml';
@@ -74,9 +99,8 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
 
             // Ez csak teszt, töröljük is le a foglalást!!
             $file = './Responses/BookingRemoveResponse.xml';
-            file_put_contents($file, BookingRemoveRequest($bnr));
+            //file_put_contents($file, BookingRemoveRequest($bnr));
         }
-    
     }
 }
 

@@ -4,16 +4,16 @@
     <ResponseStatus>success             </ResponseStatus>
     <ResponseMessage>
     </ResponseMessage>
-    <ReqID>D4394931-3138-4586-A436-24FC021FB20C</ReqID>
+    <ReqID>C2A11E99-7F33-4BFA-8AA1-BC7327E63B07</ReqID>
   </Control>
   <Package>
     <ReqDetails>
-      <PackageID>2431452</PackageID>
-      <RoomType>2+1_PRE        </RoomType>
-      <BoardType>A         </BoardType>
-      <hotel_a1>SSHREF                        </hotel_a1>
-      <season_id>5</season_id>
-      <season_dsc>HUNKAS19  </season_dsc>
+      <PackageID>2444528</PackageID>
+      <RoomType>2+3_FR         </RoomType>
+      <BoardType>V         </BoardType>
+      <hotel_a1>LPALBH                        </hotel_a1>
+      <season_id>6</season_id>
+      <season_dsc>HUNKAW19  </season_dsc>
       <hotel_type>L</hotel_type>
       <Paxs>
         <Pax>
@@ -26,19 +26,19 @@
         </Pax>
         <Pax>
           <pax_id>3</pax_id>
-          <pax_bd>19.02.1999</pax_bd>
+          <pax_bd>19.02.2010</pax_bd>
         </Pax>
       </Paxs>
     </ReqDetails>
     <PriceDetails>
-      <PackagePrice>700400.0000</PackagePrice>
+      <PackagePrice>1952800.0000</PackagePrice>
       <PriceInfos>
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
           <item>DBL</item>
           <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-          <price>230900.0000</price>
+          <price>459900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -47,9 +47,9 @@
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
-          <item>SLV*EB3*DBL</item>
-          <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
-          <price>-46300.0000</price>
+          <item>SUP FR</item>
+          <item_d>Családi szoba felnott felár/ fo</item_d>
+          <price>160900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -58,9 +58,20 @@
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
-          <item>OSRB_SSH</item>
-          <item_d>Reptéri illeték - SSH</item_d>
-          <price>54900.0000</price>
+          <item>OSRB_LPA</item>
+          <item_d>Reptéri illeték - LPA</item_d>
+          <price>39900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>1</pax_id>
+          <quantity>1</quantity>
+          <item>SUP FB</item>
+          <item_d>Teljes panzió felnott felár/ fo</item_d>
+          <price>91900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -71,7 +82,7 @@
           <quantity>1</quantity>
           <item>DBL</item>
           <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-          <price>230900.0000</price>
+          <price>459900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -80,9 +91,9 @@
         <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
-          <item>SLV*EB3*DBL</item>
-          <item_d>FM márc.20-ig-2 ágyas szoba felnott ár/ fo</item_d>
-          <price>-46300.0000</price>
+          <item>SUP FR</item>
+          <item_d>Családi szoba felnott felár/ fo</item_d>
+          <price>160900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -91,9 +102,20 @@
         <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
-          <item>OSRB_SSH</item>
-          <item_d>Reptéri illeték - SSH</item_d>
-          <price>54900.0000</price>
+          <item>OSRB_LPA</item>
+          <item_d>Reptéri illeték - LPA</item_d>
+          <price>39900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>2</pax_id>
+          <quantity>1</quantity>
+          <item>SUP FB</item>
+          <item_d>Teljes panzió felnott felár/ fo</item_d>
+          <price>91900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -102,9 +124,9 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>1EXBED</item>
-          <item_d>1. felnott pótágyon ár/ fo</item_d>
-          <price>205900.0000</price>
+          <item>1CHEXB-1</item>
+          <item_d>1. gyermek pótágyon ár  13 éves korig</item_d>
+          <price>280900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -113,9 +135,9 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>SLV*EB3*1EXBED</item>
-          <item_d>FM márc.20-ig-1. felnott pótágyon ár/ fo</item_d>
-          <price>-39400.0000</price>
+          <item>SUP FR1CH-1</item>
+          <item_d>Családi szoba 1. gyermek felár 13 éves korig</item_d>
+          <price>80900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -124,9 +146,20 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>OSRB_SSH</item>
-          <item_d>Reptéri illeték - SSH</item_d>
-          <price>54900.0000</price>
+          <item>OSRB_LPA</item>
+          <item_d>Reptéri illeték - LPA</item_d>
+          <price>39900.0000</price>
+          <price_type>C</price_type>
+          <price_type_d />
+          <rb_d>N</rb_d>
+          <rb_id>0</rb_id>
+        </PriceInfo>
+        <PriceInfo>
+          <pax_id>3</pax_id>
+          <quantity>1</quantity>
+          <item>SUP FB1CHD-1</item>
+          <item_d>Teljes panzió 1. gyermek felár 13 éves korig</item_d>
+          <price>45900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>

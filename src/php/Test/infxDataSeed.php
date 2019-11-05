@@ -1,4 +1,10 @@
 <?php
+
+/*
+    Az offline fileok letöltése
+
+*/
+
 require_once('../params.php');
 
 include '../api_infx2/FileLoadService.php';
@@ -12,10 +18,10 @@ echo "Hotel adatok letöltése\r\n";
 $dt = new DateTime();
 $dt->sub(new DateInterval('P1D'));
 
-// // params fileban rögzített helyről töltünk le a hotelinfokat
-// $files = getFilteredFilesList($infxhotels, $dt);
-// echo "Összes letöltendő file: " . count($files) . "\r\n";
-// downloadList($files, $infxhotels, dirname(__FILE__) . $localHotelPath);
+// params fileban rögzített helyről töltünk le a hotelinfokat
+$files = getFilteredFilesList($infxhotels, $dt);
+echo "Összes letöltendő file: " . count($files) . "\r\n";
+downloadList($files, $infxhotels, dirname(__FILE__) . $localHotelPath);
 
 // // képek letöltése (ugyan azt a dátumot használhatjuk)
 // $files = getFilteredFilesList($infxphotos, $date);
@@ -25,7 +31,9 @@ $dt->sub(new DateInterval('P1D'));
 
 // Mai nap, tegnapi adat nem kell
 $dt = new DateTime('12:00am');
+// szerveren elérhető fileok listája
 $filelist = getFilteredFilesList($infxdata , $dt);
+// az így kapott listában keressük a nekünk szükséges fileokat
 
 // INFX file letöltése (a tömörítettet!)
 // file keresése
@@ -41,21 +49,21 @@ $files = findFilesFromFilteredList($filelist, "updt_infx2_", ".txt.zip");
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
 
-// Price list letöltése
+// Price list letöltése. Igazi online működés esetén nem szükséges
 // file keresése
 $files = findFilesFromFilteredList($filelist, "pl_infx2_", ".xml.zip");
 // letöltés
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
 
-// Extrák letöltése
+// Extrák letöltése. Igazi online működés esetén nem szükséges
 // file keresése
 $files = findFilesFromFilteredList($filelist, "extras_list_", ".xml.zip");
 // letöltés
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
 
-// Price list update letöltése
+// Price list update letöltése. Igazi online működés esetén nem szükséges
 // file keresése
 $files = findFilesFromFilteredList($filelist, "pl_updt_", ".xml");
 // letöltés
