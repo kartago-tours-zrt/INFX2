@@ -16,6 +16,9 @@
 ```
 
 Offer adatai:
+
+Mező | Leírás
+---- | ----
 code | Szálloda kódja (lásd Kartago.xml leírást)
 hotel_dsc | Szálloda megnevezés
 season | szezon azonosító (lásd Kartago.xml leírást)
@@ -32,6 +35,9 @@ KatalogPrice | Katalógus ára a fő utasnak
 Price | Ár a fő utasnak
 
 Price adatai:
+
+Mező | Leírás
+---- | ----
 PersonNumber | Az ajánlaton belül a szemlyeket sorszámmal látjuk el. (Felnőtt és gyermek is.)
 MinAge | Minimum korhatár akire az ár érvényes (Ezt már be kell töltenie hazaérkezéskor)
 MaxAge | Maximum korhatár akire az ár érvényes (ezt még nem töltheti be hazaérkezéskor)

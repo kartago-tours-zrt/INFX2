@@ -35,9 +35,6 @@
 </kartago_xml>
 ```
 
-```XML
-
-```
 
 ## season
 
@@ -50,6 +47,8 @@
 </season>
 ```
 
+Mező | Leírás
+---- | ----
 SID	|	Szezon azonosítója
 dsc	|	Szezon kódja	
 isActive	|	Y/N	Aktív vagy nem
@@ -68,6 +67,8 @@ isActive	|	Y/N	Aktív vagy nem
 </board>
 ```
 
+Mező | Leírás
+---- | ----
 season	|	Szezon kódja
 code |	Ellátás kódja
 giata_code |	Rövid kód
@@ -96,6 +97,8 @@ desc_global |	Ellátás típus leírás
 </room>
 ```
 
+Mező | Leírás
+---- | ----
 season	|	Szezon kódja
 room_swiss_id	|	szoba swiss azonosító
 room_giata_id	|	Rövid kód
@@ -114,6 +117,8 @@ room_descr_#pax |	Szoba leírás létszámtól függően
  </airport>
 ```
 
+Mező | Leírás
+---- | ----
 season	| Szezon kódja
 a_type	|	+ = Otthoni, - = Külföldi	
 a_id | Reptér kódja
@@ -139,6 +144,8 @@ a_descr | Leírás
 </price_type>
 ```
 
+Mező | Leírás
+---- | ----
 season |	Szezon kódja
 price_abb |	Ár típus kódja
 price_descr |	Ár leírása
@@ -162,6 +169,9 @@ type2 |	R = kötelező felár, N = választható felár
       <price_descr>.2 ágyas szoba felnőtt ár/ fo</price_descr>
 </price_type>
 ```
+
+Mező | Leírás
+---- | ----
 season	|	Szezon kódja	
 price_abb	| Ár kódja	
 price_descr	| Leírás
@@ -209,6 +219,9 @@ price_descr	| Leírás
       <seasons />
 </offer>
 ```
+
+Mező | Leírás
+---- | ----
 code |	Kartago csoport hotel kód
 name |	hotel megnevezése
 dest_code |	Kartago csoport desztináció kódja
@@ -341,6 +354,9 @@ Szabályokat határoz meg az ár képzéshez. A példa az adott szezon adott hot
 <term id="49583" DepartureDate="01.10.2017" ArrivalDate="08.10.2017" DepartureFromAirport="BUD" DepartureToAirport="FNC" 
     ArrivalFromAirport="FNC" ArrivalToAirport="BUD" DepartureStartTime="0000" DepartureStopTime="0000" ArrivalStartTime="0000" ArrivalStopTime="0000">
 ```
+
+Mező | Leírás
+---- | ----
 id | Kartago csoport ajánlat azonosító
 DepartureDate	| Odaút dátuma
 ArrivalDate	| Visszaérkezés dátuma
@@ -361,6 +377,8 @@ Az extra sorok a felárakat tartalmazzák.
 <Extra i="49583" h="FNCJAR" t="OSRB_FNC" p="59900.0000" t1="1" t2="R" />
 ```
 
+Mező | Leírás
+---- | ----
 i   |	Csomag ID (TERM ID)	
 t	|	Ár típus kódja
 h	|	Szállás kódja
@@ -388,6 +406,9 @@ Ez a rész elavult, ne használjuk. Helyette a Kartago3.XML adatait használjuk.
     <price_lm_d>EMPTY</price_lm_d>
 </price>
 ```
+
+Mező | Leírás
+---- | ----
 season_dsc |	Szezon kódja	
 pakage_id |	Csomag ID (TERM ID)
 price_type |	Ár típus
@@ -411,6 +432,8 @@ Az infx2 sorok kifejezetten a weboldalon történő megjelenítést szolgálja. 
     RoomSwissId="ST2+1_SV" BoardGiataCode="H" Price="0239040.00HUF" KatalogPrice="0265600.00HUF" />
 ```
 
+Mező | Leírás
+---- | ----
 Person_Min |	A kiválasztott szobatípus miatt a minimum létszám
 Person_Max |	A kiválasztott szobatípus miatt a maximum létszám
 Adult_Min |	A kiválasztott szobatípus miatt a minimum felnőtt létszám
