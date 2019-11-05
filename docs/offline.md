@@ -15,6 +15,6 @@ jelszó: „XMLDownload99”
 - KartagoPrices.zip a kalkulációs adatbázist tartalmazza
 - /Kepek mappában a fotók találhatóak. A fotókat nem kell állandóan letölteni, dátum alapján lehet szűrni, és csak az újdonságokat letölteni. Ez mindenképpen javasolt, mert nagy mennyiségű fotóról van szó.
 
-[Kartago.xml](kartago.md) felépítése
-[Kartago3.xml](kartago3.md) kalkulációs adatbázis felépítése
+[Kartago.xml](Kartago.md) felépítése
+[Kartago3.xml](Kartago3.md) kalkulációs adatbázis felépítése
 
