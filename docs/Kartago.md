@@ -266,6 +266,7 @@ image |	image_id="egyedi azonosító"  coding="image/jpeg base64"
 <offertype> Foglalás típusa. Két betű jelöli. Fő és al típus.
 
 Fő típusok: 
+
 Kód|Megnevezés
 --|--
 P | Üdülés 
