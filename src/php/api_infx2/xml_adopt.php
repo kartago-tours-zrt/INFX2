@@ -1,5 +1,5 @@
 <?php 
-function xml_adopt($root, $new, $namespace = null) {
+function xml_adopt2($root, $new, $namespace = null) {
     // first add the new node
     // NOTE: addChild does NOT escape "&" ampersands in (string)$new !!!
     //  replace them or use htmlspecialchars(). see addchild docs comments.
@@ -16,5 +16,11 @@ function xml_adopt($root, $new, $namespace = null) {
         xml_adopt($node, $child, $space);
       }
     }
+}
+
+function xml_adopt($root, $new) {
+    $rootDom = dom_import_simplexml($root);
+    $newDom = dom_import_simplexml($new);
+    $rootDom->appendChild($rootDom->ownerDocument->importNode($newDom, true));
 }
 ?>

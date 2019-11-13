@@ -38,6 +38,9 @@
 
 ## season
 
+Szezonok felsorolása, csak azokat érdemes átvenni, amelyik aktív.
+
+> Szinte az összes további elem hivatkozik egy szezonra, mert szezononként eltérhetnek a paraméterek. Szóval ugyan az a kód többször is szerepelhet eltérő szezon hivatkozással.
 
 ```XML
 <season>
@@ -56,6 +59,9 @@ isActive	|	Y/N	Aktív vagy nem
 
 
 ## boards
+
+Létező ellátások.
+
 
 ```XML
 <board>
@@ -77,6 +83,8 @@ desc_global |	Ellátás típus leírás
 
 
 ## rooms
+
+Szobatípusok és azok paraméterei. A létszámtól függően van magyar elnevezés is megadva. 
 
 ```XML
 <room>
@@ -108,6 +116,8 @@ room_descr_#pax |	Szoba leírás létszámtól függően
 
 ## airports
 
+Repülőterek kódja és megnevezése
+
 ```XML
 <airport>
       <season>HUNKAS17  </season>
@@ -126,6 +136,8 @@ a_descr | Leírás
 
 
 ## other_price_types
+
+Egyéb költségek ártípusai. 
 
 ```XML
 <price_type>
@@ -162,6 +174,8 @@ type2 |	R = kötelező felár, N = választható felár
 
 ## accomodatinon_price_types
 
+ALap ártípusok
+
 ```XML
 <price_type>
       <season>HUNKAS17</season>
@@ -179,6 +193,8 @@ price_descr	| Leírás
 
 
 ## hotels
+
+Hotelek leírása
 
 ```XML
 <offer>
@@ -250,23 +266,27 @@ image |	image_id="egyedi azonosító"  coding="image/jpeg base64"
 <offertype> Foglalás típusa. Két betű jelöli. Fő és al típus.
 
 Fő típusok: 
-P – Üdülés 
-Z – kirándulás 
-L – síút 
+Kód|Megnevezés
+--|--
+P | Üdülés 
+Z | kirándulás 
+L | síút 
 
 Altípus, ami a pontos típust jelöli
- 
-PP – Tengerparti üdülés 
-PX – Egzotikus üdülés 
-PJ – Tóparti üdülés 
-PH – Hegyvidéki üdülés
-PL – SPA / Wellness 
-PB – Buszos üdülés
-ZO – Városnézés 
-ZS – Szafari túra 
-ZK – kombinációs út 
-ZE – Városnézés / európai hétvége 
-LL – Síelés 
+
+Kód|Megnevezés
+--|--
+PP | Tengerparti üdülés 
+PX | Egzotikus üdülés 
+PJ | Tóparti üdülés 
+PH | Hegyvidéki üdülés
+PL | SPA / Wellness 
+PB | Buszos üdülés
+ZO | Városnézés 
+ZS | Szafari túra 
+ZK | kombinációs út 
+ZE | Városnézés / európai hétvége 
+LL | Síelés 
 
 <picotgrams>	
 0 = nincs, 1 = van 
@@ -347,12 +367,15 @@ A hotel alatt vannak az adott hotelbe az ajánlatok szezononként.
 Szabályokat határoz meg az ár képzéshez. A példa az adott szezon adott hoteljének 1EXBED ár típusa esetén ST2+1 típusú szobában az összes ellátás típusnál lehet alkalmazni a SUP STU típusú árat.
 
 
-
 ### Term
 
+Egy adott ajánlatot azonosít a kódjával.
+
 ```XML
-<term id="49583" DepartureDate="01.10.2017" ArrivalDate="08.10.2017" DepartureFromAirport="BUD" DepartureToAirport="FNC" 
-    ArrivalFromAirport="FNC" ArrivalToAirport="BUD" DepartureStartTime="0000" DepartureStopTime="0000" ArrivalStartTime="0000" ArrivalStopTime="0000">
+<term id="49583" DepartureDate="01.10.2017" ArrivalDate="08.10.2017" 
+  DepartureFromAirport="BUD" DepartureToAirport="FNC" 
+    ArrivalFromAirport="FNC" ArrivalToAirport="BUD" DepartureStartTime="0000" DepartureStopTime="0000" 
+    ArrivalStartTime="0000" ArrivalStopTime="0000">
 ```
 
 Mező | Leírás
@@ -384,9 +407,9 @@ t	|	Ár típus kódja
 h	|	Szállás kódja
 p	|	Ár
 t1	|	1 = minden főre alkalmazni kell; S = szerződésenként egyszer
-t2	|	R = kötelező felár; 	N = választható felár
+t2	|	R = kérésre; 	N = nem kérésre
 
-### Price (elavult rész)
+### Price
 A kiválasztott ajánlathoz tartozó árak. Azt hogy melyik árat kell alkalmazni az a kiválasztott szoba típustól, ellátás típustól, életkortól, stb függ. 
 Ez a rész elavult, ne használjuk. Helyette a Kartago3.XML adatait használjuk.
 
@@ -421,11 +444,10 @@ price_lm_vf |	Lastminute ár ettől az időponttól alkalmazható
 price_lm_vt |	Lastminute ár eddig az időpontig alkalmazható
 price_lm_d |	Lastminute ár típusa
 
-
-
 ### INFX2
 
 Az infx2 sorok kifejezetten a weboldalon történő megjelenítést szolgálja. Az adott időpontra az adott szobatípusra és ellátás típusra megadja a felnőtt alapárat. 
+> --Fontos!-- Amennyiben reptéri illeték külön szerepel az árlistában, akkor az nincs ebben az árban. Ha nincs feltüntetve repülős utaknál a reptéri illeték, akkor az bele van kalkulálva az árakba! 
 
 ```XML
 <INFX2 Person_Min="2" Person_Max="3" Adult_Min="1" Adult_Max="3" Child_Age_From_1="0" Child_Age_To_1="12" 

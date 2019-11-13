@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExtrasResponse>
   <term_info>
-    <h_info>Ryanair járatok esetén a repülojegyek foglaláskor megrendelésre és kiállításra kerülnek. Emiatt a légitársaság feltételei alapján a repülojegy foglalás után nem lemondható!
-
-                                                                                                                                                                                                                                                                                                                                    </h_info>
+    <h_info>#V:Idegenforgalmi adó a szállodában fizetendo 12 éves kor felett!:V#                                                                                                                                                                                                                                                                                                                                                                                                                                                </h_info>
   </term_info>
   <extras>
     <extra>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
-      <type>STOREXTA-LPA</type>
-      <descr>Storno biztosítás: a teljes ár 2 %-a</descr>
-      <price>200.0000</price>
+      <type>STOREXTA-MIR</type>
+      <descr>Storno biztosítás: a teljes ár 1,6%-a</descr>
+      <price>160.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -23,21 +21,47 @@
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <type>z.poj.online.gold.8</type>
-      <descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</descr>
-      <price>7520.0000</price>
+      <descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</descr>
+      <price>8720.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>
       <type1>1</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <type>PARKING_EB_7</type>
+      <descr>Budapesti Reptéri Parkolás (2000 Ft)</descr>
+      <price>2000.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </extra>
+    <extra>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <type>TRANSFER_EB2</type>
+      <descr>Budapesti Reptéri Transzfer (4000 Ft)</descr>
+      <price>4000.0000</price>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
       <type2>N</type2>
     </extra>
     <extra>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <type>z.poj.online.silver.8</type>
-      <descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</descr>
-      <price>5600.0000</price>
+      <descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</descr>
+      <price>6480.0000</price>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -46,12 +70,12 @@
       <type2>N</type2>
     </extra>
     <extra>
-      <category>03 Parkolás</category>
+      <category>08 Elofoglalás+</category>
       <sub_type>online*extra</sub_type>
-      <type>Parking_BUD - 8 nap</type>
-      <descr>Parkolás BUD Holiday Parking 8 nap</descr>
-      <price>7600.0000</price>
-      <AgeF>1</AgeF>
+      <type>TRANSFER_EB</type>
+      <descr>Budapesti Reptéri Transzfer (2000 Ft)</descr>
+      <price>2000.0000</price>
+      <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>

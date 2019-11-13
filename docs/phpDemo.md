@@ -2,9 +2,9 @@
 
 ## Fejlesztői megjegyzés
 
-Elnézést ha a php kód nem mindenhol a legprofibb, de most hétvégén tanultam a php nyelvet azért, hogy ezt elkészíthessem.
+Elnézést ha a php kód nem mindenhol a legprofibb, de jómagam korábban nem használtam a nyelvet, de igyekeztem olvasható, használható kódot írni.
 
-> Ez csak egy példa megvalósítás a dokumentáció alapján, nem törekedve minden részében az éles környezetben változtatás nélküli futtatásra, de használható és működik, szabadosn felhasználható.
+> Ez csak egy példa megvalósítás a dokumentáció alapján, nem törekedve minden részében az éles környezetben változtatás nélküli futtatásra, de használható és működik, szabadon felhasználható.
 
 Ha hibát találtok, kérlek jelezzétek a Githubon.
 

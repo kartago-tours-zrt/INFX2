@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BookingInfoResponse>
   <Result>
-    <bnr>386000375</bnr>
-    <bnr_expiration>2019-11-07T19:00:00</bnr_expiration>
+    <bnr>387000082</bnr>
+    <bnr_expiration>2019-11-14T13:00:00</bnr_expiration>
     <bnr_status>R</bnr_status>
     <bnr_rlock>0</bnr_rlock>
-    <package_id>2444528</package_id>
-    <bnr_room>2+1_GV                        </bnr_room>
+    <package_id>2464599</package_id>
+    <bnr_room>2+1_SV                        </bnr_room>
     <bnr_seats>3</bnr_seats>
   </Result>
 </BookingInfoResponse>

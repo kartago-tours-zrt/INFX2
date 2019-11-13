@@ -6,7 +6,12 @@ function infx2post($request, $requestFileName = "") {
 
 if ($requestFileName != "")
 {
+	//$request->saveXML($requestFileName);
 	file_put_contents($requestFileName, $request);
+	$temp = simplexml_load_file($requestFileName);
+	$dom1 = dom_import_simplexml($temp)->ownerDocument;
+	$dom1->formatOutput = true;
+	file_put_contents($requestFileName, $dom1->saveXML());
 }
 
 
@@ -143,10 +148,8 @@ XML;
 	
 	$xmlpaxdetail = simplexml_load_string($xmlpaxdetailsstr);
 	
-	$paxscount = count($paxdetails);
-	
-	for($x = 0; $x < $paxscount; $x++) {
-		$xmlpaxdetail->DateOfBirth = $paxdetails[$x];
+	foreach($paxdetails as $paxdetail) {
+		$xmlpaxdetail->DateOfBirth = $paxdetail;
 		xml_adopt($xml->PaxDetails, $xmlpaxdetail);
 	}
 
@@ -256,7 +259,7 @@ XML;
 	return infx2post($xml->asXML(), "PaymentsByXMLDataInfoRequest.xml"); 
 }
 
-function GenerateCustomerRequest($paxs)
+function GenerateCustomerRequest($pax)
 {
 
 
@@ -279,15 +282,15 @@ XML;
 	
 	// customer data
 	$res->pax_id = 1;
-	$res->fname = $paxs[0]['name'];
-	$res->sname = $paxs[0]['sname'];
-	$res->title = $paxs[0]['title'];
-	$res->street = $paxs[0]['street'];
-	$res->city = $paxs[0]['city'];
-	$res->post_code = $paxs[0]['post_code'];
-	$res->country = $paxs[0]['country'];
-	$res->phone = $paxs[0]['phone'];
-	$res->email = $paxs[0]['email'];
+	$res->fname = $pax['name'];
+	$res->sname = $pax['sname'];
+	$res->title = $pax['title'];
+	$res->street = $pax['street'];
+	$res->city = $pax['city'];
+	$res->post_code = $pax['post_code'];
+	$res->country = $pax['country'];
+	$res->phone = $pax['phone'];
+	$res->email = $pax['email'];
 
 	return $res;
 }
@@ -318,18 +321,17 @@ XML;
 
 	// paxs
 	$paxxml = simplexml_load_string($paxrecord);
-	$paxcount = count($paxs);
-	
-	for($x = 1; $x < $paxcount; $x++) {
-		$paxxml->pax_id = $paxs[$x]['id'];
-		$paxxml->fname = $paxs[$x]['fname'];
-		$paxxml->sname = $paxs[$x]['sname'];
-		$paxxml->title = $paxs[$x]['title'];
-		$paxxml->idcrm = $paxs[$x]['idcrm'];
-		$paxxml->sex = $paxs[$x]['sex'];
-		$paxxml->bd = $paxs[$x]['bd'];
-		$paxxml->passport = $paxs[$x]['passport'];
-		$paxxml->nationality = $paxs[$x]['nationality'];
+
+	foreach($paxs as $pax) {
+		$paxxml->pax_id = $pax['id'];
+		$paxxml->fname = $pax['fname'];
+		$paxxml->sname = $pax['sname'];
+		$paxxml->title = $pax['title'];
+		$paxxml->idcrm = $pax['idcrm'];
+		$paxxml->sex = $pax['sex'];
+		$paxxml->bd = $pax['bd'];
+		$paxxml->passport = $pax['passport'];
+		$paxxml->nationality = $pax['nationality'];
 		xml_adopt($res ,$paxxml);
 	}
 
@@ -337,7 +339,7 @@ XML;
 }
 
 
-function BookingDataRequest($base, $paxs, $extras, $endDate)
+function BookingDataRequest($base, $customer, $priceList, $paxs, $extras, $startDate, $endDate, $fileName = '')
 {
 	$bdr = <<<XML
 <BookingDataRequest>
@@ -345,10 +347,14 @@ function BookingDataRequest($base, $paxs, $extras, $endDate)
   <xmls3>
     <contractdata>
     	<bnr></bnr>
-      <partner_addr_id></partner_addr_id>
-      <partner_addr_type></partner_addr_type>
-			<calculation>
-        <ReqID></ReqID>
+      	<partner_addr_id></partner_addr_id>
+      	<partner_addr_type></partner_addr_type>
+		<remark_order/>
+		<remark_order0/>
+		<remark_order1/>
+		<remark_order2/>
+		<join_bnr/>
+		<vouchers/>
     </contractdata>
   </xmls3>
 </BookingDataRequest>
@@ -363,19 +369,25 @@ XML;
 	$xml->xmls3->contractdata->partner_addr_id = $GLOBALS['swiss_id'];
 	$xml->xmls3->contractdata->partner_addr_type = 0;
 
-	xml_adopt($xml->xmls3->contractdata, GenerateCustomerRequest($paxs)); 
+	xml_adopt($xml->xmls3->contractdata, GenerateCustomerRequest($customer)); 
 	xml_adopt($xml->xmls3->contractdata, GeneratePaxRequest($paxs)); 
 	
-	xml_adopt($xml->xmls3->contractdata, GenerateCalculation($base, $extras, $endDate)); 
-	
+	xml_adopt($xml->xmls3->contractdata, GenerateCalculation($base, $extras, $priceList, $endDate)); 
 
+	$otherPrice = 0.0;
+	foreach ($xml->xmls3->contractdata->calculation->extras->price_record as $extra) {
+		$otherPrice = $otherPrice + ((float)$extra->quantity)*((float)$extra->final_price);
+	}
+
+	xml_adopt($xml->xmls3->contractdata, GeneratePayments($startDate, (float)$base->Package->PriceDetails->PackagePrice, $otherPrice));
+	
 	return infx2post($xml->asXML(), "BookingDataRequest.xml"); 
 }
 
 // Paraméterben várja a <PriceAvailabilityCheckResponse> eredményét -> $base
 // $extras array tartalmazza az extra felárakat, amit kérnek (mindent csak 1x, a rendszer automatikusan minden utasra felrakja) 
 // $endDate a hazaérkezés dátuma 'nap.honap.ev' formátumban szövegesen. (xml adatokból)
-function GenerateCalculation($base, $extras, $endDate)
+function GenerateCalculation($base, $extras, $priceList, $endDate)
 {
 	$calculationTemplate = <<<XML
 	<calculation>
@@ -417,56 +429,144 @@ XML;
 	$res = simplexml_load_string($calculationTemplate);
 	$res->ReqID = $base->Control->ReqID;
 
-	// base prices
-	$baseprices = $base->Package->PriceDetails->PriceInfos->Priceinfo;
-	$basepricecount = count($baseprices);
-	
-	for($x = 0; $x < $basepricecount; $x++) {
+	$totalPrice = (float)$base->Package->PriceDetails->PackagePrice;
 
+	print_r($priceList);
+
+    foreach($base->Package->PriceDetails->PriceInfos->PriceInfo as $basepriceInput) {
+
+		
+		$price = getPrice($priceList, trim($basepriceInput->item));
 		$baseprice = simplexml_load_string($basepricestemplate);
-
-		$baseprice->pax_id = $baseprices[$x]->pax_id;
-		$baseprice->quantity = $baseprices[$x]->quantity;
-		$baseprice->item = $baseprices[$x]->item;
-		$baseprice->item_d = $baseprices[$x]->item_d;
-		$baseprice->base_price = $baseprices[$x]->price;
-		$baseprice->discount = $baseprices[$x]->pax_id;
-		$baseprice->final_price = $baseprices[$x]->pax_id;
-		$baseprice->price_type = $baseprices[$x]->pax_id;
-		$baseprice->price_type_d = $baseprices[$x]->pax_id;
+		
+		if (!$price) continue;  // ilyen nem lehetne! hibakezelés!!! (most csak simán kihagyom)
+		
+		$baseprice->pax_id = $basepriceInput->pax_id;
+		$baseprice->quantity = $basepriceInput->quantity;
+		$baseprice->item = $basepriceInput->item;
+		$baseprice->item_d = $basepriceInput->item_d;
+		$baseprice->base_price = $price->price_c;
+		$baseprice->final_price = $basepriceInput->price;
+		$baseprice->discount = $baseprice->base_price - $baseprice->finla_price;
+		$baseprice->price_type = $basepriceInput->price_type;
+		$baseprice->price_type_d = $basepriceInput->price_type_d;
 
 		xml_adopt($res->base_prices, $baseprice); 
 	}
 
-	$paxsdata = $paxs->pax;
-	$paxscount = count($paxsdata);
-
+	$firstPerson = true;
 	// utasokra extra felárak
-	for ($y = 0; $y < $paxscount; $y++) {
-	
-		$paxyearsold = GetYearsOld($endDate, $paxdata[$y]->bd);
-		// extras
-		$extraprices = $extras->Priceinfo;
-		$extrapricecount = count($extraprices);
-		
-		for($x = 0; $x < $extrapricecount; $x++) {
+	foreach ($base->Package->ReqDetails->Paxs->Pax as $pax) {
+		// extras		
+		foreach($extras as $extra) {
+
+			// ha csak szerződésenként kell az ár, akkor csak a főutashoz adjuk hozzá
+			if (!$firstPerson && $extra->type1 == 'S') continue;
+			
+			// az adott utas életkora megfelel e az ártípusnak?
+			if (!IsYearOk($endDate, $pax->pax_bd, $extra->AgeF, $extra->AgeT )) continue;
 
 			$extraprice = simplexml_load_string($extrarecordtemplate);
-
-			// az adott utas életkora megfelel e az ártípusnak?
-			if (!IsYearOk($endDate, $paxsdata[$y]->pax_bd, $extraprice->AgeF, $extraprice->AgeT )) continue;
-
-			$extraprice->pax_id = $paxdata[$y]->pax_id;
+			
+			$extraprice->pax_id = $pax->pax_id;
 			$extraprice->quantity = 1;
-			$extraprice->item = $extraprices[$x]->type;
-			$extraprice->item_d = $extraprices[$x]->descr;
-			$extraprice->base_price = $extraprices[$x]->price;
+			$extraprice->item = $extra->type;
+			$extraprice->item_d = $extra->descr;
+			$extraprice->base_price = $extra->price;
 			$extraprice->discount = '0%';
-			$extraprice->final_price = $extraprices[$x]->price;
+			$extraprice->final_price = $extra->price;
+
+			if (substr($extra->type,0,8) == 'STOREXTA') {
+				$extraprice->base_price = round($extra->price*$totalPrice/10000);
+				$extraprice->final_price = round($extra->price*$totalPrice/10000);
+			}
 
 			xml_adopt($res->extras, $extraprice); 
+			
 		}
+
+		$firstPerson = false;
 	} 
+
+	return $res;
+}
+
+function getPrice($priceList, $priceType) {
+	foreach ($priceList->price as $pr) {
+		if (trim($pr->price_type) == $priceType)
+		{
+			return $pr;
+		}
+	}
+	return null;
+}
+
+function GeneratePayments($start, $packagePrice, $otherPrice) {
+	$paymentsTemplate = <<<XML
+	<payments>
+		<payment_voucher />
+	</payments>
+	XML;
+
+	$paymentTemplate = <<<XML
+	<payment>
+		<amount />
+		<due_date />
+	</payment>
+	XML;
+
+	$res = simplexml_load_string($paymentsTemplate);
+
+	$startDate = DateTime::createFromFormat('d.m.Y', $start);
+	
+	$day30 = DateTime::createFromFormat('d.m.Y', $start);;
+	$day65 = DateTime::createFromFormat('d.m.Y', $start);;
+
+	$day30->sub(new DateInterval('P15D'));
+	$day65->sub(new DateInterval('P65D'));
+
+	$today = new DateTime();
+
+	$totalPrice = $packagePrice + $otherPrice;
+	$priceBag = 0;
+
+	// 65 napont túl 10000 előleggel fizetés
+	if ($today < $day65)
+	{
+		$pt = simplexml_load_string($paymentTemplate);
+		$pt->amount = 10000;
+		$pt->due_date = $today->format('d.m.Y'); 
+		$priceBag = 10000;
+		xml_adopt($res, $pt); 
+	}
+
+	// 40% előleg befizetése
+	if ($today < $day30)
+	{
+		$pt = simplexml_load_string($paymentTemplate);
+		$price40Percent = round($totalPrice*0.4);
+		$pt->amount = $price40Percent-$priceBag;
+		if ($today < $day65 && $priceBag > 0) {
+			$pt->due_date = $day65->format('d.m.Y'); 
+		} else {
+			$pt->due_date = $today->format('d.m.Y'); 
+		}
+		
+		$priceBag = $price40Percent;
+		xml_adopt($res, $pt);
+	}
+
+	// 30 napon belül a teljes hátralék esedékes
+	$pt = simplexml_load_string($paymentTemplate);
+	$pt->amount = $totalPrice-$priceBag;
+	if ($today < $day30) {
+		$pt->due_date = $day30->format('d.m.Y'); 
+	} else {
+		$pt->due_date = $today->format('d.m.Y'); 
+	}
+	
+	$priceBag = $price40Percent;
+	xml_adopt($res, $pt);
 
 	return $res;
 }
@@ -477,8 +577,10 @@ function IsYearOk($baseDate, $birth, $minYear, $maxYear)
 	$endDate = DateTime::createFromFormat('d.m.Y', $baseDate);
 	$birthDate = DateTime::createFromFormat('d.m.Y', $birth);
 	if ($birthDate->add(new DateInterval('P'.$minYear.'Y')) >= $endDate) return false;
-	if ($birthDate-add(new DateInterval('P'.$maxYear.'Y')) < $endDate) return false;
+	if ($birthDate->add(new DateInterval('P'.$maxYear.'Y')) < $endDate) return false;
 	return true;
 }
+
+
 
 ?>

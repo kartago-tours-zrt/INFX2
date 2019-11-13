@@ -4,16 +4,16 @@
     <ResponseStatus>success             </ResponseStatus>
     <ResponseMessage>
     </ResponseMessage>
-    <ReqID>C2A11E99-7F33-4BFA-8AA1-BC7327E63B07</ReqID>
+    <ReqID>67AAC045-7954-4FDA-9A9E-5D592222BD9C</ReqID>
   </Control>
   <Package>
     <ReqDetails>
-      <PackageID>2444528</PackageID>
-      <RoomType>2+3_FR         </RoomType>
-      <BoardType>V         </BoardType>
-      <hotel_a1>LPALBH                        </hotel_a1>
-      <season_id>6</season_id>
-      <season_dsc>HUNKAW19  </season_dsc>
+      <PackageID>2464599</PackageID>
+      <RoomType>2+1_SV         </RoomType>
+      <BoardType>A         </BoardType>
+      <hotel_a1>MIRRFR                        </hotel_a1>
+      <season_id>7</season_id>
+      <season_dsc>HUNKAS20  </season_dsc>
       <hotel_type>L</hotel_type>
       <Paxs>
         <Pax>
@@ -31,14 +31,14 @@
       </Paxs>
     </ReqDetails>
     <PriceDetails>
-      <PackagePrice>1952800.0000</PackagePrice>
+      <PackagePrice>427300.0000</PackagePrice>
       <PriceInfos>
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
           <item>DBL</item>
           <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-          <price>459900.0000</price>
+          <price>207900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -47,9 +47,9 @@
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
-          <item>SUP FR</item>
-          <item_d>Családi szoba felnott felár/ fo</item_d>
-          <price>160900.0000</price>
+          <item>SLV*EB1*DBL</item>
+          <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+          <price>-50400.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -58,9 +58,9 @@
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
-          <item>OSRB_LPA</item>
-          <item_d>Reptéri illeték - LPA</item_d>
-          <price>39900.0000</price>
+          <item>SLV*EB1*SUP SV</item>
+          <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+          <price>-4200.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -69,9 +69,9 @@
         <PriceInfo>
           <pax_id>1</pax_id>
           <quantity>1</quantity>
-          <item>SUP FB</item>
-          <item_d>Teljes panzió felnott felár/ fo</item_d>
-          <price>91900.0000</price>
+          <item>SUP SV</item>
+          <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+          <price>12900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -82,7 +82,7 @@
           <quantity>1</quantity>
           <item>DBL</item>
           <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-          <price>459900.0000</price>
+          <price>207900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -91,9 +91,9 @@
         <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
-          <item>SUP FR</item>
-          <item_d>Családi szoba felnott felár/ fo</item_d>
-          <price>160900.0000</price>
+          <item>SLV*EB1*DBL</item>
+          <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+          <price>-50400.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -102,9 +102,9 @@
         <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
-          <item>OSRB_LPA</item>
-          <item_d>Reptéri illeték - LPA</item_d>
-          <price>39900.0000</price>
+          <item>SLV*EB1*SUP SV</item>
+          <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+          <price>-4200.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -113,9 +113,9 @@
         <PriceInfo>
           <pax_id>2</pax_id>
           <quantity>1</quantity>
-          <item>SUP FB</item>
-          <item_d>Teljes panzió felnott felár/ fo</item_d>
-          <price>91900.0000</price>
+          <item>SUP SV</item>
+          <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+          <price>12900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -124,9 +124,9 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>1CHEXB-1</item>
-          <item_d>1. gyermek pótágyon ár  13 éves korig</item_d>
-          <price>280900.0000</price>
+          <item>1CHEXB-1 F</item>
+          <item_d>1. gyermek pótágyon ár  12 éves korig</item_d>
+          <price>94900.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>
@@ -135,31 +135,9 @@
         <PriceInfo>
           <pax_id>3</pax_id>
           <quantity>1</quantity>
-          <item>SUP FR1CH-1</item>
-          <item_d>Családi szoba 1. gyermek felár 13 éves korig</item_d>
-          <price>80900.0000</price>
-          <price_type>C</price_type>
-          <price_type_d />
-          <rb_d>N</rb_d>
-          <rb_id>0</rb_id>
-        </PriceInfo>
-        <PriceInfo>
-          <pax_id>3</pax_id>
-          <quantity>1</quantity>
-          <item>OSRB_LPA</item>
-          <item_d>Reptéri illeték - LPA</item_d>
-          <price>39900.0000</price>
-          <price_type>C</price_type>
-          <price_type_d />
-          <rb_d>N</rb_d>
-          <rb_id>0</rb_id>
-        </PriceInfo>
-        <PriceInfo>
-          <pax_id>3</pax_id>
-          <quantity>1</quantity>
-          <item>SUP FB1CHD-1</item>
-          <item_d>Teljes panzió 1. gyermek felár 13 éves korig</item_d>
-          <price>45900.0000</price>
+          <item>SUP SV1CHD-1</item>
+          <item_d>Tengerre nézo szoba 1. gyermek felár 13 éves korig</item_d>
+          <price>0.0000</price>
           <price_type>C</price_type>
           <price_type_d />
           <rb_d>N</rb_d>

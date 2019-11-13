@@ -7,7 +7,7 @@ require_once('../params.php');
 
 include '../api_infx2/infxservice.php';
 
-global $tesztAjanlat, $tesztAjanlatSzobaTipus, $tesztAjanlatGiata;
+global $tesztAjanlat, $tesztAjanlatSzobaTipus, $tesztAjanlatGiata, $indulas, $hazaerkezes;
 
 // ajánlat elérhetőségének ellenőrzése
 $file = './Responses/AvailabilityCheckResponse.xml';
@@ -28,7 +28,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // ajánlat árképzésének betöltése
     $file = './Responses/PriceAvailabilityCheckMakeBookingResponse.xml';
     // utolsó paraméter nem 0, ezért opciós ajánlat készül
-    //file_put_contents($file, PriceAvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs, 1 ));
+    file_put_contents($file, PriceAvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatGiata, $tesztAjanlatSzobaTipus, $paxs, 1 ));
 
     // betöltjük a választ 
     // (éles rendszerben nem kell lementeni és betölteni!)
@@ -38,6 +38,8 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // ez itt most erre a foglalásra igaz, más foglalásnál egyedileg kell megnézni, milyen lehetőségek vannak.
     // a lehetőségek a ExtrasResponse.xml-ben vannak
     $extrasFull = simplexml_load_file("./Responses/ExtrasResponse.xml");
+
+    $priceList = simplexml_load_file("./infxFiles/priceList.xml");
     
     $extras[] = [];
     foreach ($extrasFull->extras->extra as $extra) {
@@ -45,15 +47,17 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
         {
             $extras[] = $extra;
         }
-        if ($extra->type == 'STOREXTA-LPA')
+        if ($extra->type == 'STOREXTA-MIR')
         {
             $extras[] = $extra;
         }
-        if ($extra->type == 'Parking_BUD - 8 nap')
+        if ($extra->type == 'PARKING_EB_7')
         {
             $extras[] = $extra;
         }
     }
+    // az első 0 elemet töröljük
+    array_shift($extras);
     
     // ha foglalható, ezt az ajánlatot lehet megjeleníteni
     if (trim($xml2->Control->ResponseStatus) == "success") {
@@ -83,11 +87,11 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
                         "bd"=>"01.01.2010", "passport"=>"", "nationality"=>"HUN");
 
             // utasadatok tömb: szerződő és az utasok
-            $paxs = array ($customer, $pax1, $pax2, $pax3);
+            $paxs = array ($pax1, $pax2, $pax3);
 
             // Szerződő és utas adatok átadása
             $file = './Responses/BookingDataResponse.xml';
-            file_put_contents($file, BookingDataRequest($xml2, $paxs, $extras, $endDate));
+            file_put_contents($file, BookingDataRequest($xml2, $customer, $priceList, $paxs, $extras, $indulas, $hazaerkezes));
 
             // fizetési ütemezés lekérése
             $file = './Responses/PaymentsByXMLDataInfoResponse.xml';

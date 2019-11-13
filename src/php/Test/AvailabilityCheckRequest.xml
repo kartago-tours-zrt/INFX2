@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <AvailabilityCheckRequest>
-  <PackageID>2444528</PackageID>
-  <RoomType>2+1_GV</RoomType>
+  <PackageID>2464599</PackageID>
+  <RoomType>2+1_SV</RoomType>
   <PaxCount>3</PaxCount>
 	<RoomCount>1</RoomCount>
 </AvailabilityCheckRequest>

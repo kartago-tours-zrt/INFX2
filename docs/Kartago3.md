@@ -55,11 +55,13 @@ ChildNumber | Ha gyermek ár, akkor megadja hányadik gyermek.
 Az offer Variation attribútuma megadja, hogy hány fő megy a szobába. Felnőtt és gyermek, és ki megy főagyra és ki pótágyra.
 Alapvetően először a felnőttekkel töltjük fel a helyeket.
 A fő ágyakat a legidősebb utassal elkezdve töltjük fel. Ennek akkor van jelentősége, ha gyermek is kerül fő ágyra.
-A pótágyakat ha van felnőtt, akkor szintén azzal kezdjük tölteni, majd a gyermekek következnek, a legfiatalabbal kezdve, kivéve a csecsemőt. A csecsemőkre speciális ár van, ezért a csecsemék mindíg a leg utolsók a sorban.
+A pótágyakat ha van felnőtt, akkor szintén azzal kezdjük tölteni, majd a gyermekek következnek, a --legfiatalabbal-- kezdve, kivéve a csecsemőt. A csecsemőkre speciális ár van, ezért a csecsemők mindíg a legutolsók a sorban.
 
 Ha így elhelyezzük az utasokat a szobákban, akkor minden utasra a PersonNumber értékének megfelelően alkalmazzuk az árakat, figyelembe véve a MinAge és a MaxAge életkor szűrőt.
 
 A fenti példában két felnőtt és egy gyerek kerül a szobába. Felnőttek főágyon, gyerek pótágyon.
 Ha a gyerek 2-14 éves kor között van a hazainduláskor, akkor a 1CHEXB-1 F + SUP FR1CH-1 értípusú árakat kell számolni.
 Ha csecsemő a gyermek, akkor az INFN ártípus érvényes csak.
-Pont ezért teljes ár nincs, mivel a gyermekek életkorátől függ a végleges eredmény. Persze ha előre bekérjük az adatokat, lehet eleve így szűrni és összesíteni az árakat.
+
+Az offer nem tartalmaz kalkulált teljes árat, mivel a gyermekek életkorától függően véltozhat az ár.
+Ha valakinek a rendszere csak teljes kikalkulált árakkal működik, akkor az ezekből az információkból legenerálhatja az összes variációt.

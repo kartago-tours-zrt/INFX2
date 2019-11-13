@@ -202,26 +202,8 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>A10</a_id>
-      <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>A11</a_id>
       <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>A13</a_id>
-      <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>A14</a_id>
-      <a_descr>no transport</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -232,20 +214,8 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>A16</a_id>
-      <a_descr>bus</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>ACE</a_id>
       <a_descr>Lanzarote</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>ADB</a_id>
-      <a_descr>Izmir</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -256,128 +226,14 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>AGP</a_id>
-      <a_descr>Malaga</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>ATA</a_id>
-      <a_descr>Atheny</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>ATE</a_id>
-      <a_descr>Atheny</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>AYT</a_id>
       <a_descr>Antalya</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>B01</a_id>
-      <a_descr>Petrohrad</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B02</a_id>
-      <a_descr>Moskva</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B03</a_id>
-      <a_descr>Rim</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B04</a_id>
-      <a_descr>Madrid</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B05</a_id>
-      <a_descr>Barcelona</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B06</a_id>
-      <a_descr>Amsterdam</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B07</a_id>
-      <a_descr>Atheny</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B08</a_id>
-      <a_descr>Lisabon</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B09</a_id>
-      <a_descr>Nice</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B10</a_id>
-      <a_descr>Neapol</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B11</a_id>
-      <a_descr>Paríž</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B12</a_id>
-      <a_descr>Londýn</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B13</a_id>
-      <a_descr>Benatky</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>B14</a_id>
-      <a_descr>Milano</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>BCB</a_id>
-      <a_descr>Barcelona</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>BCN</a_id>
       <a_descr>Barcelona</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>BJV</a_id>
-      <a_descr>Bodrum</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -394,12 +250,6 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>CFU</a_id>
-      <a_descr>Kerkyra</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>CTA</a_id>
       <a_descr>Catania</a_descr>
     </airport>
@@ -408,12 +258,6 @@
       <a_type>-</a_type>
       <a_id>DJE</a_id>
       <a_descr>Djerba</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>DKR</a_id>
-      <a_descr>Dakar</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -436,60 +280,6 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>E05</a_id>
-      <a_descr>Istanbul</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E06</a_id>
-      <a_descr>Madrid</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E07</a_id>
-      <a_descr>Ch.de Gaulle</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E14</a_id>
-      <a_descr>New York</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E15</a_id>
-      <a_descr>Schiphol</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E16</a_id>
-      <a_descr>Dublin</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E17</a_id>
-      <a_descr>Heathrow</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E18</a_id>
-      <a_descr>Sheremetyevo</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>E19</a_id>
-      <a_descr>Lisabon</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>ECN</a_id>
       <a_descr>Ercan</a_descr>
     </airport>
@@ -498,12 +288,6 @@
       <a_type>-</a_type>
       <a_id>FAO</a_id>
       <a_descr>Faro</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>FCO</a_id>
-      <a_descr>Rome</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -544,44 +328,14 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>KEF</a_id>
-      <a_descr>Keflavik</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>KGS</a_id>
-      <a_descr>Kos</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>LCA</a_id>
       <a_descr>Larnaca</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>LED</a_id>
-      <a_descr>Petrohrad</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>LER</a_id>
-      <a_descr>Leros</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>LPA</a_id>
       <a_descr>Gran Canaria</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>MAH</a_id>
-      <a_descr>Mahon</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -610,20 +364,8 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>NAP</a_id>
-      <a_descr>Neapol</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>NBE</a_id>
       <a_descr>Enfidha</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>OLB</a_id>
-      <a_descr>Olbia</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -634,20 +376,8 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>PEK</a_id>
-      <a_descr>Peking</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>PMI</a_id>
       <a_descr>Palma</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>PVK</a_id>
-      <a_descr>Preveza</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -682,12 +412,6 @@
     <airport>
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
-      <a_id>SMI</a_id>
-      <a_descr>Samos</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
       <a_id>SPU</a_id>
       <a_descr>Split</a_descr>
     </airport>
@@ -696,24 +420,6 @@
       <a_type>-</a_type>
       <a_id>SSH</a_id>
       <a_descr>Sharm El Sheikh</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>SUF</a_id>
-      <a_descr>Lamezia Terme</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>TBJ</a_id>
-      <a_descr>Tabarka</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>TCP</a_id>
-      <a_descr>Taba</a_descr>
     </airport>
     <airport>
       <season>HUNKAS20  </season>
@@ -737,24 +443,6 @@
       <season>HUNKAS20  </season>
       <a_type>-</a_type>
       <a_id>VDA</a_id>
-      <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>VDH</a_id>
-      <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>VDJ</a_id>
-      <a_descr>bez dopravy</a_descr>
-    </airport>
-    <airport>
-      <season>HUNKAS20  </season>
-      <a_type>-</a_type>
-      <a_id>VDS</a_id>
       <a_descr>bez dopravy</a_descr>
     </airport>
     <airport>

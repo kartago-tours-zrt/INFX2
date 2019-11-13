@@ -2,44 +2,41 @@
 <BookingInfo1Response>
   <result>
     <booking_info>
-      <bnr>386000372</bnr>
+      <bnr>387000082</bnr>
       <general_info>
         <status>R</status>
-        <expiration>2019-11-03 20:00:00</expiration>
-        <dest_name>Spanyolország - Gran Canaria</dest_name>
+        <expiration>2019-11-14 13:00:00</expiration>
+        <dest_name>Tunézia - szárazföld</dest_name>
       </general_info>
       <flight_info>
         <routing>T</routing>
         <route_from>BUD</route_from>
-        <route_to>LPA</route_to>
-        <flight_no>FR2968</flight_no>
-        <dep_date>2020-02-11</dep_date>
-        <dep_time>18:05</dep_time>
-        <arr_date>2020-02-11</arr_date>
-        <arr_time>22:30</arr_time>
-        <extrainfo>FSF</extrainfo>
+        <route_to>MIR</route_to>
+        <flight_no>7O5436</flight_no>
+        <dep_date>2020-07-03</dep_date>
+        <dep_time>11:50</dep_time>
+        <arr_date>2020-07-03</arr_date>
+        <arr_time>13:15</arr_time>
+        <extrainfo>FIC</extrainfo>
       </flight_info>
       <flight_info>
         <routing>Z</routing>
-        <route_from>LPA</route_from>
+        <route_from>MIR</route_from>
         <route_to>BUD</route_to>
-        <flight_no>FR2967</flight_no>
-        <dep_date>2020-02-18</dep_date>
-        <dep_time>11:30</dep_time>
-        <arr_date>2020-02-18</arr_date>
-        <arr_time>17:40</arr_time>
-        <extrainfo>FSF</extrainfo>
+        <flight_no>7O5437</flight_no>
+        <dep_date>2020-07-10</dep_date>
+        <dep_time>14:05</dep_time>
+        <arr_date>2020-07-10</arr_date>
+        <arr_time>17:35</arr_time>
       </flight_info>
       <accomodation_info>
-        <room_type>2+1_GV</room_type>
-        <hotel_name>Lopesan Baobab</hotel_name>
-        <hotel_cat>5</hotel_cat>
-        <hotel_remark>Ryanair járatok esetén a repülojegyek foglaláskor megrendelésre és kiállításra kerülnek. Emiatt a légitársaság feltételei alapján a repülojegy foglalás után nem lemondható!
-
-                                                                                                                                                                                                                                                                                                                                    </hotel_remark>
-        <hotel_abb>LPALBH</hotel_abb>
-        <check_in>2020-02-11</check_in>
-        <check_out>2020-02-18</check_out>
+        <room_type>2+1_SV</room_type>
+        <hotel_name>Regency Hotel &amp; SPA</hotel_name>
+        <hotel_cat>4</hotel_cat>
+        <hotel_remark>#V:Idegenforgalmi adó a szállodában fizetendo 12 éves kor felett!:V#                                                                                                                                                                                                                                                                                                                                                                                                                                                </hotel_remark>
+        <hotel_abb>MIRRFR</hotel_abb>
+        <check_in>2020-07-03</check_in>
+        <check_out>2020-07-10</check_out>
       </accomodation_info>
       <swiss_booking>
         <null />
@@ -58,16 +55,16 @@
             <ResponseStatus>success             </ResponseStatus>
             <ResponseMessage>
             </ResponseMessage>
-            <ReqID>D6937D81-836F-4252-84FC-069B4F738094</ReqID>
+            <ReqID>BA6842F1-A0A0-4438-9860-050F61BEE2CF</ReqID>
           </Control>
           <Package>
             <ReqDetails>
-              <PackageID>2444528</PackageID>
-              <RoomType>2+1_GV         </RoomType>
-              <BoardType>H         </BoardType>
-              <hotel_a1>LPALBH                        </hotel_a1>
-              <season_id>6</season_id>
-              <season_dsc>HUNKAW19  </season_dsc>
+              <PackageID>2464599</PackageID>
+              <RoomType>2+1_SV         </RoomType>
+              <BoardType>A         </BoardType>
+              <hotel_a1>MIRRFR                        </hotel_a1>
+              <season_id>7</season_id>
+              <season_dsc>HUNKAS20  </season_dsc>
               <hotel_type>L</hotel_type>
               <Paxs>
                 <Pax>
@@ -85,14 +82,14 @@
               </Paxs>
             </ReqDetails>
             <PriceDetails>
-              <PackagePrice>1726800.0000</PackagePrice>
+              <PackagePrice>427300.0000</PackagePrice>
               <PriceInfos>
                 <PriceInfo>
                   <pax_id>1</pax_id>
                   <quantity>1</quantity>
                   <item>DBL</item>
                   <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-                  <price>459900.0000</price>
+                  <price>207900.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -101,9 +98,9 @@
                 <PriceInfo>
                   <pax_id>1</pax_id>
                   <quantity>1</quantity>
-                  <item>SUP HB</item>
-                  <item_d>Félpanzió felnott felár/ fo</item_d>
-                  <price>52900.0000</price>
+                  <item>SLV*EB1*DBL</item>
+                  <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>-50400.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -112,9 +109,9 @@
                 <PriceInfo>
                   <pax_id>1</pax_id>
                   <quantity>1</quantity>
-                  <item>SUP GV</item>
-                  <item_d>Kertre nézo szoba felnott felár/ fo</item_d>
-                  <price>109900.0000</price>
+                  <item>SLV*EB1*SUP SV</item>
+                  <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+                  <price>-4200.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -123,9 +120,9 @@
                 <PriceInfo>
                   <pax_id>1</pax_id>
                   <quantity>1</quantity>
-                  <item>OSRB_LPA</item>
-                  <item_d>Reptéri illeték - LPA</item_d>
-                  <price>39900.0000</price>
+                  <item>SUP SV</item>
+                  <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+                  <price>12900.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -136,7 +133,7 @@
                   <quantity>1</quantity>
                   <item>DBL</item>
                   <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
-                  <price>459900.0000</price>
+                  <price>207900.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -145,9 +142,9 @@
                 <PriceInfo>
                   <pax_id>2</pax_id>
                   <quantity>1</quantity>
-                  <item>SUP HB</item>
-                  <item_d>Félpanzió felnott felár/ fo</item_d>
-                  <price>52900.0000</price>
+                  <item>SLV*EB1*DBL</item>
+                  <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                  <price>-50400.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -156,9 +153,9 @@
                 <PriceInfo>
                   <pax_id>2</pax_id>
                   <quantity>1</quantity>
-                  <item>SUP GV</item>
-                  <item_d>Kertre nézo szoba felnott felár/ fo</item_d>
-                  <price>109900.0000</price>
+                  <item>SLV*EB1*SUP SV</item>
+                  <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+                  <price>-4200.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -167,9 +164,9 @@
                 <PriceInfo>
                   <pax_id>2</pax_id>
                   <quantity>1</quantity>
-                  <item>OSRB_LPA</item>
-                  <item_d>Reptéri illeték - LPA</item_d>
-                  <price>39900.0000</price>
+                  <item>SUP SV</item>
+                  <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+                  <price>12900.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -178,9 +175,9 @@
                 <PriceInfo>
                   <pax_id>3</pax_id>
                   <quantity>1</quantity>
-                  <item>1CHEXB-1</item>
-                  <item_d>1. gyermek pótágyon ár  13 éves korig</item_d>
-                  <price>280900.0000</price>
+                  <item>1CHEXB-1 F</item>
+                  <item_d>1. gyermek pótágyon ár  12 éves korig</item_d>
+                  <price>94900.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -189,31 +186,9 @@
                 <PriceInfo>
                   <pax_id>3</pax_id>
                   <quantity>1</quantity>
-                  <item>SUP HB1CHD-1</item>
-                  <item_d>Félpanzió 1. gyermek felár 13 éves korig</item_d>
-                  <price>25900.0000</price>
-                  <price_type>C</price_type>
-                  <price_type_d />
-                  <rb_d>N</rb_d>
-                  <rb_id>0</rb_id>
-                </PriceInfo>
-                <PriceInfo>
-                  <pax_id>3</pax_id>
-                  <quantity>1</quantity>
-                  <item>SUP GV1CHD-1</item>
-                  <item_d>Kertre nézo szoba 1. gyermek felár 13 éves korig</item_d>
-                  <price>54900.0000</price>
-                  <price_type>C</price_type>
-                  <price_type_d />
-                  <rb_d>N</rb_d>
-                  <rb_id>0</rb_id>
-                </PriceInfo>
-                <PriceInfo>
-                  <pax_id>3</pax_id>
-                  <quantity>1</quantity>
-                  <item>OSRB_LPA</item>
-                  <item_d>Reptéri illeték - LPA</item_d>
-                  <price>39900.0000</price>
+                  <item>SUP SV1CHD-1</item>
+                  <item_d>Tengerre nézo szoba 1. gyermek felár 13 éves korig</item_d>
+                  <price>0.0000</price>
                   <price_type>C</price_type>
                   <price_type_d />
                   <rb_d>N</rb_d>
@@ -223,20 +198,23 @@
             </PriceDetails>
           </Package>
           <Booking>
-            <bnr>386000372</bnr>
+            <bnr>387000082</bnr>
             <bnr_result>success</bnr_result>
-            <bnr_exp>2019-11-03 20:00:00</bnr_exp>
+            <bnr_exp>2019-11-14 13:00:00</bnr_exp>
           </Booking>
         </PriceAvailabilityCheckResponse>
       </rb_xmlca>
       <rb_xmlsx>
         <contractdata>
-          <bnr>386000372</bnr>
+          <bnr>387000082</bnr>
           <partner_addr_id>943</partner_addr_id>
           <partner_addr_type>0</partner_addr_type>
-          <calculation>
-            <ReqID>D6937D81-836F-4252-84FC-069B4F738094</ReqID>
-          </calculation>
+          <remark_order />
+          <remark_order0 />
+          <remark_order1 />
+          <remark_order2 />
+          <join_bnr />
+          <vouchers />
           <address_customer>
             <pax_id>1</pax_id>
             <fname>GEZA</fname>
@@ -284,6 +262,183 @@
               <nationality>HUN</nationality>
             </pax>
           </paxs>
+          <calculation>
+            <ReqID>BA6842F1-A0A0-4438-9860-050F61BEE2CF</ReqID>
+            <base_prices>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>DBL</item>
+                <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+                <base_price>207900.00</base_price>
+                <discount>207900</discount>
+                <final_price>207900.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>SLV*EB1*DBL</item>
+                <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                <base_price>-50400.00</base_price>
+                <discount>-50400</discount>
+                <final_price>-50400.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>SLV*EB1*SUP SV</item>
+                <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+                <base_price>-4200.00</base_price>
+                <discount>-4200</discount>
+                <final_price>-4200.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>SUP SV</item>
+                <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+                <base_price>12900.00</base_price>
+                <discount>12900</discount>
+                <final_price>12900.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>2</pax_id>
+                <quantity>1</quantity>
+                <item>DBL</item>
+                <item_d>.2 ágyas szoba felnott ár/ fo</item_d>
+                <base_price>207900.00</base_price>
+                <discount>207900</discount>
+                <final_price>207900.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>2</pax_id>
+                <quantity>1</quantity>
+                <item>SLV*EB1*DBL</item>
+                <item_d>FM dec. 20-ig-2 ágyas szoba felnott ár/ fo</item_d>
+                <base_price>-50400.00</base_price>
+                <discount>-50400</discount>
+                <final_price>-50400.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>2</pax_id>
+                <quantity>1</quantity>
+                <item>SLV*EB1*SUP SV</item>
+                <item_d>FM dec. 20-ig-Tengerre nézô szoba felnott felár/ fô</item_d>
+                <base_price>-4200.00</base_price>
+                <discount>-4200</discount>
+                <final_price>-4200.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>2</pax_id>
+                <quantity>1</quantity>
+                <item>SUP SV</item>
+                <item_d>Tengerre nézo szoba felnott felár/ fo</item_d>
+                <base_price>12900.00</base_price>
+                <discount>12900</discount>
+                <final_price>12900.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>3</pax_id>
+                <quantity>1</quantity>
+                <item>1CHEXB-1 F</item>
+                <item_d>1. gyermek pótágyon ár  12 éves korig</item_d>
+                <base_price>94900.00</base_price>
+                <discount>94900</discount>
+                <final_price>94900.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+              <price_record>
+                <pax_id>3</pax_id>
+                <quantity>1</quantity>
+                <item>SUP SV1CHD-1</item>
+                <item_d>Tengerre nézo szoba 1. gyermek felár 13 éves korig</item_d>
+                <base_price>0.00</base_price>
+                <discount>0</discount>
+                <final_price>0.0000</final_price>
+                <price_type>C</price_type>
+                <price_type_d />
+              </price_record>
+            </base_prices>
+            <extras>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>STOREXTA-MIR</item>
+                <item_d>Storno biztosítás: a teljes ár 1,6%-a</item_d>
+                <base_price>6837</base_price>
+                <discount>0%</discount>
+                <final_price>6837</final_price>
+              </price_record>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>PARKING_EB_7</item>
+                <item_d>Budapesti Reptéri Parkolás (2000 Ft)</item_d>
+                <base_price>2000.0000</base_price>
+                <discount>0%</discount>
+                <final_price>2000.0000</final_price>
+              </price_record>
+              <price_record>
+                <pax_id>1</pax_id>
+                <quantity>1</quantity>
+                <item>z.poj.online.silver.8</item>
+                <item_d>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</item_d>
+                <base_price>6480.0000</base_price>
+                <discount>0%</discount>
+                <final_price>6480.0000</final_price>
+              </price_record>
+              <price_record>
+                <pax_id>2</pax_id>
+                <quantity>1</quantity>
+                <item>z.poj.online.silver.8</item>
+                <item_d>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</item_d>
+                <base_price>6480.0000</base_price>
+                <discount>0%</discount>
+                <final_price>6480.0000</final_price>
+              </price_record>
+              <price_record>
+                <pax_id>3</pax_id>
+                <quantity>1</quantity>
+                <item>z.poj.online.silver.8</item>
+                <item_d>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</item_d>
+                <base_price>6480.0000</base_price>
+                <discount>0%</discount>
+                <final_price>6480.0000</final_price>
+              </price_record>
+            </extras>
+          </calculation>
+          <payments>
+            <payment_voucher />
+            <payment>
+              <amount>10000</amount>
+              <due_date>11.11.2019</due_date>
+            </payment>
+            <payment>
+              <amount>172231</amount>
+              <due_date>29.04.2020</due_date>
+            </payment>
+            <payment>
+              <amount>273346</amount>
+              <due_date>18.06.2020</due_date>
+            </payment>
+          </payments>
         </contractdata>
       </rb_xmlsx>
     </booking_info>

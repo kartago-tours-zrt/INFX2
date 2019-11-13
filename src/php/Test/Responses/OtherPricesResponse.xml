@@ -674,6 +674,20 @@
       <type2>N</type2>
     </price_type>
     <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>PARKING_EB_10-11</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (3000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2020. április 20-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
       <season>HUNKAS19</season>
       <price_abb>PARKING_EB_14</price_abb>
       <price_descr>Budapesti Reptéri Parkolás (4000 Ft)</price_descr>
@@ -800,9 +814,37 @@
       <type2>N</type2>
     </price_type>
     <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-AYT</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a a teljes ár 1,6%-a - AYT</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
       <season>HUNKAS19</season>
       <price_abb>STOREXTA-BCN</price_abb>
       <price_descr>Útlemondási (storno) biztositas - BCN</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - BCN</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-BCN</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - BCN</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
@@ -912,6 +954,20 @@
       <type2>N</type2>
     </price_type>
     <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-HRG</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,6%-a -  HRG</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
       <season>HUNKAW19</season>
       <price_abb>STOREXTA-HRG</price_abb>
       <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
@@ -982,6 +1038,20 @@
       <type2>N</type2>
     </price_type>
     <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-MIR</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 1,6%-a - MIR</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
       <season>HUNKAS19</season>
       <price_abb>STOREXTA-MLA</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
@@ -1038,6 +1108,20 @@
       <type2>N</type2>
     </price_type>
     <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-RMF</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,6%-a -  RMF</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
       <season>HUNKAS19</season>
       <price_abb>STOREXTA-SID</price_abb>
       <price_descr>Útlemondási (storno) biztosítás - SID</price_descr>
@@ -1083,6 +1167,20 @@
       <season>HUNKAS19</season>
       <price_abb>STOREXTA-TFS</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - TFS</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-TFS</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - TFS</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
@@ -1160,11 +1258,25 @@
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>
-      <type1>1</type1>
+      <type1>S</type1>
       <type2>N</type2>
     </price_type>
     <price_type>
       <season>HUNKAS19</season>
+      <price_abb>viza Egyiptom</price_abb>
+      <price_descr>Vízumdíj - Egyiptom</price_descr>
+      <price_descr_long>Vízumdíj - Egyiptom</price_descr_long>
+      <category>05 Vizum</category>
+      <sub_type>online*vizum</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>viza Egyiptom</price_abb>
       <price_descr>Vízumdíj - Egyiptom</price_descr>
       <price_descr_long>Vízumdíj - Egyiptom</price_descr_long>

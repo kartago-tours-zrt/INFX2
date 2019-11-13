@@ -23806,6 +23806,41 @@
       <price_descr>FM okt 30-ig- szállás felár 2.gy. (xx év) felár</price_descr>
     </price_type>
     <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB</price_abb>
+      <price_descr>2 légteru családi szoba felnott felár/ fo</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB1CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 1. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB1CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 1. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB2CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 2. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB2CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 2. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB3CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 3. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAW19</season>
+      <price_abb>SUP FRB3CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 3. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
       <season>HUNKAS20</season>
       <price_abb>SUP PLA1CHD-1</price_abb>
       <price_descr>Platinum suite 1. gyermek felár xx éves korig</price_descr>
@@ -27159,7 +27194,7 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>SUP SWIMUP</price_abb>
-      <price_descr>Swim up suite szoba felnott felár/ fo</price_descr>
+      <price_descr>Swim up szoba felnott felár/ fo</price_descr>
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
@@ -27325,6 +27360,11 @@
       <season>HUNKAS20</season>
       <price_abb>SLV*EB1*2CHEXB-2</price_abb>
       <price_descr>FM dec. 20-ig-2. gyermek pótágyon ár (xx év)</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB</price_abb>
+      <price_descr>2 légteru családi szoba felnott felár/ fo</price_descr>
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
@@ -35724,6 +35764,16 @@
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
+      <price_abb>SUP FRB2CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 2. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB2CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 2. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>SLV*EB1*SUP CHD2CHD-2</price_abb>
       <price_descr>FM dec.20-ig szállas 2.gyermek (xx év) felár</price_descr>
     </price_type>
@@ -35751,6 +35801,26 @@
       <season>HUNKAS20</season>
       <price_abb>SLV*EB1*SUP CHD3CHD-2</price_abb>
       <price_descr>FM dec.20-ig szállas 3.gyermek (xx év) felár</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB1CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 1. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB1CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 1. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB3CH-1</price_abb>
+      <price_descr>2 légteru családi szoba 3. gyermek felár xx éves korig</price_descr>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>SUP FRB3CH-2</price_abb>
+      <price_descr>2 légteru családi szoba 3. gyermek felár xx éves korig</price_descr>
     </price_type>
   </price_types>
 </AccomodationPriceTypesResponse>

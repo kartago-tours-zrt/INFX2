@@ -4,12 +4,48 @@
     Az offline fileok letöltése
 
 */
+function xml_adopt($root, $new) {
+    $rootDom = dom_import_simplexml($root);
+    $newDom = dom_import_simplexml($new);
+    $rootDom->appendChild($rootDom->ownerDocument->importNode($newDom, true));
+}
+
+// price listből kikeresi az adott foglalás árait, csak a teszthez kell, éles környezetből ezt nem az xml-ből kell venni
+function GetPriceList($bnr, $plFile)
+{
+    $pricesTemp = <<<XML
+	<prices>
+	</prices>
+	XML;
+	$pt = simplexml_load_file($plFile);
+    
+    $ret = simplexml_load_string($pricesTemp);
+    
+	foreach ($pt->price as $price)
+	{
+		if ($price->package_id == $bnr)
+		{
+			xml_adopt($ret, $price);
+		}
+    }
+
+    // $dom = new DomDocument('1.0');
+    // $dom->preserveWhiteSpace = false;
+    // $dom->formatOutput = true;
+
+    // $domdata= dom_import_simplexml($ret);
+    // $domdata = $dom->importNode($domdata, true);
+    // $domdata = $dom->appendChild($domdata);
+
+    // return $dom->saveXML();
+    return $ret->asXML();
+}
 
 require_once('../params.php');
 
 include '../api_infx2/FileLoadService.php';
 
-global $infxdata, $localInfxFiles, $localHotelPath, $infxhotels, $infxphotos, $localImagesPath;
+global $infxdata, $localInfxFiles, $localHotelPath, $infxhotels, $infxphotos, $localImagesPath, $priceFile , $tesztAjanlat;
 
 // Hotel adatok letöltése
 echo "Hotel adatok letöltése\r\n";
@@ -49,7 +85,7 @@ $files = findFilesFromFilteredList($filelist, "updt_infx2_", ".txt.zip");
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
 
-// Price list letöltése. Igazi online működés esetén nem szükséges
+// Price list letöltése. 
 // file keresése
 $files = findFilesFromFilteredList($filelist, "pl_infx2_", ".xml.zip");
 // letöltés
@@ -63,11 +99,13 @@ $files = findFilesFromFilteredList($filelist, "extras_list_", ".xml.zip");
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
 
-// Price list update letöltése. Igazi online működés esetén nem szükséges
+// Price list update letöltése. 
 // file keresése
 $files = findFilesFromFilteredList($filelist, "pl_updt_", ".xml");
 // letöltés
 //var_dump($files);
 downloadList($files, $infxdata, dirname(__FILE__) . $localInfxFiles);
+
+file_put_contents('./infxFiles/priceList.xml', GetPriceList($tesztAjanlat, $priceFile));
 
 ?>

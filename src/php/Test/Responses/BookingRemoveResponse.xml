@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BookingRemoveResponse>
   <Result>
-    <bnr>386000371</bnr>
-    <bnr_expiration>2019-10-31T19:49:45.807</bnr_expiration>
+    <bnr>386000375</bnr>
+    <bnr_expiration>2019-11-06T06:17:32.057</bnr_expiration>
     <bnr_status>R</bnr_status>
     <bnr_rlock>0</bnr_rlock>
     <package_id>2444528</package_id>
