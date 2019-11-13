@@ -263,7 +263,7 @@ icons |	Ikonok
 gps |	GPS koordináta
 image |	image_id="egyedi azonosító"  coding="image/jpeg base64"
 
-<offertype> Foglalás típusa. Két betű jelöli. Fő és al típus.
+offertype -> Foglalás típusa. Két betű jelöli. Fő és al típus.
 
 Fő típusok: 
 
