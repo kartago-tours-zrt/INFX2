@@ -263,7 +263,11 @@ icons |	Ikonok
 gps |	GPS koordináta
 image |	image_id="egyedi azonosító"  coding="image/jpeg base64"
 
-offertype -> Foglalás típusa. Két betű jelöli. Fő és al típus.
+---
+
+    <offertype> 
+    
+Foglalás típusa. Két betű jelöli. Fő és al típus.
 
 Fő típusok: 
 
@@ -289,7 +293,10 @@ ZK | kombinációs út
 ZE | Városnézés / európai hétvége 
 LL | Síelés 
 
-<picotgrams>	
+---
+
+    <picotgrams></pictograms>
+
 0 = nincs, 1 = van 
  
 Piktogramok
