@@ -8,7 +8,7 @@ A beszerzett adatokat a weboldalunk adatbázisába integráljuk.
 
 Az INFX egy szöveges állomány, statikusan letölthető. Lényege, hogy minden szálloda, minden időpontjára, minden szobatípusára és minden turnusára (1 hetes, 2 hetes, stb) tartalmazza a fő utas teljes árát.
 
-> A Kartago Tours Zrt jelenleg nettó árazást használ, vagyis ez az ár nem tartalmazza a reptéri illetéket.
+> A Kartago Tours Zrt 2020 nyári időszaktól az árba bele kalkulálja a reptéri illetéket is.
 
 Mire is jó az INFX? Ha egy ügyfél keres utat, akkor az INFX alapján tudunk kezdeti árajánlatot írni. Ha tengerre néző szobát szeretne, akkor csak olyan szobatípusokra szűrünk, és máris csak azokat az árakat látja.
 Az INFX tartalmazza a minimum, maximum létszámot és ebből mennyi lehet minimum és maximum felnőtt.
