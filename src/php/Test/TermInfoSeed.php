@@ -17,7 +17,7 @@ file_put_contents($file, ExtrasRequest($tesztAjanlat));
 
 // ajánlat elérhetőségének ellenőrzése
 $file = './Responses/AvailabilityCheckResponse.xml';
-file_put_contents($file, AvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatSzobaTipus, '3' ));
+file_put_contents($file, AvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatSzobaTipus, '2' ));
 
 // betöltjük a választ 
 // (éles rendszerben nem kell lementeni és betölteni!)
@@ -29,7 +29,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // utasok életkorai, a helyes árképzéshez 
     // (nem kell pontosan, de gyerek hazaérkezéskor ne legyen idősebb mint az itt megadott,
     // felnőttek esetében lényegtelen, csak 18 évnél idősebb legyen beállítva)
-    $paxs = array('19990219','19990219','20100219');
+    $paxs = array('19740104','19660202');
 
     // ajánlat árképzésének betöltése
     $file = './Responses/PriceAvailabilityCheckResponse.xml';

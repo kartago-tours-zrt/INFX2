@@ -14,9 +14,10 @@ function xml_adopt($root, $new) {
 function GetPriceList($bnr, $plFile)
 {
     $pricesTemp = <<<XML
-	<prices>
-	</prices>
-	XML;
+<prices>
+</prices>
+XML;
+
 	$pt = simplexml_load_file($plFile);
     
     $ret = simplexml_load_string($pricesTemp);

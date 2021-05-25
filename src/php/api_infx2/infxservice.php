@@ -390,14 +390,14 @@ XML;
 function GenerateCalculation($base, $extras, $priceList, $endDate)
 {
 	$calculationTemplate = <<<XML
-	<calculation>
-		<ReqID></ReqID>
-		<base_prices>
-		</base_prices>
-		<extras>
-		</extras>
-	</calculation>
-	XML;
+<calculation>
+	<ReqID></ReqID>
+	<base_prices>
+	</base_prices>
+	<extras>
+	</extras>
+</calculation>
+XML;
 
 	// first base prices
 	$basepricestemplate = <<<XML
@@ -502,18 +502,20 @@ function getPrice($priceList, $priceType) {
 }
 
 function GeneratePayments($start, $packagePrice, $otherPrice) {
-	$paymentsTemplate = <<<XML
-	<payments>
-		<payment_voucher />
-	</payments>
-	XML;
-
+	
+	
 	$paymentTemplate = <<<XML
-	<payment>
-		<amount />
-		<due_date />
-	</payment>
-	XML;
+<payment>
+	<amount />
+	<due_date />
+</payment>
+XML;
+	
+	$paymentsTemplate = <<<XML
+<payments>
+	<payment_voucher />
+</payments>
+XML;
 
 	$res = simplexml_load_string($paymentsTemplate);
 
@@ -580,7 +582,5 @@ function IsYearOk($baseDate, $birth, $minYear, $maxYear)
 	if ($birthDate->add(new DateInterval('P'.$maxYear.'Y')) < $endDate) return false;
 	return true;
 }
-
-
 
 ?>

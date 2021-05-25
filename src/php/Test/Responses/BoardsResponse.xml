@@ -2,714 +2,714 @@
 <BoardsResponse>
   <boards>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI</code>
       <giata_code>A</giata_code>
       <descr>all inclusive</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>SOAI</code>
       <giata_code>A1</giata_code>
       <descr>soft all inclusive</descr>
       <descr_global>soft all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI light</code>
       <giata_code>A2</giata_code>
       <descr>all inclusive light</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI basic</code>
       <giata_code>A3</giata_code>
       <descr>all inclusive basic</descr>
       <descr_global>all inclusive basic</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>SAI</code>
       <giata_code>B1</giata_code>
       <descr>super all inclusive</descr>
       <descr_global>super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>SEAI</code>
       <giata_code>B2</giata_code>
       <descr>select all inclusive</descr>
       <descr_global>select all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>PAI</code>
       <giata_code>B3</giata_code>
       <descr>prémium all inclusive</descr>
       <descr_global>prémium all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>XAI</code>
       <giata_code>B5</giata_code>
       <descr>extra all inclusive</descr>
       <descr_global>extra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI alko</code>
       <giata_code>B6</giata_code>
       <descr>all inclusive alkoholos italokkal</descr>
       <descr_global>all inclusive alkoholos italokkal</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI+</code>
       <giata_code>B7</giata_code>
       <descr>all inclusive plus</descr>
       <descr_global>all inclusive plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>UAI</code>
       <giata_code>B8</giata_code>
       <descr>ultra all inclusive</descr>
       <descr_global>ultra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB</code>
       <giata_code>F</giata_code>
       <descr>reggeli</descr>
       <descr_global>reggeli</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB</code>
       <giata_code>H</giata_code>
       <descr>félpanzió</descr>
       <descr_global>félpanzió</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB+</code>
       <giata_code>I</giata_code>
       <descr>félpanzió plus</descr>
       <descr_global>félpanzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>OV</code>
       <giata_code>U</giata_code>
       <descr>ellátás nélkül</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>FB</code>
       <giata_code>V</giata_code>
       <descr>teljes panzió</descr>
       <descr_global>teljes panzió</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>FB+</code>
       <giata_code>W</giata_code>
       <descr>teljes panzió plus</descr>
       <descr_global>teljes panzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>OO</code>
       <giata_code>X</giata_code>
       <descr>program szerint</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>DIN</code>
       <giata_code>X1</giata_code>
       <descr>vacsora</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>OV+BB</code>
       <giata_code>X2</giata_code>
       <descr>önellátás + reggeli</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB+FB+AI</code>
       <giata_code>X3</giata_code>
       <descr>félpanzió + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB+XAI</code>
       <giata_code>X4</giata_code>
       <descr>félpanzió + extra all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB+FB</code>
       <giata_code>X5</giata_code>
       <descr>félpanzió + teljes panzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>HB+AI</code>
       <giata_code>X6</giata_code>
       <descr>félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>FB+AI</code>
       <giata_code>X8</giata_code>
       <descr>teljes panzió + all inclusive</descr>
       <descr_global>teljes panzió + all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+HB+FB+AI</code>
       <giata_code>X9</giata_code>
       <descr>reggeli + félpanzió + teljes panzió + all incl.</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+HB+XAI</code>
       <giata_code>XA</giata_code>
       <descr>reggeli + félpanzió + all inclusive plus</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+HB+AI</code>
       <giata_code>XB</giata_code>
       <descr>reggeli + félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+FB+AI</code>
       <giata_code>XC</giata_code>
       <descr>reggeli + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+HB</code>
       <giata_code>XD</giata_code>
       <descr>reggeli + félpanzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>BB+AI</code>
       <giata_code>XE</giata_code>
       <descr>reggeli + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>AI+XAI</code>
       <giata_code>XF</giata_code>
       <descr>all inclusive a super all inclusive</descr>
       <descr_global>all inclusive a super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>O</code>
       <giata_code>XZ</giata_code>
       <descr>Csak repülojegy</descr>
       <descr_global>Csak repülojegy</descr_global>
     </board>
     <board>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <code>SNAI</code>
       <giata_code>XH</giata_code>
       <descr>snack all inclusive</descr>
       <descr_global>snack all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI</code>
       <giata_code>A</giata_code>
       <descr>all inclusive</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>SOAI</code>
       <giata_code>A1</giata_code>
       <descr>soft all inclusive</descr>
       <descr_global>soft all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI light</code>
       <giata_code>A2</giata_code>
       <descr>all inclusive light</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI basic</code>
       <giata_code>A3</giata_code>
       <descr>all inclusive basic</descr>
       <descr_global>all inclusive basic</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>SAI</code>
       <giata_code>B1</giata_code>
       <descr>super all inclusive</descr>
       <descr_global>super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>SEAI</code>
       <giata_code>B2</giata_code>
       <descr>select all inclusive</descr>
       <descr_global>select all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>PAI</code>
       <giata_code>B3</giata_code>
       <descr>prémium all inclusive</descr>
       <descr_global>prémium all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>XAI</code>
       <giata_code>B5</giata_code>
       <descr>extra all inclusive</descr>
       <descr_global>extra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI alko</code>
       <giata_code>B6</giata_code>
       <descr>all inclusive alkoholos italokkal</descr>
       <descr_global>all inclusive alkoholos italokkal</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI+</code>
       <giata_code>B7</giata_code>
       <descr>all inclusive plus</descr>
       <descr_global>all inclusive plus</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>UAI</code>
       <giata_code>B8</giata_code>
       <descr>ultra all inclusive</descr>
       <descr_global>ultra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB</code>
       <giata_code>F</giata_code>
       <descr>reggeli</descr>
       <descr_global>reggeli</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB</code>
       <giata_code>H</giata_code>
       <descr>félpanzió</descr>
       <descr_global>félpanzió</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB+</code>
       <giata_code>I</giata_code>
       <descr>félpanzió plus</descr>
       <descr_global>félpanzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>OV</code>
       <giata_code>U</giata_code>
       <descr>ellátás nélkül</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>FB</code>
       <giata_code>V</giata_code>
       <descr>teljes panzió</descr>
       <descr_global>teljes panzió</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>FB+</code>
       <giata_code>W</giata_code>
       <descr>teljes panzió plus</descr>
       <descr_global>teljes panzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>OO</code>
       <giata_code>X</giata_code>
       <descr>program szerint</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>DIN</code>
       <giata_code>X1</giata_code>
       <descr>vacsora</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>OV+BB</code>
       <giata_code>X2</giata_code>
       <descr>önellátás + reggeli</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB+FB+AI</code>
       <giata_code>X3</giata_code>
       <descr>félpanzió + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB+XAI</code>
       <giata_code>X4</giata_code>
       <descr>félpanzió + extra all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB+FB</code>
       <giata_code>X5</giata_code>
       <descr>félpanzió + teljes panzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>HB+AI</code>
       <giata_code>X6</giata_code>
       <descr>félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>FB+AI</code>
       <giata_code>X8</giata_code>
       <descr>teljes panzió + all inclusive</descr>
       <descr_global>teljes panzió + all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+HB+FB+AI</code>
       <giata_code>X9</giata_code>
       <descr>reggeli + félpanzió + teljes panzió + all incl.</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+HB+XAI</code>
       <giata_code>XA</giata_code>
       <descr>reggeli + félpanzió + all inclusive plus</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+HB+AI</code>
       <giata_code>XB</giata_code>
       <descr>reggeli + félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+FB+AI</code>
       <giata_code>XC</giata_code>
       <descr>reggeli + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+HB</code>
       <giata_code>XD</giata_code>
       <descr>reggeli + félpanzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>BB+AI</code>
       <giata_code>XE</giata_code>
       <descr>reggeli + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>AI+XAI</code>
       <giata_code>XF</giata_code>
       <descr>all inclusive a super all inclusive</descr>
       <descr_global>all inclusive a super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>O</code>
       <giata_code>XZ</giata_code>
       <descr>Csak repülojegy</descr>
       <descr_global>Csak repülojegy</descr_global>
     </board>
     <board>
-      <season>HUNKAW19</season>
+      <season>HUNKAW20</season>
       <code>SNAI</code>
       <giata_code>XH</giata_code>
       <descr>snack all inclusive</descr>
       <descr_global>snack all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI</code>
       <giata_code>A</giata_code>
       <descr>all inclusive</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>SOAI</code>
       <giata_code>A1</giata_code>
       <descr>soft all inclusive</descr>
       <descr_global>soft all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI light</code>
       <giata_code>A2</giata_code>
       <descr>all inclusive light</descr>
       <descr_global>all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI basic</code>
       <giata_code>A3</giata_code>
       <descr>all inclusive basic</descr>
       <descr_global>all inclusive basic</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>SAI</code>
       <giata_code>B1</giata_code>
       <descr>super all inclusive</descr>
       <descr_global>super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>SEAI</code>
       <giata_code>B2</giata_code>
       <descr>select all inclusive</descr>
       <descr_global>select all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>PAI</code>
       <giata_code>B3</giata_code>
       <descr>prémium all inclusive</descr>
       <descr_global>prémium all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>XAI</code>
       <giata_code>B5</giata_code>
       <descr>extra all inclusive</descr>
       <descr_global>extra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI alko</code>
       <giata_code>B6</giata_code>
       <descr>all inclusive alkoholos italokkal</descr>
       <descr_global>all inclusive alkoholos italokkal</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI+</code>
       <giata_code>B7</giata_code>
       <descr>all inclusive plus</descr>
       <descr_global>all inclusive plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>UAI</code>
       <giata_code>B8</giata_code>
       <descr>ultra all inclusive</descr>
       <descr_global>ultra all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB</code>
       <giata_code>F</giata_code>
       <descr>reggeli</descr>
       <descr_global>reggeli</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB</code>
       <giata_code>H</giata_code>
       <descr>félpanzió</descr>
       <descr_global>félpanzió</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB+</code>
       <giata_code>I</giata_code>
       <descr>félpanzió plus</descr>
       <descr_global>félpanzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>OV</code>
       <giata_code>U</giata_code>
       <descr>ellátás nélkül</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>FB</code>
       <giata_code>V</giata_code>
       <descr>teljes panzió</descr>
       <descr_global>teljes panzió</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>FB+</code>
       <giata_code>W</giata_code>
       <descr>teljes panzió plus</descr>
       <descr_global>teljes panzió plus</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>OO</code>
       <giata_code>X</giata_code>
       <descr>program szerint</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>DIN</code>
       <giata_code>X1</giata_code>
       <descr>vacsora</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>OV+BB</code>
       <giata_code>X2</giata_code>
       <descr>önellátás + reggeli</descr>
       <descr_global>ellátás nélkül</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB+FB+AI</code>
       <giata_code>X3</giata_code>
       <descr>félpanzió + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB+XAI</code>
       <giata_code>X4</giata_code>
       <descr>félpanzió + extra all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB+FB</code>
       <giata_code>X5</giata_code>
       <descr>félpanzió + teljes panzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>HB+AI</code>
       <giata_code>X6</giata_code>
       <descr>félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>FB+AI</code>
       <giata_code>X8</giata_code>
       <descr>teljes panzió + all inclusive</descr>
       <descr_global>teljes panzió + all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+HB+FB+AI</code>
       <giata_code>X9</giata_code>
       <descr>reggeli + félpanzió + teljes panzió + all incl.</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+HB+XAI</code>
       <giata_code>XA</giata_code>
       <descr>reggeli + félpanzió + all inclusive plus</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+HB+AI</code>
       <giata_code>XB</giata_code>
       <descr>reggeli + félpanzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+FB+AI</code>
       <giata_code>XC</giata_code>
       <descr>reggeli + teljes panzió + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+HB</code>
       <giata_code>XD</giata_code>
       <descr>reggeli + félpanzió</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>BB+AI</code>
       <giata_code>XE</giata_code>
       <descr>reggeli + all inclusive</descr>
       <descr_global>program szerint</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>AI+XAI</code>
       <giata_code>XF</giata_code>
       <descr>all inclusive a super all inclusive</descr>
       <descr_global>all inclusive a super all inclusive</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>O</code>
       <giata_code>XZ</giata_code>
       <descr>Csak repülojegy</descr>
       <descr_global>Csak repülojegy</descr_global>
     </board>
     <board>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <code>SNAI</code>
       <giata_code>XH</giata_code>
       <descr>snack all inclusive</descr>

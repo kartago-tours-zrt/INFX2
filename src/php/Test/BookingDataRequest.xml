@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <BookingDataRequest>
-  <bnr>387000082</bnr>
+  <bnr>389002233</bnr>
   <xmls3>
     <contractdata>
-    	<bnr>387000082</bnr>
-      	<partner_addr_id>943</partner_addr_id>
+    	<bnr>389002233</bnr>
+      	<partner_addr_id>945</partner_addr_id>
       	<partner_addr_type>0</partner_addr_type>
 		<remark_order/>
 		<remark_order0/>
@@ -25,135 +25,45 @@
 	<email>admin@kartagotours.hu</email>
 </address_customer><paxs><pax>
 	<pax_id>1</pax_id>
-	<fname>Geza</fname>
-	<sname>Proba</sname>
+	<fname>Elek</fname>
+	<sname>Teszt</sname>
 	<title/>
 	<idcrm/>
 	<sex>M</sex>
-	<bd>03.09.1973</bd>
+	<bd>02.02.1966</bd>
 	<passport/>
 	<nationality>HUN</nationality>
 </pax><pax>
 	<pax_id>2</pax_id>
-	<fname>Piroska</fname>
-	<sname>Proba</sname>
+	<fname>B&#xC9;LA</fname>
+	<sname>PR&#xD3;BA</sname>
 	<title/>
 	<idcrm/>
-	<sex>W</sex>
-	<bd>21.09.1989</bd>
-	<passport/>
-	<nationality>HUN</nationality>
-</pax><pax>
-	<pax_id>3</pax_id>
-	<fname>Bella</fname>
-	<sname>Proba</sname>
-	<title/>
-	<idcrm/>
-	<sex>W</sex>
-	<bd>01.01.2010</bd>
+	<sex>M</sex>
+	<bd>04.01.1974</bd>
 	<passport/>
 	<nationality>HUN</nationality>
 </pax></paxs><calculation>
-	<ReqID>BA6842F1-A0A0-4438-9860-050F61BEE2CF</ReqID>
+	<ReqID>31445A11-B0F9-43E1-B683-6BFF0BF68D77</ReqID>
 	<base_prices>
 	<price_record>
 	<pax_id>1</pax_id>
 	<quantity>1</quantity>
 	<item>DBL</item>
-	<item_d>.2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d>
-	<base_price>207900.00</base_price>
-	<discount>207900</discount>
-	<final_price>207900.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>1</pax_id>
-	<quantity>1</quantity>
-	<item>SLV*EB1*DBL</item>
-	<item_d>FM dec. 20-ig-2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d>
-	<base_price>-50400.00</base_price>
-	<discount>-50400</discount>
-	<final_price>-50400.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>1</pax_id>
-	<quantity>1</quantity>
-	<item>SLV*EB1*SUP SV</item>
-	<item_d>FM dec. 20-ig-Tengerre n&#xE9;z&#xF4; szoba felnott fel&#xE1;r/ f&#xF4;</item_d>
-	<base_price>-4200.00</base_price>
-	<discount>-4200</discount>
-	<final_price>-4200.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>1</pax_id>
-	<quantity>1</quantity>
-	<item>SUP SV</item>
-	<item_d>Tengerre n&#xE9;zo szoba felnott fel&#xE1;r/ fo</item_d>
-	<base_price>12900.00</base_price>
-	<discount>12900</discount>
-	<final_price>12900.0000</final_price>
+	<item_d>.2 &#xE1;gyas szoba feln&#xF6;tt &#xE1;r/ f&#xF6;</item_d>
+	<base_price>255900.00</base_price>
+	<discount>255900</discount>
+	<final_price>222633.0000</final_price>
 	<price_type>C</price_type>
 	<price_type_d/>
 </price_record><price_record>
 	<pax_id>2</pax_id>
 	<quantity>1</quantity>
 	<item>DBL</item>
-	<item_d>.2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d>
-	<base_price>207900.00</base_price>
-	<discount>207900</discount>
-	<final_price>207900.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>2</pax_id>
-	<quantity>1</quantity>
-	<item>SLV*EB1*DBL</item>
-	<item_d>FM dec. 20-ig-2 &#xE1;gyas szoba felnott &#xE1;r/ fo</item_d>
-	<base_price>-50400.00</base_price>
-	<discount>-50400</discount>
-	<final_price>-50400.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>2</pax_id>
-	<quantity>1</quantity>
-	<item>SLV*EB1*SUP SV</item>
-	<item_d>FM dec. 20-ig-Tengerre n&#xE9;z&#xF4; szoba felnott fel&#xE1;r/ f&#xF4;</item_d>
-	<base_price>-4200.00</base_price>
-	<discount>-4200</discount>
-	<final_price>-4200.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>2</pax_id>
-	<quantity>1</quantity>
-	<item>SUP SV</item>
-	<item_d>Tengerre n&#xE9;zo szoba felnott fel&#xE1;r/ fo</item_d>
-	<base_price>12900.00</base_price>
-	<discount>12900</discount>
-	<final_price>12900.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>3</pax_id>
-	<quantity>1</quantity>
-	<item>1CHEXB-1 F</item>
-	<item_d>1. gyermek p&#xF3;t&#xE1;gyon &#xE1;r  12 &#xE9;ves korig</item_d>
-	<base_price>94900.00</base_price>
-	<discount>94900</discount>
-	<final_price>94900.0000</final_price>
-	<price_type>C</price_type>
-	<price_type_d/>
-</price_record><price_record>
-	<pax_id>3</pax_id>
-	<quantity>1</quantity>
-	<item>SUP SV1CHD-1</item>
-	<item_d>Tengerre n&#xE9;zo szoba 1. gyermek fel&#xE1;r 13 &#xE9;ves korig</item_d>
-	<base_price>0.00</base_price>
-	<discount>0</discount>
-	<final_price>0.0000</final_price>
+	<item_d>.2 &#xE1;gyas szoba feln&#xF6;tt &#xE1;r/ f&#xF6;</item_d>
+	<base_price>255900.00</base_price>
+	<discount>255900</discount>
+	<final_price>222633.0000</final_price>
 	<price_type>C</price_type>
 	<price_type_d/>
 </price_record></base_prices>
@@ -161,55 +71,39 @@
 	<price_record>
 	<pax_id>1</pax_id>
 	<quantity>1</quantity>
-	<item>STOREXTA-MIR</item>
-	<item_d>Storno biztos&#xED;t&#xE1;s: a teljes &#xE1;r 1,6%-a</item_d>
-	<base_price>6837</base_price>
+	<item>STOREXTA-HRG</item>
+	<item_d>Storno biztos&#xED;t&#xE1;s: a teljes &#xE1;r 1,5%-a</item_d>
+	<base_price>6679</base_price>
 	<discount>0%</discount>
-	<final_price>6837</final_price>
-</price_record><price_record>
-	<pax_id>1</pax_id>
-	<quantity>1</quantity>
-	<item>PARKING_EB_7</item>
-	<item_d>Budapesti Rept&#xE9;ri Parkol&#xE1;s (2000 Ft)</item_d>
-	<base_price>2000.0000</base_price>
-	<discount>0%</discount>
-	<final_price>2000.0000</final_price>
+	<final_price>6679</final_price>
 </price_record><price_record>
 	<pax_id>1</pax_id>
 	<quantity>1</quantity>
 	<item>z.poj.online.silver.8</item>
-	<item_d>Utaz&#xE1;si Biztos&#xED;t&#xE1;s - Air Silver 810 Ft/fo/nap</item_d>
-	<base_price>6480.0000</base_price>
+	<item_d>Utaz&#xE1;si Biztos&#xED;t&#xE1;s - Air Silver</item_d>
+	<base_price>7120.0000</base_price>
 	<discount>0%</discount>
-	<final_price>6480.0000</final_price>
+	<final_price>7120.0000</final_price>
 </price_record><price_record>
 	<pax_id>2</pax_id>
 	<quantity>1</quantity>
 	<item>z.poj.online.silver.8</item>
-	<item_d>Utaz&#xE1;si Biztos&#xED;t&#xE1;s - Air Silver 810 Ft/fo/nap</item_d>
-	<base_price>6480.0000</base_price>
+	<item_d>Utaz&#xE1;si Biztos&#xED;t&#xE1;s - Air Silver</item_d>
+	<base_price>7120.0000</base_price>
 	<discount>0%</discount>
-	<final_price>6480.0000</final_price>
-</price_record><price_record>
-	<pax_id>3</pax_id>
-	<quantity>1</quantity>
-	<item>z.poj.online.silver.8</item>
-	<item_d>Utaz&#xE1;si Biztos&#xED;t&#xE1;s - Air Silver 810 Ft/fo/nap</item_d>
-	<base_price>6480.0000</base_price>
-	<discount>0%</discount>
-	<final_price>6480.0000</final_price>
+	<final_price>7120.0000</final_price>
 </price_record></extras>
 </calculation><payments>
 	<payment_voucher/>
 <payment>
 	<amount>10000</amount>
-	<due_date>11.11.2019</due_date>
+	<due_date>25.05.2021</due_date>
 </payment><payment>
-	<amount>172231</amount>
-	<due_date>29.04.2020</due_date>
+	<amount>176474</amount>
+	<due_date>03.08.2021</due_date>
 </payment><payment>
-	<amount>273346</amount>
-	<due_date>18.06.2020</due_date>
+	<amount>279711</amount>
+	<due_date>22.09.2021</due_date>
 </payment></payments></contractdata>
   </xmls3>
-<PartnerID>943</PartnerID><RBPwd>0kM180F9</RBPwd></BookingDataRequest>
+<PartnerID>945</PartnerID><RBPwd>3xPCA04B</RBPwd></BookingDataRequest>

@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <PriceAvailabilityCheckRequest>
   <Package>
-    <PackageID>2464599</PackageID>
+    <PackageID>2504143</PackageID>
     <BoardType>A</BoardType>
-    <RoomType>2+1_SV</RoomType>
+    <RoomType>2+2_ACH</RoomType>
   </Package>
   <PaxDetails>
   <PaxDescription>
-  <DateOfBirth>19990219</DateOfBirth>
+  <DateOfBirth>19740104</DateOfBirth>
 </PaxDescription><PaxDescription>
-  <DateOfBirth>19990219</DateOfBirth>
-</PaxDescription><PaxDescription>
-  <DateOfBirth>20100219</DateOfBirth>
+  <DateOfBirth>19660202</DateOfBirth>
 </PaxDescription></PaxDetails>  
-<MakeBooking/><PartnerID>943</PartnerID><RBPwd>0kM180F9</RBPwd><UserID>127</UserID><rcpt>home.voxo.hu</rcpt><UserName>Lacika</UserName></PriceAvailabilityCheckRequest>
+<MakeBooking/><PartnerID>945</PartnerID><RBPwd>3xPCA04B</RBPwd><UserID>127</UserID><rcpt>home.voxo.hu</rcpt><UserName>Lacika</UserName></PriceAvailabilityCheckRequest>

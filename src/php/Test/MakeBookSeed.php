@@ -11,7 +11,7 @@ global $tesztAjanlat, $tesztAjanlatSzobaTipus, $tesztAjanlatGiata, $indulas, $ha
 
 // ajánlat elérhetőségének ellenőrzése
 $file = './Responses/AvailabilityCheckResponse.xml';
-file_put_contents($file, AvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatSzobaTipus, '3' ));
+//file_put_contents($file, AvailabilityCheckRequest($tesztAjanlat, $tesztAjanlatSzobaTipus, '2' ));
 
 // betöltjük a választ 
 // (éles rendszerben nem kell lementeni és betölteni!)
@@ -19,11 +19,11 @@ $xml1 = simplexml_load_file("./Responses/AvailabilityCheckResponse.xml");
 
 // ha a válasz rendben és foglalható
 if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Book == "Y") {
-
+    echo "Availability success!";
     // utasok életkorai, a helyes árképzéshez 
     // (nem kell pontosan, de gyerek hazaérkezéskor ne legyen idősebb mint az itt megadott,
     // felnőttek esetében lényegtelen, csak 18 évnél idősebb legyen beállítva)
-    $paxs = array('19990219','19990219','20100219');
+    $paxs = array('19740104','19660202');
 
     // ajánlat árképzésének betöltése
     $file = './Responses/PriceAvailabilityCheckMakeBookingResponse.xml';
@@ -33,7 +33,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
     // betöltjük a választ 
     // (éles rendszerben nem kell lementeni és betölteni!)
     $xml2 = simplexml_load_file("./Responses/PriceAvailabilityCheckMakeBookingResponse.xml");
-
+		
     // extra felárak. Teszt miatt ebből kiválasztjuk a silver biztosítást, a storno biztosítást és a parkolást
     // ez itt most erre a foglalásra igaz, más foglalásnál egyedileg kell megnézni, milyen lehetőségek vannak.
     // a lehetőségek a ExtrasResponse.xml-ben vannak
@@ -47,7 +47,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
         {
             $extras[] = $extra;
         }
-        if ($extra->type == 'STOREXTA-MIR')
+        if ($extra->type == 'STOREXTA-HRG')
         {
             $extras[] = $extra;
         }
@@ -66,7 +66,7 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
         if (trim($xml2->Booking->bnr_result) == "success") {
             // foglalási szám
             $bnr = $xml2->Booking->bnr;
-            
+            echo "Availability success! Bnr: " . $bnr;
             // foglalás alapadatok
             $file = './Responses/BookingInfoResponse.xml';
             file_put_contents($file, BookingInfoRequest($bnr));
@@ -76,18 +76,18 @@ if (trim($xml1->Control->ResponseStatus) == "success" && $xml1->Availibility->Bo
             "street"=>"Locsei ut 57", "city"=>"Budapest", "post_code"=>"1147",
             "country"=>"HUN", "phone"=>"209472212", "email"=>"admin@kartagotours.hu");
         
-            $pax1 = array ("id"=>"1", "fname"=>"Geza", "sname"=>"Proba",
+            $pax1 = array ("id"=>"1", "fname"=>"Elek", "sname"=>"Teszt",
                         "title"=>"", "idcrm"=>"", "sex"=>"M",
-                        "bd"=>"03.09.1973", "passport"=>"", "nationality"=>"HUN");
-            $pax2 = array ("id"=>"2", "fname"=>"Piroska", "sname"=>"Proba",
-                        "title"=>"", "idcrm"=>"", "sex"=>"W",
-                        "bd"=>"21.09.1989", "passport"=>"", "nationality"=>"HUN");
-            $pax3 = array ("id"=>"3", "fname"=>"Bella", "sname"=>"Proba",
-                        "title"=>"", "idcrm"=>"", "sex"=>"W",
-                        "bd"=>"01.01.2010", "passport"=>"", "nationality"=>"HUN");
+                        "bd"=>"02.02.1966", "passport"=>"", "nationality"=>"HUN");
+            $pax2 = array ("id"=>"2", "fname"=>"BÉLA", "sname"=>"PRÓBA",
+                        "title"=>"", "idcrm"=>"", "sex"=>"M",
+                        "bd"=>"04.01.1974", "passport"=>"", "nationality"=>"HUN");
+            // $pax3 = array ("id"=>"3", "fname"=>"Bella", "sname"=>"Proba",
+                        // "title"=>"", "idcrm"=>"", "sex"=>"W",
+                        // "bd"=>"01.01.2010", "passport"=>"", "nationality"=>"HUN");
 
             // utasadatok tömb: szerződő és az utasok
-            $paxs = array ($pax1, $pax2, $pax3);
+            $paxs = array ($pax1, $pax2);
 
             // Szerződő és utas adatok átadása
             $file = './Responses/BookingDataResponse.xml';

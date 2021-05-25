@@ -2,175 +2,7 @@
 <OtherPriceTypesResponse>
   <price_types>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_AGAG_FREE_9KG_O</price_abb>
-      <price_descr>odaút - túlsúly 23 kg felett maximum 32 kg-ig</price_descr>
-      <price_descr_long>Extra súlykeret 23 kg felett (maximum 32 kg-ig) - odaút</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_AGAG_FREE_9KG_RT</price_abb>
-      <price_descr>túlsúly 23 kg felett maximum 32 kg-ig</price_descr>
-      <price_descr_long>Extra súlykeret 23 kg felett (maximum 32 kg-ig)</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_AGAG_FREE_9KG_V</price_abb>
-      <price_descr>vissza- túlsúly 23 kg felett maximum 32 kg-ig</price_descr>
-      <price_descr_long>Extra súlykeret 23 kg felett (maximum 32 kg-ig) - visszaút</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_BLND_RT</price_abb>
-      <price_descr>látássérült utas</price_descr>
-      <price_descr_long>látássérült utas</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_DEAF_RT</price_abb>
-      <price_descr>hallássérült utas</price_descr>
-      <price_descr_long>hallássérült utas</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_M_DBML_RT</price_abb>
-      <price_descr>diabetikus étkezés a repülogépen</price_descr>
-      <price_descr_long>diabetikus étkezés a repülogépen</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_M_GFML_RT</price_abb>
-      <price_descr>gluténmentes étkezés a repülogépen</price_descr>
-      <price_descr_long>gluténmentes étkezés a repülogépen</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_M_NLML_RT</price_abb>
-      <price_descr>laktózmentes  étkezés a repülogépen</price_descr>
-      <price_descr_long>laktózmentes  étkezés a repülogépen</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_M_VGML_RT</price_abb>
-      <price_descr>vegetáriánus étkezés a repülogépen</price_descr>
-      <price_descr_long>vegetáriánus étkezés a repülogépen</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_PDBG_FREE_23KG_O</price_abb>
-      <price_descr>odaút - 1 db további poggyász díj 23 kg-ig</price_descr>
-      <price_descr_long>odaút - 1 db további poggyász díj 23 kg-ig</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_PDBG_FREE_23KG_RT</price_abb>
-      <price_descr>1 db további poggyász díj 23 kg-ig</price_descr>
-      <price_descr_long>1 db további poggyász díj 23 kg-ig</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>AIR_PDBG_FREE_23KG_V</price_abb>
-      <price_descr>visszaút - 1 db további poggyász díj 23 kg-ig</price_descr>
-      <price_descr_long>visszaút - 1 db további poggyász díj 23 kg-ig</price_descr_long>
-      <category>06 Repülo extra</category>
-      <sub_type>online*repülo</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <price_abb>Modositasi dij</price_abb>
       <price_descr>Módosítási díj</price_descr>
       <price_descr_long>Módosítási díj</price_descr_long>
@@ -184,7 +16,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>Modositasi dij</price_abb>
       <price_descr>Módosítási díj</price_descr>
       <price_descr_long>Módosítási díj</price_descr_long>
@@ -198,12 +30,12 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_A14</price_abb>
-      <price_descr>utazás egyénileg</price_descr>
-      <price_descr_long>utazás egyénileg</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
+      <season>HUNKAW20</season>
+      <price_abb>Modositasi dij</price_abb>
+      <price_descr>Módosítási díj</price_descr>
+      <price_descr_long>Módosítási díj</price_descr_long>
+      <category>07 Egyéb</category>
+      <sub_type>online*extra</sub_type>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -212,329 +44,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_AYT</price_abb>
-      <price_descr>Reptéri illeték AYT</price_descr>
-      <price_descr_long>Reptréi illeték AYT</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_BCN</price_abb>
-      <price_descr>Reptéri illeték - BCN</price_descr>
-      <price_descr_long>Reptéri illeték - BCN</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_BVC</price_abb>
-      <price_descr>Reptéri illeték - BVC</price_descr>
-      <price_descr_long>Reptéri illeték - BVC</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_CFU</price_abb>
-      <price_descr>Reptéri illeték - CFU</price_descr>
-      <price_descr_long>Reptéri illeték - CFU</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_DJE</price_abb>
-      <price_descr>Reptéri illeték DJE</price_descr>
-      <price_descr_long>Reptéri illeték DJE</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_FNC</price_abb>
-      <price_descr>Reptéri illeték FNC</price_descr>
-      <price_descr_long>Reptéri illeték FNC</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_HER</price_abb>
-      <price_descr>Reptéri illeték - HER</price_descr>
-      <price_descr_long>Reptéri illeték - HER</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_HRG</price_abb>
-      <price_descr>Reptéri illeték HRG</price_descr>
-      <price_descr_long>Reptéri illeték HRG</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>OSRB_HRG</price_abb>
-      <price_descr>Reptéri illeték HRG</price_descr>
-      <price_descr_long>Reptéri illeték HRG</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_IT0</price_abb>
-      <price_descr>utazás egyénileg</price_descr>
-      <price_descr_long>utazás egyénileg</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_LPA</price_abb>
-      <price_descr>Reptéri illeték - LPA</price_descr>
-      <price_descr_long>Reptéri illeték - LPA</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>OSRB_LPA</price_abb>
-      <price_descr>Reptéri illeték - LPA</price_descr>
-      <price_descr_long>Reptéri illeték - LPA</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_MIR</price_abb>
-      <price_descr>Reptéri illeték MIR</price_descr>
-      <price_descr_long>Reptéri illeték MIR</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_MLA</price_abb>
-      <price_descr>Reptéri illeték - MLA</price_descr>
-      <price_descr_long>Reptéri illeték - MLA</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_PMI</price_abb>
-      <price_descr>Reptéri illeték - PMI</price_descr>
-      <price_descr_long>Reptéri illeték - PMI</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_RHO</price_abb>
-      <price_descr>Reptéri illeték - RHO</price_descr>
-      <price_descr_long>Reptéri illeték - RHO</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_RMF</price_abb>
-      <price_descr>Reptéri illeték RMF</price_descr>
-      <price_descr_long>Reptéri illeték RMF</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_SID</price_abb>
-      <price_descr>Reptéri illeték - SID</price_descr>
-      <price_descr_long>Reptéri illeték - SID</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>OSRB_SID</price_abb>
-      <price_descr>Reptéri illeték - SID</price_descr>
-      <price_descr_long>Reptéri illeték - SID</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_SSH</price_abb>
-      <price_descr>Reptéri illeték - SSH</price_descr>
-      <price_descr_long>Reptéri illeték - SSH</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_TFS</price_abb>
-      <price_descr>Reptéri illeték - TFS</price_descr>
-      <price_descr_long>Reptéri illeték - TFS</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>OSRB_TFS</price_abb>
-      <price_descr>Reptéri illeték - TFS</price_descr>
-      <price_descr_long>Reptéri illeték - TFS</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>OSRB_ZTH</price_abb>
-      <price_descr>Reptéri illeték - ZTH</price_descr>
-      <price_descr_long>Reptéri illeték - ZTH</price_descr_long>
-      <category>02 illetékek</category>
-      <sub_type>kötelezo felár</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 11 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking - 11 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 11 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -548,7 +58,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 12 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking - 12 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 12 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -562,7 +72,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 13 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking 13 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking 13 nap   - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -576,7 +86,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 15 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking - 15 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 15 nap   - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -590,21 +100,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>Parking_BUD - 15 nap</price_abb>
-      <price_descr>Parkolás BUD Holiday Parking - 15 nap</price_descr>
-      <price_descr_long>Parkolás BUD Holiday Parking - 15 nap   - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
-      <category>03 Parkolás</category>
-      <sub_type>online*extra</sub_type>
-      <AgeF>1</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 16 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking 16 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking 16 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -618,7 +114,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <price_abb>Parking_BUD - 8 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking 8 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 8 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -632,7 +128,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 8 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking 8 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 8 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -646,7 +142,21 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAW20</season>
+      <price_abb>Parking_BUD - 8 nap</price_abb>
+      <price_descr>Parkolás BUD Holiday Parking 8 nap</price_descr>
+      <price_descr_long>Parkolás BUD Holiday Parking - 8 nap  - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <category>03 Parkolás</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>1</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
       <price_abb>Parking_BUD - 9 nap</price_abb>
       <price_descr>Parkolás BUD Holiday Parking - 9 nap</price_descr>
       <price_descr_long>Parkolás BUD Holiday Parking - 9 nap   - A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
@@ -660,20 +170,6 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>PARKING_EB_10-11</price_abb>
-      <price_descr>Budapesti Reptéri Parkolás (3000 Ft)</price_descr>
-      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2019. március 20-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
       <season>HUNKAS20</season>
       <price_abb>PARKING_EB_10-11</price_abb>
       <price_descr>Budapesti Reptéri Parkolás (3000 Ft)</price_descr>
@@ -688,11 +184,25 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>PARKING_EB_14</price_abb>
-      <price_descr>Budapesti Reptéri Parkolás (4000 Ft)</price_descr>
-      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2019. március 20-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>PARKING_EB_10-11</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (3000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2021. április 26-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
       <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>PARKING_EB_10-11</price_abb>
+      <price_descr>Bratislava reptéri parkolás</price_descr>
+      <price_descr_long>Bratislava reptéri parkolás.. A foglaláskor kérjük megadni a személyautó pontos rendszámát, típusát és a tulajdonos nevét.</price_descr_long>
+      <category>03 Parkolás</category>
       <sub_type>online*extra</sub_type>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
@@ -716,10 +226,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>PARKING_EB_7</price_abb>
-      <price_descr>Budapesti Reptéri Parkolás (2000 Ft)</price_descr>
-      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2019. március 20-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>PARKING_EB_14</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (4000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2021. április 26-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>PARKING_EB_14</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (4000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2020. szeptember 30-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
       <category>08 Elofoglalás+</category>
       <sub_type>online*extra</sub_type>
       <AgeF>0</AgeF>
@@ -744,7 +268,35 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>PARKING_EB_7</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (2000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2021. április 26-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>PARKING_EB_7</price_abb>
+      <price_descr>Budapesti Reptéri Parkolás (2000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Parkolás (Holiday Parking) - 2020. szeptember 30-ig érvényes. A kedvezményes árú parkolás csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. A foglaláskor kérjük megadni a személyautó pontos rendszámát és típusát.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
       <price_abb>Security tax BVC</price_abb>
       <price_descr>BVC security tax</price_descr>
       <price_descr_long>BVC security tax</price_descr_long>
@@ -758,7 +310,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <price_abb>Security tax SID</price_abb>
       <price_descr>SID security tax</price_descr>
       <price_descr_long>SID security tax</price_descr_long>
@@ -772,7 +324,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>Security tax SID</price_abb>
       <price_descr>SID security tax</price_descr>
       <price_descr_long>SID security tax</price_descr_long>
@@ -786,38 +338,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-A14</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
+      <season>HUNKAW20</season>
+      <price_abb>Security tax SID</price_abb>
+      <price_descr>SID security tax</price_descr>
+      <price_descr_long>SID security tax</price_descr_long>
+      <category>05 Vizum</category>
+      <sub_type>online*vizum</sub_type>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
       <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-AYT</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a - AYT</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
+      <type1>1</type1>
       <type2>N</type2>
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>STOREXTA-AYT</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a a teljes ár 1,6%-a - AYT</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a a teljes ár 1,5%-a - AYT</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -828,10 +366,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-BCN</price_abb>
-      <price_descr>Útlemondási (storno) biztositas - BCN</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - BCN</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-AYT</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a a teljes ár 1,5%-a - AYT</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -856,38 +394,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-BVC</price_abb>
-      <price_descr>Útlemondási (storno) biztosítás - BVC</price_descr>
+      <price_descr>Útlemondási (storno) biztosítás - BVC 1,5%</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás - BVC</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-CFU</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a - CFU</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-DJE</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,4%-a - DJE</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -900,8 +410,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>STOREXTA-DJE</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,6%-a - DJE</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - DJE</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -912,7 +422,21 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-DJE</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - DJE</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-FNC</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 2 %-a - FNC</price_descr_long>
@@ -926,10 +450,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-FUE</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5 %-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5 %-a - FUE</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-HER</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a - HER</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - HER</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -940,10 +478,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-HRG</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a -  HRG</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-HER</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - HER</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -956,8 +494,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>STOREXTA-HRG</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,6%-a -  HRG</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  HRG</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -968,10 +506,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-HRG</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a -  HRG</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  HRG</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -982,10 +520,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAW20</season>
+      <price_abb>STOREXTA-HRG</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a -  HRG</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-IT0</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a</price_descr_long>
+      <price_descr>Storno biztosítás: a részvételi díj 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,5%-a-IT0</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -996,7 +548,21 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-LP2</price_abb>
+      <price_descr>Storno biztosítás: a teljes árból 1,5%</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5 %-a - LP2</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-LPA</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - LPA</price_descr_long>
@@ -1010,7 +576,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-LPA</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - LPA</price_descr_long>
@@ -1024,10 +590,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-MIR</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 1,4%-a - MIR</price_descr_long>
+      <season>HUNKAW20</season>
+      <price_abb>STOREXTA-LPA</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - LPA</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1040,8 +606,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>STOREXTA-MIR</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 1,6%-a - MIR</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 1,5%-a - MIR</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1052,10 +618,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-MIR</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 1,5%-a - MIR</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-MLA</price_abb>
       <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes díj 2%-a - MLA</price_descr_long>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - MLA</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1066,24 +646,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-PMI</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a - PMI</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*storpop</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>S</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-RHO</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztositas: a részvételi díj 1,4%-a -  RHO</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztositas: a teljes ár 1,5%-a -  RHO</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1094,10 +660,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-RMF</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a -  RMF</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-RHO</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztositas: a teljes ár 1,5%-a -  RHO</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1110,8 +676,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>STOREXTA-RMF</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 1,6%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,6%-a -  RMF</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  RMF</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1122,7 +688,21 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-RMF</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  RMF</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-SID</price_abb>
       <price_descr>Útlemondási (storno) biztosítás - SID</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás - SID</price_descr_long>
@@ -1136,9 +716,9 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-SID</price_abb>
-      <price_descr>Útlemondási (storno) biztosítás - SID</price_descr>
+      <price_descr>Útlemondási (storno) biztosítás - SID 1,5%</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás - SID</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
@@ -1150,10 +730,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS20</season>
       <price_abb>STOREXTA-SSH</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztositas: a részvételi díj 1,4%-a - SSH</price_descr_long>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  SSH</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1164,10 +744,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-TFS</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - TFS</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-SSH</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a -  SSH</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1192,9 +772,9 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>STOREXTA-TFS</price_abb>
-      <price_descr>Storno biztosítás: a teljes ár 2 %-a</price_descr>
+      <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
       <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - TFS</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
@@ -1206,10 +786,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>STOREXTA-ZTH</price_abb>
-      <price_descr>Storno biztosítás: a részvételi díj 1,4%-a</price_descr>
-      <price_descr_long>Útlemondási (storno) biztosítás: a részvételi díj 1,4%-a - ZTH</price_descr_long>
+      <season>HUNKAW20</season>
+      <price_abb>STOREXTA-TFS</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 2%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 2 %-a - TFS</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
@@ -1220,12 +800,40 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>TRANSFER_EB</price_abb>
-      <price_descr>Budapesti Reptéri Transzfer (2000 Ft)</price_descr>
-      <price_descr_long>Budapesti Reptéri Transzfer (2000 Ft) - 2019. március 20-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer.</price_descr_long>
-      <category>08 Elofoglalás+</category>
-      <sub_type>online*extra</sub_type>
+      <season>HUNKAW20</season>
+      <price_abb>STOREXTA-ZNZ</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Storno biztosítás: a teljes ár 1,5%-a - Zanzibár</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>STOREXTA-ZTH</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - ZTH</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
+      <price_abb>STOREXTA-ZTH</price_abb>
+      <price_descr>Storno biztosítás: a teljes ár 1,5%-a</price_descr>
+      <price_descr_long>Útlemondási (storno) biztosítás: a teljes ár 1,5%-a - ZTH</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*storpop</sub_type>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -1238,6 +846,34 @@
       <price_abb>TRANSFER_EB</price_abb>
       <price_descr>Budapesti Reptéri Transzfer (2000 Ft)</price_descr>
       <price_descr_long>Budapesti Reptéri Transzfer (2000 Ft) - 2019. április 20-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer a következo településekrol: Budapest, Dunakeszi, Dunaharszti, Budakalász, Budakeszi, Budaörs, Csömör, Diósd, Érd, Fót, Halásztelek, Kerepestarcsa, Kerepes, Kistarcsa, Pécel, Solymár, Taksony, Gyömro, Isaszeg, Felsopakony, Péteri, Üllo, Ecser, Vecsés, Gyál, Maglód.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
+      <price_abb>TRANSFER_EB</price_abb>
+      <price_descr>Budapesti Reptéri Transzfer (2000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Transzfer (2000 Ft) - 2021. április 26-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer a következo településekrol: Budapest, Dunakeszi, Dunaharszti, Budakalász, Budakeszi, Budaörs, Csömör, Diósd, Érd, Fót, Halásztelek, Kerepestarcsa, Kerepes, Kistarcsa, Pécel, Solymár, Taksony, Gyömro, Isaszeg, Felsopakony, Péteri, Üllo, Ecser, Vecsés, Gyál, Maglód.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>TRANSFER_EB</price_abb>
+      <price_descr>Budapesti Reptéri Transzfer (2000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Transzfer (2000 Ft) - 2020. szeptember 30-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer a következo településekrol: Budapest, Dunakeszi, Dunaharszti, Budakalász, Budakeszi, Budaörs, Csömör, Diósd, Érd, Fót, Halásztelek, Kerepestarcsa, Kerepes, Kistarcsa, Pécel, Solymár, Taksony, Gyömro, Isaszeg, Felsopakony, Péteri, Üllo, Ecser, Vecsés, Gyál, Maglód.</price_descr_long>
       <category>08 Elofoglalás+</category>
       <sub_type>online*extra</sub_type>
       <AgeF>0</AgeF>
@@ -1262,12 +898,40 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>viza Egyiptom</price_abb>
-      <price_descr>Vízumdíj - Egyiptom</price_descr>
-      <price_descr_long>Vízumdíj - Egyiptom</price_descr_long>
-      <category>05 Vizum</category>
-      <sub_type>online*vizum</sub_type>
+      <season>HUNKAS21</season>
+      <price_abb>TRANSFER_EB2</price_abb>
+      <price_descr>Budapesti Reptéri Transzfer (4000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Transzfer (4000 Ft) - 2021. április 26-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer a következo településekrol: Biatorbágy,  Göd, Gödöllo, Páty, Pilisvörösvár, Pomáz, Szentendre, Törökbálint, Monor.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>TRANSFER_EB2</price_abb>
+      <price_descr>Budapesti Reptéri Transzfer (4000 Ft)</price_descr>
+      <price_descr_long>Budapesti Reptéri Transzfer (4000 Ft) - 2020. szeptember 30-ig érvényes. A kedvezményes árú transzfer csak foglaláskor igényelheto, utólag nincs lehetoség kérni. Lemondás esetén nem visszatérítheto. Amennyiben eltér a cím a számlázási címtol, ezt megrendeléskor kérjük megadni. Szerzodésenként 1 címre igényelheto a transzfer a következo településekrol: Biatorbágy,  Göd, Gödöllo, Páty, Pilisvörösvár, Pomáz, Szentendre, Törökbálint, Monor.</price_descr_long>
+      <category>08 Elofoglalás+</category>
+      <sub_type>online*extra</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>S</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
+      <price_abb>Transfer_privat_MLA</price_abb>
+      <price_descr>Privát transzfer Máltán</price_descr>
+      <price_descr_long>Privát transzfer Máltán reptér-hotel-reptér</price_descr_long>
+      <category>09 Transzfer</category>
+      <sub_type>online*extra</sub_type>
       <AgeF>0</AgeF>
       <AgeT>99</AgeT>
       <PaxF>1</PaxF>
@@ -1290,7 +954,7 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>viza Egyiptom</price_abb>
       <price_descr>Vízumdíj - Egyiptom</price_descr>
       <price_descr_long>Vízumdíj - Egyiptom</price_descr_long>
@@ -1304,10 +968,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAW20</season>
+      <price_abb>viza Egyiptom</price_abb>
+      <price_descr>Vízumdíj - Egyiptom</price_descr>
+      <price_descr_long>Vízumdíj - Egyiptom</price_descr_long>
+      <category>05 Vizum</category>
+      <sub_type>online*vizum</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.10</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 9400 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1318,24 +996,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.gold.10</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 10900 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.11</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 10340 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1348,8 +1012,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.11</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 11990 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1360,10 +1024,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.11</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.12</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 11280 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1374,24 +1052,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.gold.12</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 13080 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.13</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 12220 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1404,8 +1068,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.13</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 14170 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1416,10 +1080,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.13</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.14</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 13160 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1430,24 +1108,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.gold.14</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 15260 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 14100 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1460,8 +1124,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 16350 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1472,10 +1136,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.gold.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 14100 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1486,10 +1150,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.16</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 15040 Ft/fo</price_descr_long>
+      <season>HUNKAW20</season>
+      <price_abb>z.poj.online.gold.15</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1120 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1502,8 +1166,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.16</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 17440 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1514,10 +1178,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.16</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.4</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 3760 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1528,24 +1206,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.gold.4</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 4360 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.5</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 4700 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1558,8 +1222,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.gold.5</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 5450 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1570,52 +1234,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 7520 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS20</season>
-      <price_abb>z.poj.online.gold.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 8720 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>z.poj.online.gold.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 7520 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.gold.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 8460 Ft/fo</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.5</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1627,9 +1249,9 @@
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
-      <price_abb>z.poj.online.gold.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 1090 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 9810 Ft/fo</price_descr_long>
+      <price_abb>z.poj.online.gold.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1640,10 +1262,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>z.poj.online.gold.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Gold 940 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Gold 8460 Ft/fo</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1654,10 +1276,38 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.10</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 7000 Ft/fo</price_descr_long>
+      <season>HUNKAW20</season>
+      <price_abb>z.poj.online.gold.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1120 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
+      <price_abb>z.poj.online.gold.9</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1040 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.gold.9</price_abb>
+      <price_descr>Utazási Biztosítás - Air Gold</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Gold 1200 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1670,22 +1320,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.10</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 8100 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.11</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 7700 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1698,8 +1334,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.11</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 8910 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1710,10 +1346,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.11</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.12</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 8400 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1724,24 +1374,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.silver.12</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 9720 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.13</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 9100 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1754,8 +1390,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.13</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 10530 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver  770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1766,10 +1402,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.13</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver  890 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.14</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 9800 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver  770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1780,24 +1430,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.silver.14</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 11340 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 10500 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver  890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1810,8 +1446,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 12150 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1822,10 +1458,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.silver.15</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 10500 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1836,10 +1472,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.16</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 11200 Ft/fo</price_descr_long>
+      <season>HUNKAW20</season>
+      <price_abb>z.poj.online.silver.15</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 830 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1852,8 +1488,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.16</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 12960 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1864,10 +1500,24 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.16</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.4</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 2800 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1878,24 +1528,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS20</season>
+      <season>HUNKAS21</season>
       <price_abb>z.poj.online.silver.4</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 3240 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.5</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 3500 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1908,8 +1544,8 @@
     <price_type>
       <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.5</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 4050 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1920,52 +1556,10 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 5600 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS20</season>
-      <price_abb>z.poj.online.silver.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 6480 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAW19</season>
-      <price_abb>z.poj.online.silver.8</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 5600 Ft/fo</price_descr_long>
-      <category>04 Biztositás</category>
-      <sub_type>online*bbp</sub_type>
-      <AgeF>0</AgeF>
-      <AgeT>99</AgeT>
-      <PaxF>1</PaxF>
-      <PaxT>99</PaxT>
-      <type1>1</type1>
-      <type2>N</type2>
-    </price_type>
-    <price_type>
-      <season>HUNKAS19</season>
-      <price_abb>z.poj.online.silver.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 6300 Ft/fo</price_descr_long>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.5</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1977,9 +1571,9 @@
     </price_type>
     <price_type>
       <season>HUNKAS20</season>
-      <price_abb>z.poj.online.silver.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 810 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 7290 Ft/fo</price_descr_long>
+      <price_abb>z.poj.online.silver.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>
@@ -1990,10 +1584,52 @@
       <type2>N</type2>
     </price_type>
     <price_type>
-      <season>HUNKAW19</season>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAW20</season>
+      <price_abb>z.poj.online.silver.8</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 830 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS20</season>
       <price_abb>z.poj.online.silver.9</price_abb>
-      <price_descr>Utazási Biztosítás - Air Silver 700 Ft/fo/nap</price_descr>
-      <price_descr_long>Utazási Biztosítás - Air Silver 6300 Ft/fo</price_descr_long>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 770 Ft/fo/nap</price_descr_long>
+      <category>04 Biztositás</category>
+      <sub_type>online*bbp</sub_type>
+      <AgeF>0</AgeF>
+      <AgeT>99</AgeT>
+      <PaxF>1</PaxF>
+      <PaxT>99</PaxT>
+      <type1>1</type1>
+      <type2>N</type2>
+    </price_type>
+    <price_type>
+      <season>HUNKAS21</season>
+      <price_abb>z.poj.online.silver.9</price_abb>
+      <price_descr>Utazási Biztosítás - Air Silver</price_descr>
+      <price_descr_long>Utazási Biztosítás - Air Silver 890 Ft/fo/nap</price_descr_long>
       <category>04 Biztositás</category>
       <sub_type>online*bbp</sub_type>
       <AgeF>0</AgeF>

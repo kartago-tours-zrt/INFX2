@@ -24,16 +24,26 @@
     <season>
       <SID>5</SID>
       <dsc>HUNKAS19  </dsc>
-      <isActive>Y</isActive>
+      <isActive>N</isActive>
     </season>
     <season>
       <SID>6</SID>
       <dsc>HUNKAW19  </dsc>
-      <isActive>Y</isActive>
+      <isActive>N</isActive>
     </season>
     <season>
       <SID>7</SID>
       <dsc>HUNKAS20  </dsc>
+      <isActive>Y</isActive>
+    </season>
+    <season>
+      <SID>8</SID>
+      <dsc>HUNKAW20  </dsc>
+      <isActive>Y</isActive>
+    </season>
+    <season>
+      <SID>9</SID>
+      <dsc>HUNKAS21  </dsc>
       <isActive>Y</isActive>
     </season>
   </seasons>
